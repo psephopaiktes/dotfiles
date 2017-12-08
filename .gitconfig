@@ -1,0 +1,21 @@
+[core]
+	excludesfile = /Users/a-hirata/.gitignore_global
+	editor = atom --wait
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = a-hirata
+	email = hirataakira6@gmail.com
+[commit]
+	template = /Users/a-hirata/.stCommitMsg
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	co = checkout
+	b = branch
