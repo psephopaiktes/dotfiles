@@ -15,9 +15,11 @@
 [commit]
 	template = /Users/a-hirata/.stCommitMsg
 [color]
-	diff = auto
 	status = auto
+	diff = auto
 	branch = auto
+	interactive = auto
+	grep = auto
 [alias]
 	co = checkout
 	b = branch
