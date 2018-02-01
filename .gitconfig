@@ -2,7 +2,7 @@
   name = a-hirata
   email = hirataakira6@gmail.com
 [core]
-  editor = atom --wait
+  editor = atom -w
   precomposeunicode = true
   quotepath = false
   excludesfile = /Users/a-hirata/.gitignore_global

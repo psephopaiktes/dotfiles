@@ -1,32 +1,61 @@
-ZSH_THEME="wedisagree"
+export LANG=ja_JP.UTF-8
+
+# 日本語ファイル名を表示可能にする
+setopt print_eight_bit
+
+# Editor
+if [[ -x `whence -p atom` ]]; then
+    export EDITOR='atom -nw'
+elif [[ -x `whence -p emacs` ]]; then
+    export EDITOR=emacs
+else
+    export EDITOR=vi
+fi
+
+# Ctrl+Dでzshを終了しない
+setopt ignore_eof
+
+# Ctrl+sのロック, Ctrl+qのロック解除を無効にする
+setopt no_flow_control
 
 # 自動補完を有効にする
 autoload -U compinit; compinit
 
+# 同時に起動したzshの間でヒストリを共有する
+setopt share_history
+
+# cdの後にlsを実行
+function chpwd() {
+  if [ 20 -gt `ls -1 | wc -l` ]; then
+    ls -lahp
+  else
+    ls
+  fi
+}
+
 # emacs key forward
 bindkey -e
+
+# ディレクトリ名だけでcdする
+setopt auto_cd
 
 # short command
 alias server="python -m SimpleHTTPServer"
 alias nr='npm run'
 alias p="cd ~/projects"
+alias mk="touch"
+alias -g C='| pbcopy'
 
-# Syntax highlighting bundle.
-antigen bundle zsh-users/zsh-syntax-highlighting
-
-# auto cd
-setopt auto_cd
-
-# Tell antigen that you're done.
-antigen apply
+# prompt
+autoload -Uz vcs_info
+autoload -U colors; colors
+setopt prompt_subst
+zstyle ':vcs_info:*' formats '%F{}[ %b ]%f'
+zstyle ':vcs_info:*' actionformats '%F{red}[ %b(%a) ]%f'
+precmd() { vcs_info }
+PROMPT='
+%F{yellow}%~%f ${vcs_info_msg_0_}
+%F{yellow}%B▶%b%f  '
 
 #nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-# Preview Git branch name
-autoload -Uz vcs_info
-setopt prompt_subst
-zstyle ':vcs_info:*' formats '%F{green}%b%f'
-zstyle ':vcs_info:*' actionformats '%F{green}%b%f(%F{red}%a%f)'
-precmd() { vcs_info }
-PROMPT='[${vcs_info_msg_0_}]:%~/%f '

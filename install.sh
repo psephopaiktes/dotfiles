@@ -23,8 +23,6 @@ formulas=(
   git
   tree
   cask
-  peco
-  hub
 )
 for formula in "${formulas[@]}"; do
   brew install -y $formula || brew upgrade $formula
@@ -47,8 +45,10 @@ fi
 # Deploy Dotfiles
 git clone "$GITHUB_URL" "$DOTPATH"
 cd "$DOTPATH"
+ln -snf .zshenv ~/.zshenv
 ln -snf .zshrc ~/.zshrc
 ln -snf .gitconfig ~/.gitconfig
+ln -snf .gitignore_global ~/.gitignore_global
 
 
 
