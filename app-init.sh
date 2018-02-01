@@ -1,12 +1,10 @@
 #!/bin/bash
 
 
-
 # Node関連
 curl -L git.io/nodebrew | perl - setup
 nodebrew install-binary stable
 nodebrew use stable
-
 
 
 # Synchronous Settings by Google Drive
@@ -22,9 +20,7 @@ rm -rf "/Users/a-hirata/Library/Application Support/Code/User"
 ln -s "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
 
 
-
 # QuickLook Setting
-
 ## 拡張子のないファイルをテキストプレビュー
 brew cask install qlstephen
 ## Markdown
@@ -41,6 +37,11 @@ brew cask install hetimazip
 ## 画像表示の際にサイズをタイトルに提示
 brew cask install qlimagesize
 brew cask install webpquicklook
-
+## config
 defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
 qlmanage -r
+
+
+# Other Settings
+curl -L 'https://gist.github.com/ysaotome/7286145/raw/installing_ricty_on_MacOSX.sh' | bash
+defaults write com.apple.finder AppleShowAllFiles -boolean true
