@@ -19,6 +19,9 @@ mv "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/ai scripts" 
 rm -rf "/Users/a-hirata/Library/Application Support/Code/User"
 ln -s "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
 
+## itunesのシンボリックリンク設定
+###WIP
+
 
 # QuickLook Setting
 ## 拡張子のないファイルをテキストプレビュー
