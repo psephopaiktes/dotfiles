@@ -1,6 +1,3 @@
-- [Chrome](), バックアップと同期、GoogleIME、AppCleanerをインスコ  
-→設定を変える、同期しとく
-- Xcodeインスコ、Dockにシミュレータ置く
 
 ## Primary
 アプリ | 設定項目
