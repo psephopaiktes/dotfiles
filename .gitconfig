@@ -1,25 +1,25 @@
 [user]
-	name = a-hirata
-	email = hirataakira6@gmail.com
+  name = a-hirata
+  email = hirataakira6@gmail.com
 [core]
-	editor = atom --wait
-	precomposeunicode = true
-	quotepath = false
+  editor = atom --wait
+  precomposeunicode = true
+  quotepath = false
   excludesfile = /Users/a-hirata/.gitignore_global
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
 [commit]
-	template = /Users/a-hirata/.stCommitMsg
+  template = /Users/a-hirata/.stCommitMsg
 [color]
-	status = auto
-	diff = auto
-	branch = auto
-	interactive = auto
-	grep = auto
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
 [alias]
-	co = checkout
-	b = branch
+  co = checkout
+  b = branch
