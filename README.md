@@ -23,4 +23,7 @@ bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/insta
 ```
 
 6. Dock整理、デスクトップ整理
+### ツールバーをカスタマイズ
+–　不要なものを消す
+−　Ps,Code,Chromeを追加
 (画像)
