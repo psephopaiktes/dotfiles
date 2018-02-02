@@ -27,5 +27,5 @@ bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/insta
   – 不要なものを消す
   - Chrome,PS,Codeを追加
 - 壁紙を変える
-- Dock整理、LaunchPad整理 
+- Dock整理、LaunchPad整理   
 ![スクショ]()
