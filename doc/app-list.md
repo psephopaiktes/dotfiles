@@ -4,7 +4,7 @@
 --|--
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
-[Xcode](https://developer.apple.com/jp/xcode/)  |  
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
 
 
 ## Dev
