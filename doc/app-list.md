@@ -3,7 +3,6 @@
 アプリ | 設定項目
 --|--
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
-[Google IME](https://www.google.co.jp/ime/)  |  入力補助 -「、。」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
 [Xcode](https://developer.apple.com/jp/xcode/)  |  
 
@@ -41,6 +40,7 @@
 ## Other
 アプリ | 設定項目
 --|--
+[Google IME](https://www.google.co.jp/ime/)  |  入力補助 -「、。」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
 [Dropbox](https://www.dropbox.com/h)  |  WIP
 [Alfred](https://www.alfredapp.com/) | 設定ファイルをimport
 [Project IINA](https://lhc70000.github.io/iina/)  |  WIP
