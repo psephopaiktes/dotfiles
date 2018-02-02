@@ -3,15 +3,6 @@ export LANG=ja_JP.UTF-8
 # 日本語ファイル名を表示可能にする
 setopt print_eight_bit
 
-# Editor
-if [[ -x `whence -p atom` ]]; then
-    export EDITOR='atom -nw'
-elif [[ -x `whence -p emacs` ]]; then
-    export EDITOR=emacs
-else
-    export EDITOR=vi
-fi
-
 # Ctrl+Dでzshを終了しない
 setopt ignore_eof
 
@@ -50,12 +41,12 @@ alias -g C='| pbcopy'
 autoload -Uz vcs_info
 autoload -U colors; colors
 setopt prompt_subst
-zstyle ':vcs_info:*' formats '%F{}[ %b ]%f'
+zstyle ':vcs_info:*' formats '%F{247}[ %b ]%f'
 zstyle ':vcs_info:*' actionformats '%F{red}[ %b(%a) ]%f'
 precmd() { vcs_info }
 PROMPT='
-%F{yellow}%~%f ${vcs_info_msg_0_}
-%F{yellow}%B▶%b%f  '
+%F{178}%~%f ${vcs_info_msg_0_}
+%F{178}%B>>%b%f  '
 
 #nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH

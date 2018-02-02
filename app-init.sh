@@ -5,6 +5,7 @@
 curl -L git.io/nodebrew | perl - setup
 nodebrew install-binary stable
 nodebrew use stable
+brew install yarn --without-node
 
 
 # Synchronous Settings by Google Drive
@@ -17,7 +18,9 @@ mv "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/ai scripts" 
 
 ## VS code シンボリックリンク設定
 rm -rf "/Users/a-hirata/Library/Application Support/Code/User"
+rm -rf "/Users/a-hirata/.vscode"
 ln -s "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
+ln -s "/Users/a-hirata/Google Drive/App/VS Code/.vscode" "/Users/a-hirata"
 
 ## itunesのシンボリックリンク設定
 ###WIP
@@ -41,10 +44,10 @@ brew cask install hetimazip
 brew cask install qlimagesize
 brew cask install webpquicklook
 ## config
-defaults write com.apple.finder QLEnableTextSelection -bool true && killall Finder
+defaults write com.apple.finder QLEnableTextSelection -bool true
 qlmanage -r
 
 
 # Other Settings
 curl -L 'https://gist.github.com/ysaotome/7286145/raw/installing_ricty_on_MacOSX.sh' | bash
-defaults write com.apple.finder AppleShowAllFiles -boolean true
+defaults write com.apple.finder AppleShowAllFiles -bool true

@@ -18,6 +18,7 @@ formulas=(
   git
   tree
   cask
+  python3
 )
 for formula in "${formulas[@]}"; do
   brew install -y $formula || brew upgrade $formula
