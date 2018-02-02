@@ -52,6 +52,7 @@
 [EdgeView 2](https://itunes.apple.com/jp/app/edgeview-2/id1206246482)  |  WIP
 [Better Touch Tool](https://www.boastr.net/)  |  WIP
 [Kindle](https://itunes.apple.com/jp/app/kindle/id405399194?mt=12)  |  WIP
+アーカイブユーティリティ ｜　プリイン。WIP
 
 ## ACV
 アプリ | 設定項目
