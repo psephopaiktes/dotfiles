@@ -38,7 +38,7 @@ fi
 
 # Deploy Dotfiles
 git clone "$GITHUB_URL" "$DOTPATH"
-ln -snf $DOTPATH/.zshenv ~/.zshenv
-ln -snf $DOTPATH/.zshrc ~/.zshrc
-ln -snf $DOTPATH/.gitconfig ~/.gitconfig
-ln -snf $DOTPATH/.gitignore_global ~/.gitignore_global
+ln -snf $DOTPATH/.zshenv ~
+ln -snf $DOTPATH/.zshrc ~
+ln -snf $DOTPATH/.gitconfig ~
+ln -snf $DOTPATH/.gitignore_global ~
