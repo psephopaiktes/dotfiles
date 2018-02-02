@@ -5,7 +5,7 @@ DOTPATH=~/.dotfiles
 
 
 # Install Xcode CUI
-xcode-select --install
+sudo xcode-select --install
 
 
 # Homebrew
