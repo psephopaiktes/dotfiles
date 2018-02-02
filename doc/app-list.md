@@ -14,11 +14,11 @@
 [Dash](https://kapeli.com/dash) | 設定ファイルをimport
 [iTerm2](https://www.iterm2.com/) | 設定ファイルをimport
 [Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  強制Pushを可能に
-[SonicWALL Mobile Connect](https://itunes.apple.com/jp/app/sonicwall-mobile-connect/id466931806?mt=8)  |  VPN設定
+[SonicWALL Mobile Connect](https://itunes.apple.com/jp/app/sonicwall-mobile-connect/id822514576)  |  VPN設定
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
-[Docker](https://docs.docker.com/install/)  |  
+[Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
 
 
@@ -50,7 +50,7 @@
 [Skype](https://www.skype.com/ja/get-skype/)  |  WIP
 [StuffIt Expander 16](https://itunes.apple.com/jp/app/stuffit-expander-16/id919269455)  |  WIP
 [EdgeView 2](https://itunes.apple.com/jp/app/edgeview-2/id1206246482)  |  WIP
-[Better Touch Tool](https://www.boastr.net/)  |  WIP
+[Better Touch Tool](https://www.boastr.net/downloads/)  |  [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)をインスコ、ライセンス
 [Kindle](https://itunes.apple.com/jp/app/kindle/id405399194?mt=12)  |  WIP
 アーカイブユーティリティ ｜　プリイン。WIP
 
