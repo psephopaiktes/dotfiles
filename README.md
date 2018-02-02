@@ -1,4 +1,4 @@
-# dotfiles (WIP)
+# dotfiles
 - Macの環境構築用
 - ドットファイルの数が少なく、ストアアプリについてのシンボリックリンク処理も行うのでほぼべた書き  
 条件分岐やループほぼ無し
@@ -22,10 +22,10 @@ bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/insta
 ~/.dotfiles/app-setting.sh
 ```
 
-6. Dock整理、デスクトップ整理
-### ツールバーをカスタマイズ
-–　不要なものを消す
-−　Ps,Code,Chromeを追加
-(画像)
+6. 見た目の整備
+- Finderツールバーをカスタマイズ
+  – 不要なものを消す
+  - Chrome,PS,Codeを追加
 - 壁紙を変える
-- MissionControlを整理 
+- Dock整理、LaunchPad整理 
+![スクショ]()
