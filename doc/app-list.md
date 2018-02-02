@@ -4,6 +4,7 @@
 --|--
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
+[Dropbox](https://www.dropbox.com/h)  |   同期するフォルダを選択、 Not launch at login
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
 
 
@@ -41,7 +42,6 @@
 アプリ | 設定項目
 --|--
 [Google IME](https://www.google.co.jp/ime/)  |  入力補助 -「、。」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
-[Dropbox](https://www.dropbox.com/h)  |  WIP
 [Alfred](https://www.alfredapp.com/) | 設定ファイルをimport
 [Project IINA](https://lhc70000.github.io/iina/)  |  WIP
 [LINE](https://itunes.apple.com/jp/app/line/id539883307) | WIP
