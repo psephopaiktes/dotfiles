@@ -18,23 +18,23 @@
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
-[Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
+[Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
 
 
 ## Design
 アプリ | 設定項目
 --|--
 [Sketch](https://www.sketchapp.com/) |  WIP
-[CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  WIP
+[CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [Adobe Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  WIP
 [ImageOptim](https://imageoptim.com/mac)  |  WIP
 [RictyDiminished](https://github.com/mzyy94/RictyDiminished-for-Powerline)  | WIP
 [Origami Studio](https://origami.design/)  |  
 [Craft by InVision](https://www.invisionapp.com/craft) |  WIP
-[Zeplin](https://zeplin.io/) |
+[Zeplin](https://zeplin.io/) |  ログイン
 [Sketch Runner](http://sketchrunner.com/) |  WIP
-[FontBase](https://fontba.se/) | WIP
+[FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | WIP
 [xScope](https://xscopeapp.com/) | WIP
 
@@ -42,7 +42,7 @@
 アプリ | 設定項目
 --|--
 [Google IME](https://www.google.co.jp/ime/)  |  Macシステム環境設定→キーボード→入力ソースからほぼ消す<br>入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
-[Alfred](https://www.alfredapp.com/) | 設定ファイルをimport
+[Alfred](https://www.alfredapp.com/) | PoerPackからActivate→Advancedからimport
 [Project IINA](https://lhc70000.github.io/iina/)  |  WIP
 [LINE](https://itunes.apple.com/jp/app/line/id539883307) | 送信方法⌘ENter
 [Fluid Browser](https://itunes.apple.com/us/app/fluid-browser/id1077036385) |  なし
