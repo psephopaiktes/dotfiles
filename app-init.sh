@@ -49,5 +49,4 @@ qlmanage -r
 
 
 # Other Settings
-curl -L 'https://gist.github.com/ysaotome/7286145/raw/installing_ricty_on_MacOSX.sh' | bash
 defaults write com.apple.finder AppleShowAllFiles -bool true
