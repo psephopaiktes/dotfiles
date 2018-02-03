@@ -37,13 +37,22 @@
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [xScope](https://xscopeapp.com/) | activate
+[SPAi](http://tama-san.com/spai/) | 
 
 ### CC
-アプリ | 設定項目
---|--
-Ps | WIP
-Ai | WIP
-Acrobat | Sign in
+- 設定の同期機能が消えたので最低限のみメモ
+- Ps
+  - ドキュメントを開いていないときにスタートワークスペースを表示 OFF
+  - 単位をすべてpxに
+  - Generatorを有効する ON
+- Ai
+  - 単位をすべてpxに
+  - キー入力を1pxに
+  - サイズ行送り、ベースラインシフト 1px
+  - ユーザーインターフェース 最大まで明るく
+  - ドキュメントを開いていないときにスタートワークスペースを表示 OFF
+- Acrobat
+  - Sign in
 
 ### Sketch
 
