@@ -35,7 +35,7 @@
 [Zeplin](https://zeplin.io/) |  ログイン
 [Sketch Runner](http://sketchrunner.com/) |  下参照
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
-[Skitch](https://evernote.com/intl/jp/products/skitch) | WIP
+[Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [xScope](https://xscopeapp.com/) | activate
 
 ### CC
@@ -57,11 +57,11 @@ Acrobat | Sign in
 [Fluid Browser](https://itunes.apple.com/us/app/fluid-browser/id1077036385) |  なし
 [AppCleaner](https://freemacsoft.net/appcleaner/)  |  スマートシンクをONに、protectをすべて外す
 [Skype](https://www.skype.com/ja/get-skype/)  |  なし
-[StuffIt Expander 16](https://itunes.apple.com/jp/app/stuffit-expander-16/id919269455)  |  Expand archives to 「Same..」､Move archives trash: On
+[StuffIt Expander 16](https://itunes.apple.com/jp/app/stuffit-expander-16/id919269455)  |  Expand archives to 「Same..」､Move archives trash: On､保存場所:デスクトップ
 [EdgeView 2](https://itunes.apple.com/jp/app/edgeview-2/id1206246482)  |  WIP
 [Better Touch Tool](https://www.boastr.net/downloads/)  |  [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)をインスコ、初回起動設定後BST消す､ジェスチャをimport､Launch BTT on startup､Enabale automatic update checking､<br>APeearance of the preview window:Bg #000 20%, Border 0%, 
-[Kindle](https://itunes.apple.com/jp/app/kindle/id405399194?mt=12)  |  WIP
-アーカイブユーティリティ ｜　プリイン。WIP
+[Kindle](https://itunes.apple.com/jp/app/kindle/id405399194?mt=12)  |  
+アーカイブユーティリティ ｜　プリイン。保存場所:Desktop､展開後:ゴミ箱､アーカイブのフォーマット:Zip､
 
 ## ACV
 アプリ | 設定項目
