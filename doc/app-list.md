@@ -13,7 +13,7 @@
 [Visual Studio Code](https://code.visualstudio.com/) |  app-init.shで自動的に設定同期。ターミナルから呼び出せるようにするにはコマンドパレットShellからshellのインスコがいるかも?
 [Dash](https://kapeli.com/dash) | 設定ファイルをimport
 [iTerm2](https://www.iterm2.com/) | 設定ファイルをimport
-[Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  強制Pushを可能に
+[Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  Attrasianログイン､GitHubログイン､SSH作成､強制Pushを可能に
 [SonicWALL Mobile Connect](https://itunes.apple.com/jp/app/sonicwall-mobile-connect/id822514576)  |  VPN設定
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
@@ -27,7 +27,7 @@
 --|--
 [Sketch](https://www.sketchapp.com/) |  WIP
 [CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
-[Adobe Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  WIP
+[Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
 [ImageOptim](https://imageoptim.com/mac)  |  WIP
 [RictyDiminished](https://github.com/mzyy94/RictyDiminished-for-Powerline)  | WIP
 [Origami Studio](https://origami.design/)  |  
@@ -37,6 +37,13 @@
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | WIP
 [xScope](https://xscopeapp.com/) | WIP
+
+### CC
+アプリ | 設定項目
+--|--
+Ps | WIP
+Ai | WIP
+
 
 ## Other
 アプリ | 設定項目
