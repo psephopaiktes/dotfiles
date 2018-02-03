@@ -29,4 +29,3 @@ GoogleDriveの同期後に実行すること｡
   - Chrome,PS,Codeを追加
 - 壁紙を変える
 - Dock整理、LaunchPad整理   
-![スクショ]()
