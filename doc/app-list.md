@@ -41,16 +41,16 @@
 ## Other
 アプリ | 設定項目
 --|--
-[Google IME](https://www.google.co.jp/ime/)  |  入力補助 -「、。」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
+[Google IME](https://www.google.co.jp/ime/)  |  Macシステム環境設定→キーボード→入力ソースからほぼ消す<br>入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
 [Alfred](https://www.alfredapp.com/) | 設定ファイルをimport
 [Project IINA](https://lhc70000.github.io/iina/)  |  WIP
-[LINE](https://itunes.apple.com/jp/app/line/id539883307) | WIP
-[Fluid Browser](https://itunes.apple.com/us/app/fluid-browser/id1077036385) |  WIP
-[AppCleaner](https://freemacsoft.net/appcleaner/)  |  スマートシンクをONに、ロックをすべて外す
-[Skype](https://www.skype.com/ja/get-skype/)  |  WIP
-[StuffIt Expander 16](https://itunes.apple.com/jp/app/stuffit-expander-16/id919269455)  |  WIP
+[LINE](https://itunes.apple.com/jp/app/line/id539883307) | 送信方法⌘ENter
+[Fluid Browser](https://itunes.apple.com/us/app/fluid-browser/id1077036385) |  なし
+[AppCleaner](https://freemacsoft.net/appcleaner/)  |  スマートシンクをONに、protectをすべて外す
+[Skype](https://www.skype.com/ja/get-skype/)  |  なし
+[StuffIt Expander 16](https://itunes.apple.com/jp/app/stuffit-expander-16/id919269455)  |  Expand archives to 「Same..」､Move archives trash: On
 [EdgeView 2](https://itunes.apple.com/jp/app/edgeview-2/id1206246482)  |  WIP
-[Better Touch Tool](https://www.boastr.net/downloads/)  |  [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)をインスコ、ライセンス
+[Better Touch Tool](https://www.boastr.net/downloads/)  |  [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)をインスコ、初回起動設定後BST消す､ジェスチャをimport､Launch BTT on startup､Enabale automatic update checking､<br>APeearance of the preview window:Bg #000 20%, Border 0%, 
 [Kindle](https://itunes.apple.com/jp/app/kindle/id405399194?mt=12)  |  WIP
 アーカイブユーティリティ ｜　プリイン。WIP
 
