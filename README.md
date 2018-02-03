@@ -15,9 +15,10 @@
 bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"
 ```
 
-4. [その他のApp](./doc/app-list.md)をインスコ
+4. [その他のApp](./doc/app-list.md)をインスコ､各種設定
 
-5. その他のCUI設定、GoogleDrive内の設定ファイルをシンボリックリンク設定
+5. その他のCUI設定、GoogleDrive内の設定ファイルをシンボリックリンク設定  
+GoogleDriveの同期後に実行すること｡
 ```
 ~/.dotfiles/app-setting.sh
 ```
