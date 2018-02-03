@@ -11,7 +11,7 @@
 アプリ | 設定項目
 --|--
 [Visual Studio Code](https://code.visualstudio.com/) |  app-init.shで自動的に設定同期。ターミナルから呼び出せるようにするにはコマンドパレットShellからshellのインスコがいるかも?
-[Dash](https://kapeli.com/dash) | 設定ファイルをimport
+[Dash](https://kapeli.com/dash) | ライセンスファイルをimport､設定ファイルをimport､Launch dash at login､show menubar icon
 [iTerm2](https://www.iterm2.com/) | 設定ファイルをimport
 [Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  Attrasianログイン､GitHubログイン､SSH作成､強制Pushを可能に
 [SonicWALL Mobile Connect](https://itunes.apple.com/jp/app/sonicwall-mobile-connect/id822514576)  |  VPN設定
@@ -20,30 +20,32 @@
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
 [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
+[RictyDiminished](https://github.com/mzyy94/RictyDiminished-for-Powerline)  | WIP
 
 
 ## Design
 アプリ | 設定項目
 --|--
-[Sketch](https://www.sketchapp.com/) |  WIP
+[Sketch](https://www.sketchapp.com/) |  下参照
 [CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
-[ImageOptim](https://imageoptim.com/mac)  |  WIP
-[RictyDiminished](https://github.com/mzyy94/RictyDiminished-for-Powerline)  | WIP
+[ImageOptim](https://imageoptim.com/mac)  |  最適化の速度:非常に高い
 [Origami Studio](https://origami.design/)  |  
-[Craft by InVision](https://www.invisionapp.com/craft) |  WIP
+[Craft by InVision](https://www.invisionapp.com/craft) |  下参照
 [Zeplin](https://zeplin.io/) |  ログイン
-[Sketch Runner](http://sketchrunner.com/) |  WIP
+[Sketch Runner](http://sketchrunner.com/) |  下参照
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | WIP
-[xScope](https://xscopeapp.com/) | WIP
+[xScope](https://xscopeapp.com/) | activate
 
 ### CC
 アプリ | 設定項目
 --|--
 Ps | WIP
 Ai | WIP
+Acrobat | Sign in
 
+### Sketch
 
 ## Other
 アプリ | 設定項目
