@@ -20,7 +20,7 @@
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
 [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
-[RictyDiminished](https://github.com/mzyy94/RictyDiminished-for-Powerline)  | WIP
+[Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
 
 
 ## Design
