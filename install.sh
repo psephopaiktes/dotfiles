@@ -42,3 +42,7 @@ ln -snf $DOTPATH/.zshenv ~
 ln -snf $DOTPATH/.zshrc ~
 ln -snf $DOTPATH/.gitconfig ~
 ln -snf $DOTPATH/.gitignore_global ~
+
+
+# create work space
+mkdir ~/projects
