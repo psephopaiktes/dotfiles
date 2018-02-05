@@ -13,14 +13,14 @@ brew install yarn --without-node
 ## Ai Scripts シンボリックリンク設定
 ## 要バージョンごとの設定
 sudo rm -rf "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/スクリプト"
-sudo ln -snf "/Users/a-hirata/Google ドライブ/App/ai scripts" "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP"
+sudo ln -snf "/Users/a-hirata/Google Drive/App/ai scripts" "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP"
 sudo mv "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/ai scripts" "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/スクリプト"
 
 ## VS code シンボリックリンク設定
 sudo rm -rf "/Users/a-hirata/Library/Application Support/Code/User"
 sudo rm -rf "/Users/a-hirata/.vscode"
-sudo ln -snf "/Users/a-hirata/Google ドライブ/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
-sudo ln -snf "/Users/a-hirata/Google ドライブ/App/VS Code/.vscode" "/Users/a-hirata"
+sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
+sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/.vscode" "/Users/a-hirata"
 
 ## itunesのシンボリックリンク設定
 ###WIP
