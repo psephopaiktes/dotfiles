@@ -23,7 +23,8 @@ sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Li
 sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/.vscode" "/Users/a-hirata"
 
 ## itunesのシンボリックリンク設定
-###WIP
+sudo rm -rf "/Users/a-hirata/Music/iTunes"
+sudo ln -snf "/Users/a-hirata/Google Drive/App/iTunes" "/Users/a-hirata/Music"
 
 
 # QuickLook Setting
