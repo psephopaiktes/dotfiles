@@ -26,14 +26,12 @@
 ## Design
 アプリ | 設定項目
 --|--
-[Sketch](https://www.sketchapp.com/) |  下参照
 [CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
 [ImageOptim](https://imageoptim.com/mac)  |  最適化の速度:非常に高い
 [Origami Studio](https://origami.design/)  |  
-[Craft by InVision](https://www.invisionapp.com/craft) |  下参照
 [Zeplin](https://zeplin.io/) |  ログイン
-[Sketch Runner](http://sketchrunner.com/) |  下参照
+[Sketch](https://www.sketchapp.com/) |  下参照
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [xScope](https://xscopeapp.com/) | activate
@@ -55,6 +53,53 @@
   - Sign in
 
 ### Sketch
+- 設定
+  - Sketch > Preferences > Layers タブの Duplicating > Rename duplicated layers のチェックを外す。
+  - Sketch > Preferences > Layers タブの Flatten Bitmap を2xに
+  - Sketch Cloud にサインイン
+- Plugin
+  - [Sketch Runner](http://sketchrunner.com/)
+  - [Craft by InVision](https://www.invisionapp.com/craft)
+  - Zepling アプリ入れたら自動で入る
+#### Runnerから手動インスコ
+Plugin | Note
+-|-
+[Chain](https://lalomrtnz.github.io/Chain/) | 色の一括変換
+Pixel Perfecter | 座標に小数点が含まれているオブジェクトを探してくれる
+Rename It | レイヤーをまとめて
+Select Similar Layers | AIのように、共通のレイヤーを選択できる
+[Symbol Organizer](https://github.com/sonburn/symbol-organizer) | シンボル整理
+[Stark](http://www.getstark.co/) | 色弱者向けの表示を確認できる
+SVGO Compressor | 公式のSVG圧縮プラグイン
+
+#### ACV
+Plugin | Note
+-|-
+ANIMATEMATE | Sketch上でアニメーションを作成できるようにする
+Align Text Baseline | 文字のベースラインを揃える。特に日本語用
+Align To | Aiのようにキーオブジェクトを選択して揃える
+[artboard-manager](https://github.com/bomberstudios/artboard-manager) | 作成したアートボードを縦横カラムに合わせて再配置してくれるプラグイン
+[Auto Rayout](https://storify.com/yhassy/sketch-app-dede) | 配置を自動でいい感じに
+[Automate](http://ashung.github.io/Automate-Sketch/)  |  「あるといいなー」と思っていた細かい操作がたくさんできるようになるプラグイン。オブジェクトの Y 軸に合わせてレイヤーを並べ替え。選択中のレイヤーの子要素をすべて選択。フォントの入れ替え。使っていないスタイルの削除。グループからアートボード作成 … などなど数十種類の操作が入っています。Runnerとの相性が良い。
+[Blender](https://github.com/bunnieabc/Blender) | イラレのブレンドツール的なことができる
+Cottent Sync (PLuginではない) | SKetch中のテキスト情報をGoogleスプレッドシートで管理できるソフト
+[Cleanup-Useless-Groups](https://github.com/bomberstudios/Cleanup-Useless-Groups) | 空のレイヤーフォルダを削除
+[Confetti](http://www.sketchconfetti.com/), [IconFlower](https://github.com/avadhbsd/IconFlower), [Skatter](https://github.com/joshdjuric/Skatter) | 好きなアイコンを使って、継ぎ目のないパターンテクスチャ素材を作成
+Content Generator | Craftでいいかも
+CSSKetch | SketchのCSSエクスポート
+Font Finder | 使われているフォントを一覧化し、指定したフォントを選択
+Looper | Photshopのアクションの用に、特定の作業を繰り返すバッチ処理ができる http://sureskumar.com/looper/
+[Magic Mirror 3](http://magicsketch.io/mirror/) | Sketchで作成したどんなファイルも破壊することなく、立体的な見た目で表現できるプラグイン。
+Sketch Palettes | パレットを保存、読み込みできる
+Sort Lauyers | レイヤーをソート 別でインスコ…?
+[sort-me-sketch](https://github.com/romashamin/sort-me-sketch) | レイヤーソート
+States | Sketchの様々な配置状態を記録・呼び出しできる。ホバーアニメーションとかの表現に
+Swatches | GMDとかのカラーパレットを呼び出せる
+[Sync to Slides](https://websiddu.github.io/sync-to-slides/) | Googleスライドと同期できる
+User Flows | 簡単に画面遷移フローチャートを書き込める
+Git | Sketch上からGIt操作できる。加えて、diff用のプレビュ画像を作成できる
+
+
 
 ## Other
 アプリ | 設定項目
