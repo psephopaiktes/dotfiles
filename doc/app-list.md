@@ -1,3 +1,7 @@
+# app-list
+- 手動でインスコするアプリとその設定
+
+
 
 ## Primary
 アプリ | 設定項目
@@ -72,6 +76,7 @@ Select Similar Layers | AIのように、共通のレイヤーを選択できる
 [Symbol Organizer](https://github.com/sonburn/symbol-organizer) | シンボル整理
 [Stark](http://www.getstark.co/) | 色弱者向けの表示を確認できる
 SVGO Compressor | 公式のSVG圧縮プラグイン
+Find and Replace | テキスト置換
 
 #### ACV
 Plugin | Note
