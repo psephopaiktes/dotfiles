@@ -19,6 +19,7 @@ formulas=(
   tree
   cask
   python3
+  hugo
 )
 for formula in "${formulas[@]}"; do
   brew install -y $formula || brew upgrade $formula
