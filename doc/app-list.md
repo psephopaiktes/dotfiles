@@ -40,6 +40,8 @@
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [xScope](https://xscopeapp.com/) | activate
 [SPAi](http://tama-san.com/spai/) | 
+[IconJar](https://geticonjar.com/) | 
+[Lingo](https://www.lingoapp.com/) |
 
 ### CC
 - 設定の同期機能が消えたので最低限のみメモ
