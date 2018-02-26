@@ -36,6 +36,7 @@ setopt auto_cd
 # short command
 alias server="python -m SimpleHTTPServer"
 alias nr='npm run'
+alias nb='nodebrew'
 alias p="cd ~/projects"
 alias mk="touch"
 alias -g C='| pbcopy'
