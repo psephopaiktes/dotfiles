@@ -37,6 +37,7 @@ setopt auto_cd
 alias server="python -m SimpleHTTPServer"
 alias nr='npm run'
 alias nb='nodebrew'
+alias dc='docker-compose'
 alias p="cd ~/projects"
 alias mk="touch"
 alias -g C='| pbcopy'
