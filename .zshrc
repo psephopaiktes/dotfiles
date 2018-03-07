@@ -51,7 +51,7 @@ zstyle ':vcs_info:*' actionformats '%F{red}[ %b(%a) ]%f'
 precmd() { vcs_info }
 PROMPT='
 %F{178}%~%f ${vcs_info_msg_0_}
-%F{178}%B>>%b%f  '
+%F{178}%B>%b%f  '
 
 #nodebrew
 export PATH=$HOME/.nodebrew/current/bin:$PATH
