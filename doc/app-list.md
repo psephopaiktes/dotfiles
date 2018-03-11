@@ -40,7 +40,6 @@
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [xScope](https://xscopeapp.com/) | activate
 [SPAi](http://tama-san.com/spai/) | 
-[IconJar](https://geticonjar.com/) | 
 [Lingo](https://www.lingoapp.com/) |
 [Wacom](https://www.wacom.com/ja-jp/getting-started/wacom-intuos) | 
 
