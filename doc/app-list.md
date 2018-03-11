@@ -42,6 +42,7 @@
 [SPAi](http://tama-san.com/spai/) | 
 [IconJar](https://geticonjar.com/) | 
 [Lingo](https://www.lingoapp.com/) |
+[Wacom](https://www.wacom.com/ja-jp/getting-started/wacom-intuos) | 
 
 ### CC
 - 設定の同期機能が消えたので最低限のみメモ
