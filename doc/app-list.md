@@ -90,6 +90,7 @@ Align To | Aiのようにキーオブジェクトを選択して揃える
 [Auto Rayout](https://storify.com/yhassy/sketch-app-dede) | 配置を自動でいい感じに
 [Automate](http://ashung.github.io/Automate-Sketch/)  |  「あるといいなー」と思っていた細かい操作がたくさんできるようになるプラグイン。オブジェクトの Y 軸に合わせてレイヤーを並べ替え。選択中のレイヤーの子要素をすべて選択。フォントの入れ替え。使っていないスタイルの削除。グループからアートボード作成 … などなど数十種類の操作が入っています。Runnerとの相性が良い。
 [Blender](https://github.com/bunnieabc/Blender) | イラレのブレンドツール的なことができる
+[butter-sketch-plugin](https://github.com/pberrecloth/butter-sketch-plugin) | 複数オブジェクトのマージンを指定できるやつ
 Cottent Sync (PLuginではない) | SKetch中のテキスト情報をGoogleスプレッドシートで管理できるソフト
 [Cleanup-Useless-Groups](https://github.com/bomberstudios/Cleanup-Useless-Groups) | 空のレイヤーフォルダを削除
 [Confetti](http://www.sketchconfetti.com/), [IconFlower](https://github.com/avadhbsd/IconFlower), [Skatter](https://github.com/joshdjuric/Skatter) | 好きなアイコンを使って、継ぎ目のないパターンテクスチャ素材を作成
@@ -98,6 +99,8 @@ CSSKetch | SketchのCSSエクスポート
 Font Finder | 使われているフォントを一覧化し、指定したフォントを選択
 Looper | Photshopのアクションの用に、特定の作業を繰り返すバッチ処理ができる http://sureskumar.com/looper/
 [Magic Mirror 3](http://magicsketch.io/mirror/) | Sketchで作成したどんなファイルも破壊することなく、立体的な見た目で表現できるプラグイン。
+[paddy-sketch-plugin](https://github.com/DWilliames/paddy-sketch-plugin#user-content-applied) | レイヤーのパディング・マージンを設定すると以降勝手に調整してくれる高機能プラグイン。ちょっとうざいかも
+[sketch-rename-instances](https://github.com/exevil/sketch-rename-instances) | インスタンスを後から変更したシンボル名に一致させる
 Sketch Palettes | パレットを保存、読み込みできる
 Sort Lauyers | レイヤーをソート 別でインスコ…?
 [sort-me-sketch](https://github.com/romashamin/sort-me-sketch) | レイヤーソート
