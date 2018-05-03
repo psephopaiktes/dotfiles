@@ -36,6 +36,7 @@ setopt auto_cd
 # short command
 alias server="python -m SimpleHTTPServer"
 alias nr='npm run'
+alias nrs='npm run start'
 alias nb='nodebrew'
 alias dc='docker-compose'
 alias p="cd ~/projects"
