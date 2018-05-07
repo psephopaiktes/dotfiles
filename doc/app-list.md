@@ -100,7 +100,8 @@ Font Finder | 使われているフォントを一覧化し、指定したフォ
 Looper | Photshopのアクションの用に、特定の作業を繰り返すバッチ処理ができる http://sureskumar.com/looper/
 [Magic Mirror 3](http://magicsketch.io/mirror/) | Sketchで作成したどんなファイルも破壊することなく、立体的な見た目で表現できるプラグイン。
 [paddy-sketch-plugin](https://github.com/DWilliames/paddy-sketch-plugin#user-content-applied) | レイヤーのパディング・マージンを設定すると以降勝手に調整してくれる高機能プラグイン。ちょっとうざいかも
-[sketch-rename-instances](https://github.com/exevil/sketch-rename-instances) | インスタンスを後から変更したシンボル名に一致させる
+[rename-instances](https://github.com/exevil/sketch-rename-instances) | インスタンスを後から変更したシンボル名に一致させる
+[symbol-instance-locator] | シンボルからすべてのインスタンスを探す
 Sketch Palettes | パレットを保存、読み込みできる
 Sort Lauyers | レイヤーをソート 別でインスコ…?
 [sort-me-sketch](https://github.com/romashamin/sort-me-sketch) | レイヤーソート
