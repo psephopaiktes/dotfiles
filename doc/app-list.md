@@ -22,8 +22,8 @@
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
-[Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
+[Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF、割当メモリを増やす
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
 
 
@@ -34,7 +34,8 @@
 [Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
 [ImageOptim](https://imageoptim.com/mac)  |  最適化の速度:非常に高い
 [Origami Studio](https://origami.design/)  |  
-[Zeplin](https://zeplin.io/) |  ログイン
+[Overflow](https://overflow.io/)  |  ログイン
+[Zeplin](https://zeplin.io/) |  ログイン
 [Sketch](https://www.sketchapp.com/) |  下参照
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
