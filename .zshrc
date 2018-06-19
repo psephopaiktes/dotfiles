@@ -12,6 +12,13 @@ setopt ignore_eof
 # Ctrl+sのロック, Ctrl+qのロック解除を無効にする
 setopt no_flow_control
 
+# コマンド履歴管理系
+setopt share_history
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
+setopt hist_reduce_blanks
+setopt hist_save_no_dups
+
 # 自動補完を有効にする
 autoload -U compinit; compinit
 
