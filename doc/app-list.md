@@ -1,5 +1,6 @@
 # app-list
 - 手動でインスコするアプリとその設定
+- Brew Cask は挙動が安定しないので使わない
 
 
 
@@ -25,6 +26,7 @@
 [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF、割当メモリを増やす
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
+[keycastr](https://github.com/keycastr/keycastr) | 
 
 
 ## Design
