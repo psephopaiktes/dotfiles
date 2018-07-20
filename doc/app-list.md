@@ -45,6 +45,7 @@
 [SPAi](http://tama-san.com/spai/) | 
 [Lingo](https://www.lingoapp.com/) |
 [Wacom](https://www.wacom.com/ja-jp/getting-started/wacom-intuos) | 
+[Logicool Options](http://support.logicool.co.jp/ja_jp/software/options) | Logiのマウス使うなら
 
 ### CC
 - 設定の同期機能が消えたので最低限のみメモ
