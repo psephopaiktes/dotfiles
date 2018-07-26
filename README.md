@@ -29,3 +29,5 @@ GoogleDriveの同期後に実行すること｡
   - Chrome,PS,Codeを追加
 - 壁紙を変える
 - Dock整理、LaunchPad整理   
+- 通知センター
+  - SNS、天気、Music、計算機
