@@ -10,7 +10,7 @@
 
 2. システム環境設定を[変える](./doc/mac-setting.md)
 
-3. GitやZshをインスコ、dotfilesをデプロイ
+3. 以下のコマンドを実行する。GitやZshをインスコ、dotfilesをデプロイします。
 ```
 bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"
 ```
