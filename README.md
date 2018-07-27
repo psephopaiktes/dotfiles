@@ -12,7 +12,7 @@
 
 3. 以下のコマンドを実行する。GitやZshをインスコ、dotfilesをデプロイします。
 ```
-bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"
+sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"
 ```
 
 4. [その他のApp](./doc/app-list.md)をインスコ､各種設定
