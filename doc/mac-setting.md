@@ -65,6 +65,7 @@
 - クリック　弱い
 - 軌跡の速さ：7
 - 「アプリケーションExpose」ON
+- 「ページ間をスワイプ」OFF
 
 ### iCloud
 - iCloud Drive, Safari, Siri, キーチェーン, Macを探す以外チェックOFF
