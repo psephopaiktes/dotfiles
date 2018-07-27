@@ -10,7 +10,7 @@
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
 [Dropbox](https://www.dropbox.com/h)  |   同期するフォルダを選択、 Not launch at login
-[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  Launch one time
+[Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  Launch one time, 
 
 ## Font
 アプリ | 設定項目
@@ -30,7 +30,7 @@
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
 [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF、割当メモリを増やす
-[keycastr](https://github.com/keycastr/keycastr) | 
+[keycastr](https://github.com/keycastr/keycastr) | Check Update 
 
 ## Design
 アプリ | 設定項目
