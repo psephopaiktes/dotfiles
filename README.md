@@ -31,3 +31,6 @@ GoogleDriveの同期後に実行すること｡
 - Dock整理、LaunchPad整理   
 - 通知センター
   - SNS、天気、Music、計算機
+
+7. Git Project
+- ssh
