@@ -18,7 +18,7 @@ sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/
 4. [その他のApp](./doc/app-list.md)をインスコ､各種設定
 
 5. その他のCUI設定、GoogleDrive内の設定ファイルをシンボリックリンク設定  
-GoogleDriveの同期後に実行すること｡
+**GoogleDriveの同期後に実行すること｡**
 ```
 ~/.dotfiles/app-setting.sh
 ```
@@ -31,6 +31,7 @@ GoogleDriveの同期後に実行すること｡
 - Dock整理、LaunchPad整理   
 - 通知センター
   - SNS、天気、Music、計算機
+- iTunes Library
 
 7. Git Project
 - ssh
