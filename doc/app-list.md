@@ -10,6 +10,7 @@
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
 [Dropbox](https://www.dropbox.com/h)  |   同期するフォルダを選択、 Not launch at login
+[xScope](https://xscopeapp.com/) | activate
 
 
 ## Dev
@@ -41,7 +42,6 @@
 [Sketch](https://www.sketchapp.com/) |  下参照
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
-[xScope](https://xscopeapp.com/) | activate
 [SPAi](http://tama-san.com/spai/) | 
 [Lingo](https://www.lingoapp.com/) |
 [Wacom](https://www.wacom.com/ja-jp/getting-started/wacom-intuos) | 
