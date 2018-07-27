@@ -20,7 +20,7 @@
 [Dash](https://kapeli.com/dash) | ライセンスファイルをimport､設定ファイルをimport､Launch dash at login､show menubar icon
 [iTerm2](https://www.iterm2.com/) | 設定ファイルをimport
 [Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  Attrasianログイン､GitHubログイン､SSH作成､強制Pushを可能に
-[SonicWALL Mobile Connect](https://itunes.apple.com/jp/app/sonicwall-mobile-connect/id822514576)  |  VPN設定
+[SonicWALL Mobile Connect](https://itunes.apple.com/jp/app/sonicwall-mobile-connect/id822514576)  |  [接続情報 - DevOps - U-NEXT WIKI](https://wiki.unext-info.jp/pages/viewpage.action?pageId=6475272)
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
