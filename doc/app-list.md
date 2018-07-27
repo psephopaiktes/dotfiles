@@ -12,6 +12,11 @@
 [Dropbox](https://www.dropbox.com/h)  |   同期するフォルダを選択、 Not launch at login
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  Launch one time
 
+## Font
+アプリ | 設定項目
+--|--
+[Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
+[Google Noto Fonts](https://www.google.com/get/noto/#sans-jpan) | 
 
 ## Dev
 アプリ | 設定項目
@@ -25,9 +30,7 @@
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
 [Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF、割当メモリを増やす
-[Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
 [keycastr](https://github.com/keycastr/keycastr) | 
-
 
 ## Design
 アプリ | 設定項目
