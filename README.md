@@ -28,10 +28,9 @@ sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/
   – 不要なものを消す
   - Chrome,PS,Codeを追加
 - 壁紙を変える
-- Dock整理、LaunchPad整理   
+- Dock整理、LaunchPad整理 
 - 通知センター
   - SNS、天気、Music、計算機
-- iTunes Library
 
 7. Git Project
 - ssh
