@@ -28,6 +28,7 @@ sudo ln -snf "/Users/a-hirata/Google Drive/App/iTunes" "/Users/a-hirata/Music"
 
 
 # QuickLook Setting
+brew update
 ## txt preview if file hasnt ext
 brew cask install qlstephen
 ## Markdown
@@ -40,7 +41,7 @@ brew cask install quicklook-csv
 brew cask install qlcolorcode
 defaults write org.n8gray.QLColorCode extraHLFlags '-l'
 ## zip
-brew cask install hetimazip
+brew cask install hetimazipql
 ## preview img size
 brew cask install qlimagesize
 brew cask install webpquicklook
