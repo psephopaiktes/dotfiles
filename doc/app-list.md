@@ -36,7 +36,7 @@
 アプリ | 設定項目
 --|--
 [CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
-[Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
+[Creative Cloud](https://creative.adobe.com/ja/products/download/creative-cloud)  |  言語を日本語にしてから各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
 [ImageOptim](https://imageoptim.com/mac)  |  最適化の速度:非常に高い
 [Origami Studio](https://origami.design/)  |  
 [Overflow](https://overflow.io/)  |  ログイン
