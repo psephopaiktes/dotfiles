@@ -7,7 +7,7 @@
 ## Primary
 アプリ | 設定項目
 --|--
-[Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
+[Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに、Warn Before Quiting
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
 [Dropbox](https://www.dropbox.com/h)  |   同期するフォルダを選択、 Not launch at login
 [Xcode](https://itunes.apple.com/us/app/xcode/id497799835)  |  Launch one time, 
