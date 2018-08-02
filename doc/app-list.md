@@ -89,6 +89,7 @@ symbol instance locator | シンボルからすべてのインスタンスを探
 [Stark](http://www.getstark.co/) | 色弱者向けの表示を確認できる
 SVGO Compressor | 公式のSVG圧縮プラグイン
 Find and Replace | テキスト置換
+[Preview-in-browser](https://github.com/gaddafirusli/Preview-in-browser) | 
 
 #### ACV
 Plugin | Note
