@@ -1,6 +1,10 @@
 # 初期設定
 - サインイン→基本的な設定は同期されるはず
+- OSアップデート
+- アカウント→ユーザの情報→Microsftアカウントを確認
 - [Sモードを解除](http://snow-white.cocolog-nifty.com/first/2018/05/windows-10-sver.html)する
+- OneDriveサインイン→ログイン時に起動しない
+- 各種アプリを入れる
 
 # app-list↓WIPWIP
 
