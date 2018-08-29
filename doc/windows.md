@@ -4,6 +4,8 @@
 - アカウント→ユーザの情報→Microsftアカウントを確認
 - [Sモードを解除](http://snow-white.cocolog-nifty.com/first/2018/05/windows-10-sver.html)する
 - OneDriveサインイン→ログイン時に起動しない
+- クラウドストレージ選択同期
+- CapsをCtrlに
 - 各種アプリを入れる
 
 # app-list↓WIPWIP
