@@ -1,12 +1,17 @@
 # 初期設定
-- サインイン→基本的な設定は同期されるはず
 - OSアップデート
-- アカウント→ユーザの情報→Microsftアカウントを確認
+- サインイン→基本的な設定は同期されるはず
 - [Sモードを解除](http://snow-white.cocolog-nifty.com/first/2018/05/windows-10-sver.html)する
+- コンパネ
+  - 「ユーザーアカウント制御」を1段階下げる
+  - 「エクスプローラのオプション」 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
 - OneDriveサインイン→ログイン時に起動しない
+- Primary Appsを入れる
 - クラウドストレージ選択同期
-- CapsをCtrlに
+  - CapsをCtrlに
+  - アプリのショートカット
 - 各種アプリを入れる
+- スタートの構成 画像
 
 # app-list↓WIPWIP
 
@@ -29,22 +34,16 @@
 アプリ | 設定項目
 --|--
 [Visual Studio Code](https://code.visualstudio.com/) |  パレットでShellって検索→インスコ
-[Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  Attrasianログイン､GitHubログイン､SSH作成､強制Pushを可能に
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
-[Docker](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)  |  ログイン､Start Doker when you login:OFF、割当メモリを増やす
-
-## Design
-アプリ | 設定項目
---|--
 [CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [Figma](https://www.figma.com/download/desktop/mac) / [Fonts](https://www.figma.com/settings) | ログイン
 
-## Other
-アプリ | 設定項目
---|--
 [Project IINA](https://lhc70000.github.io/iina/)  |  WIP
 [Kindle](https://www.amazon.co.jp/kindleapps)  |  
+LINE
+NETFLIX
+NICONICO
