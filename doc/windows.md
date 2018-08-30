@@ -20,7 +20,7 @@
 --|--
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに、Warn Before Quiting
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
-[Dropbox](https://www.dropbox.com/h)  |   同期するフォルダを選択、 Not launch at login
+[Dropbox](https://www.dropbox.com/install)  |   同期するフォルダを選択、 Not launch at login
 [Google IME](https://www.google.co.jp/ime/)  |  Macシステム環境設定→キーボード→入力ソースからほぼ消す<br>入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
 
 
