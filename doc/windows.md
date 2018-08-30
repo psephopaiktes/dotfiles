@@ -8,8 +8,9 @@
 - OneDriveサインイン→ログイン時に起動しない
 - Primary Appsを入れる
 - クラウドストレージ選択同期
-  - CapsをCtrlに
+  - リムーバルメディアに入れる場合、Dropboxは[シンボリックリンクが必要](https://plaza.rakuten.co.jp/mscrtf/diary/201507060000/)
   - アプリのショートカット
+- CapsをCtrlに
 - 各種アプリを入れる
 - スタートの構成 画像
 
