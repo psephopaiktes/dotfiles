@@ -13,8 +13,9 @@
 - CapsをCtrlに
 - 各種アプリを入れる
 - スタートの構成 画像
+- iTunesシンボリックリンク
 
-# app-list↓WIPWIP
+# app-list
 
 ## Primary
 アプリ | 設定項目
@@ -31,21 +32,43 @@
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
 [Google Noto Fonts](https://www.google.com/get/noto/#sans-jpan) | 
 
-## Other
+## Dev
 アプリ | 設定項目
 --|--
 [Visual Studio Code](https://code.visualstudio.com/) |  パレットでShellって検索→インスコ
-[QuickLook](https://github.com/QL-Win/QuickLook/releases) | 
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
-[CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |  起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
+[WinSCP](https://winscp.net/eng/download.php) | 
+
+## Design
+アプリ | 設定項目
+--|--
+[CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |   起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [Figma](https://www.figma.com/download/desktop/mac) / [Fonts](https://www.figma.com/settings) | ログイン
+[Honeyview](https://www.bandisoft.com/honeyview/) | 
 
-[Project IINA](https://lhc70000.github.io/iina/)  |  WIP
+## Other
+アプリ | 設定項目
+--|--
+[QuickLook](https://github.com/QL-Win/QuickLook/releases) | 
 [Kindle](https://www.amazon.co.jp/kindleapps)  |  
-LINE
-NETFLIX
+[LINE](https://line.me/ja/download) | 
+[Explzh](https://www.ponsoftware.com/) | 
+[VLC](https://www.videolan.org/vlc/index.ja.html) | 
+[Steam](https://store.steampowered.com/) | 
+[SKYBOX](https://skybox.xyz/en/download/) | 
+
+## Windows Store
+アプリ | 設定項目
+--|--
+[Netflix](https://www.microsoft.com/ja-jp/p/netflix/9wzdncrfj3tj) | 
+[LINE](https://www.microsoft.com/ja-jp/p/line/9wzdncrfj2g6) | 
+[iTunes](https://www.microsoft.com/ja-jp/p/itunes/9pb2mz1zmb1s) | 
+[U-NEXT](https://www.microsoft.com/ja-jp/p/u-next-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-%E6%98%A0%E7%94%BB-%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E8%A6%8B%E6%94%BE%E9%A1%8C/9nblggh52267) | 
+[Dropbox mobile](https://www.microsoft.com/ja-jp/p/dropbox-mobile/9wzdncrfj0pk) | 
+[VLC](https://www.microsoft.com/ja-jp/p/vlc/9nblggh4vvnh) | 
+
 NICONICO
