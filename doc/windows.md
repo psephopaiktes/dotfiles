@@ -31,10 +31,11 @@
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
 [Google Noto Fonts](https://www.google.com/get/noto/#sans-jpan) | 
 
-## Dev
+## Other
 アプリ | 設定項目
 --|--
 [Visual Studio Code](https://code.visualstudio.com/) |  パレットでShellって検索→インスコ
+[QuickLook](https://github.com/QL-Win/QuickLook/releases) | 
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
