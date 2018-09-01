@@ -47,7 +47,6 @@
 --|--
 [CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |   起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
-[Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [Figma](https://www.figma.com/download/desktop/mac) / [Fonts](https://www.figma.com/settings) | ログイン
 [Honeyview](https://www.bandisoft.com/honeyview/) | 
 
@@ -56,10 +55,10 @@
 --|--
 [QuickLook](https://github.com/QL-Win/QuickLook/releases) | 
 [Kindle](https://www.amazon.co.jp/kindleapps)  |  
-[LINE](https://line.me/ja/download) | 
 [Explzh](https://www.ponsoftware.com/) | 
 [VLC](https://www.videolan.org/vlc/index.ja.html) | 
 [SKYBOX](https://skybox.xyz/en/download/) | 
+[Steam](https://store.steampowered.com) | ログイン
 
 ## Windows Store
 アプリ | 設定項目
@@ -70,6 +69,5 @@
 [U-NEXT](https://www.microsoft.com/ja-jp/p/u-next-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-%E6%98%A0%E7%94%BB-%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E8%A6%8B%E6%94%BE%E9%A1%8C/9nblggh52267) | 
 [Dropbox mobile](https://www.microsoft.com/ja-jp/p/dropbox-mobile/9wzdncrfj0pk) | 
 [VLC](https://www.microsoft.com/ja-jp/p/vlc/9nblggh4vvnh) | 
-[Steam](https://www.microsoft.com/ja-jp/p/steam/9nblggh4x7gm) | ログイン。
 
 NICONICO
