@@ -9,10 +9,11 @@
 - Primary Appsを入れる
 - クラウドストレージ選択同期
   - リムーバルメディアに入れる場合、Dropboxは[シンボリックリンクが必要](https://plaza.rakuten.co.jp/mscrtf/diary/201507060000/)
-  - アプリのショートカット
+  - ポータブルアプリのショートカット追加
 - CapsをCtrlに
+- 英字配列のキーボードで困ったら → [Windows10日本語版で英語配列キーボードを使用する - Qiita](https://qiita.com/shimizu14/items/000cceb9e72a492b9176)
 - 各種アプリを入れる
-- スタートの構成 画像
+- TBD スタートの構成 画像
 - iTunesシンボリックリンク
 
 # app-list
@@ -20,10 +21,10 @@
 ## Primary
 アプリ | 設定項目
 --|--
-[Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに、Warn Before Quiting
+[Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
 [Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
 [Dropbox](https://www.dropbox.com/install)  |   同期するフォルダを選択、 Not launch at login
-[Google IME](https://www.google.co.jp/ime/)  |  Macシステム環境設定→キーボード→入力ソースからほぼ消す<br>入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
+[Google IME](https://www.google.co.jp/ime/)  |  入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート<br>[Ctrl Spaceで切り替えられるようにしておく](http://d.hatena.ne.jp/ang65/20110409/1302316109)
 
 
 ## Font
