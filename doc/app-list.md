@@ -21,7 +21,7 @@
 ## Dev
 アプリ | 設定項目
 --|--
-[Visual Studio Code](https://code.visualstudio.com/) |  app-init.shで自動的に設定同期。パレットでShellって検索→インスコ
+[Visual Studio Code](https://code.visualstudio.com/) |  SettingSyncで同期。パレットでShellって検索→インスコ
 [Dash](https://kapeli.com/dash) | ライセンスファイルをimport､設定ファイルをimport､Launch dash at login､show menubar icon
 [iTerm2](https://www.iterm2.com/) | 設定ファイルをimport
 [Sourcetree](https://ja.atlassian.com/software/sourcetree)  |  Attrasianログイン､GitHubログイン､SSH作成､強制Pushを可能に
