@@ -36,7 +36,7 @@
 ## Dev
 アプリ | 設定項目
 --|--
-[Visual Studio Code](https://code.visualstudio.com/) |  パレットでShellって検索→インスコ
+[Visual Studio Code](https://code.visualstudio.com/) | [SettingSync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)入れて[TOKEN入力し](https://github.com/settings/tokens)、`⌥⇧D`で設定落とす→自動UP,DLにしとく。パレットでShellって検索→インスコ
 [Opera](http://www.opera.com/ja)  |  
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
