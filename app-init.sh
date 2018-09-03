@@ -16,11 +16,11 @@ sudo rm -rf "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/ス
 sudo ln -snf "/Users/a-hirata/Google Drive/App/ai scripts" "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP"
 sudo mv "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/ai scripts" "/Applications/Adobe Illustrator CC 2018/Presets.localized/ja_JP/スクリプト"
 
-## VS code
-sudo rm -rf "/Users/a-hirata/Library/Application Support/Code/User"
-sudo rm -rf "/Users/a-hirata/.vscode"
-sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
-sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/.vscode" "/Users/a-hirata"
+## VS code ( Disabled )
+# sudo rm -rf "/Users/a-hirata/Library/Application Support/Code/User"
+# sudo rm -rf "/Users/a-hirata/.vscode"
+# sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/User" "/Users/a-hirata/Library/Application Support/Code"
+# sudo ln -snf "/Users/a-hirata/Google Drive/App/VS Code/.vscode" "/Users/a-hirata"
 
 ## itunes
 sudo rm -rf "/Users/a-hirata/Music/iTunes"
