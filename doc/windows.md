@@ -68,6 +68,7 @@ WInだけのCODEターミナル設定同期したくない
 [Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
 [Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
 [WinSCP](https://winscp.net/eng/download.php) | 
+[Hyper™](https://hyper.is/) | .hyper.jsを読み込み
 
 ## Design
 アプリ | 設定項目
