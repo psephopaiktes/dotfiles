@@ -32,12 +32,16 @@
 10. .zshrc, .git_configなどを置く
   - `C:\Users\{User}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_*\LocalState\rootfs\home\{User}` にある
   - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(WSLのは開けない)
+  - そのまま置くとパーミッションがないことが多いので、chmod 644とかしたほうがいいかも
 11. nodebrewのインスコ `curl -L git.io/nodebrew | perl - setup`
   - `export PATH=$HOME/.nodebrew/current/bin:$PATH`を.bashrcに追加
 12. nodeのインスコ `nodebrew install-binary stable` → `nodebrew use stable`
+13. VS CODEのターミナル変更
+  - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
 
 ### TMP Memo
-`cd /mnt/c/Users/a-hirata/prpjects`をbashrc
+`cd /mnt/c/Users/a-hirata/prpjects`をbashrcとかに
+WInだけのCODEターミナル設定同期したくない
 
 # app-list
 
