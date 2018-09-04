@@ -1,3 +1,5 @@
+ワンライナーなし。暫定版
+
 # 初期設定
 - OSアップデート
 - サインイン→基本的な設定は同期されるはず
@@ -15,6 +17,27 @@
 - 各種アプリを入れる
 - TBD スタートの構成 画像
 - iTunesシンボリックリンク
+
+## Ubuntu + VS CODE + Zsh
+0. VS CODEをインスコしとく
+1. WIn+R→「appwiz.cpl」
+2. 「Turn Windows feature on or off」
+3. 「Windows Subsystem for Linux」on → Restart
+4. Windowsストアで「Linux」と検索 → Ubuntuをインスコ
+5. Ubuntuを起動 しばらく時間がかかる
+6. ユーザー・パスを設定
+7. `sudo apt update`→`sudo apt upgrade -y`
+8. `sudo apt install zsh`
+9. `which zsh` して、`chsh`の結果にそのパスを打つ→Ubuntu再起動
+10. .zshrc, .git_configなどを置く
+  - `C:\Users\{User}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_*\LocalState\rootfs\home\{User}` にある
+  - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(WSLのは開けない)
+11. nodebrewのインスコ `curl -L git.io/nodebrew | perl - setup`
+  - `export PATH=$HOME/.nodebrew/current/bin:$PATH`を.bashrcに追加
+12. nodeのインスコ `nodebrew install-binary stable` → `nodebrew use stable`
+
+### TMP Memo
+`cd /mnt/c/Users/a-hirata/prpjects`をbashrc
 
 # app-list
 
@@ -67,7 +90,5 @@
 [LINE](https://www.microsoft.com/ja-jp/p/line/9wzdncrfj2g6) | 
 [iTunes](https://www.microsoft.com/ja-jp/p/itunes/9pb2mz1zmb1s) | 
 [U-NEXT](https://www.microsoft.com/ja-jp/p/u-next-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-%E6%98%A0%E7%94%BB-%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E8%A6%8B%E6%94%BE%E9%A1%8C/9nblggh52267) | 
-[Dropbox mobile](https://www.microsoft.com/ja-jp/p/dropbox-mobile/9wzdncrfj0pk) | 
+Dropbox | 
 [VLC](https://www.microsoft.com/ja-jp/p/vlc/9nblggh4vvnh) | 
-
-NICONICO
