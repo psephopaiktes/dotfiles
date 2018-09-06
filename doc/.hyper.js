@@ -9,7 +9,7 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 14,
+    fontSize: 16,
 
     // font family with optional fallbacks
     fontFamily: '"Ricty Diminished", Ricty, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
@@ -21,12 +21,12 @@ module.exports = {
     fontWeightBold: 'bold',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(248,28,229,0.8)',
+    cursorColor: '#fc6',
 
     // terminal text color under BLOCK cursor
     cursorAccentColor: '#000',
 
-    // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
+    // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for â–ˆ
     cursorShape: 'BLOCK',
 
     // set to `true` (without backticks and without quotes) for blinking cursor
@@ -37,19 +37,33 @@ module.exports = {
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: '#111',
+    backgroundColor: 'rgba(8,8,8,.8)',
 
     // terminal selection color
-    selectionColor: 'rgba(248,28,229,0.3)',
+    selectionColor: 'rgba(255,255,255,.4)',
 
     // border color (window, tabs)
-    borderColor: '#333',
+    borderColor: '#444',
 
     // custom CSS to embed in the main window
-    css: '',
+    css: `
+      #hyper .footer_footer{
+        background-color: #444;
+        opacity: 1;
+      }
+    `,
 
     // custom CSS to embed in the terminal window
-    termCSS: '',
+    termCSS: ``,
+    /* termCSS: `
+      .cursor-node[focus=true]:not([hyper-blink-moving]){
+        animation: blink 1s ease infinite;
+      }
+      @keyframes blink{
+        10%, 50% { opacity: 0 }
+        60%, 100% { opacity: 1 }
+      }
+  `, */
 
     // if you're using a Linux setup which show native menus, set to false
     // default: `true` on Linux, `true` on Windows, ignored on macOS
@@ -61,7 +75,7 @@ module.exports = {
     showWindowControls: '',
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: '8px 16px',
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -131,7 +145,12 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [],
+  plugins: [
+    "hyper-statusline",
+    "hypercwd",
+    "hyper-search",
+    "hyper-pane"
+  ],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
