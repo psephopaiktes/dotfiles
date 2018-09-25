@@ -17,6 +17,7 @@
 - ウィンドウをしまう時のエフェクト スケール
 - Dockを自動的に表示/非表示
 - 「ウィンドウをアプリケーションアイコンにしまう」（DOCKが伸びるのを防止）on
+- 「show recent applications in dock」 off
 
 ### Mission Control
 - 「最新の使用状況に基づいて操作スペースを自動的に並べ替える」off
