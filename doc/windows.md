@@ -4,6 +4,7 @@
 - OSアップデート
 - サインイン→基本的な設定は同期されるはず
 - [Sモードを解除](http://snow-white.cocolog-nifty.com/first/2018/05/windows-10-sver.html)する
+- [ClearTypeフォント](https://www.japan-secure.com/entry/how_to_change_the_system_font_of_windows_10.html)の設定をする
 - コンパネ
   - 「ユーザーアカウント制御」を1段階下げる
   - 「エクスプローラのオプション」 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
