@@ -18,6 +18,7 @@
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
 [Google Noto Fonts](https://www.google.com/get/noto/#sans-jpan) | 
 [Fonts - Apple Developer](https://developer.apple.com/fonts/) |
+[Roboto - Google Fonts](https://fonts.google.com/specimen/Roboto?selection.family=Roboto) | 
 
 ## Dev
 アプリ | 設定項目
