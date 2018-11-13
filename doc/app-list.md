@@ -1,6 +1,7 @@
 # app-list
 - 手動でインスコするアプリとその設定
 - Brew Cask は挙動が安定しないので使わない
+- Chrome以外でPlayMusic落とす https://www.ikt-s.com/howto-itunes-android/
 
 
 
