@@ -46,6 +46,7 @@
 [Zeplin](https://zeplin.io/) |  ログイン
 [Sketch](https://www.sketchapp.com/) |  下参照
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
+[Right Font](https://rightfontapp.com/download) | どっち?↑
 [Skitch](https://evernote.com/intl/jp/products/skitch) | 
 [SPAi](http://tama-san.com/spai/) | 
 [Lingo](https://www.lingoapp.com/) |
