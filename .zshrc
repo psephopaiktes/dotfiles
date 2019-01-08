@@ -47,6 +47,7 @@ alias nrs='npm run start'
 alias nb='nodebrew'
 alias dc='docker-compose'
 alias p="cd ~/projects"
+alias d="cd ~/Desktop"
 alias mk="touch"
 alias -g C='| pbcopy'
 
