@@ -83,6 +83,7 @@
 Plugin | Note
 -|-
 [Automate](http://ashung.github.io/Automate-Sketch/)  |  「あるといいなー」と思っていた細かい操作がたくさんできるようになるプラグイン。オブジェクトの Y 軸に合わせてレイヤーを並べ替え。選択中のレイヤーの子要素をすべて選択。フォントの入れ替え。使っていないスタイルの削除。グループからアートボード作成 … などなど数十種類の操作が入っています。Runnerとの相性が良い。
+Browser Preview |
 [Chain](https://lalomrtnz.github.io/Chain/) | 色の一括変換
 Pixel Perfecter | 座標に小数点が含まれているオブジェクトを探してくれる
 Rename It | レイヤーをまとめて
