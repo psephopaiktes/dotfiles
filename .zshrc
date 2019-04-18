@@ -27,11 +27,7 @@ setopt share_history
 
 # cdの後にlsを実行
 function chpwd() {
-  if [ 20 -gt `ls -1 | wc -l` ]; then
-    ls -lahp
-  else
-    ls
-  fi
+  ls
 }
 
 # emacs key forward
@@ -42,6 +38,7 @@ setopt auto_cd
 
 # short command
 alias server="python -m SimpleHTTPServer"
+alias ls='ls -GAp'
 alias nr='npm run'
 alias nrs='npm run start'
 alias nb='nodebrew'
@@ -50,6 +47,12 @@ alias p="cd ~/projects"
 alias d="cd ~/Desktop"
 alias mk="touch"
 alias -g C='| pbcopy'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
 
 # prompt
 autoload -Uz vcs_info
