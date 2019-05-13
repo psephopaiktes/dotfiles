@@ -2,6 +2,9 @@
 初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。
 
 ローカルアカウントでセットアップ後にサインイン。
+サインイン関連
+https://pc-karuma.net/windows10-disable-password-login/
+https://blog.naosan.jp/2017/04/8338/
 
 # 初期設定
 - OSアップデート
