@@ -95,6 +95,7 @@ symbol instance locator | シンボルからすべてのインスタンスを探
 SVGO Compressor | 公式のSVG圧縮プラグイン
 Find and Replace | テキスト置換
 [Preview-in-browser](https://github.com/gaddafirusli/Preview-in-browser) | 
+[Move-to-library-sketchplugin](https://github.com/ahmedmigo/Move-to-library-sketchplugin) | 
 
 #### ACV
 Plugin | Note
