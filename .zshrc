@@ -39,8 +39,9 @@ setopt auto_cd
 # short command
 alias server="python -m SimpleHTTPServer"
 alias ls='ls -GAp'
+alias fb='firebase'
 alias nr='npm run'
-alias nrs='npm run start'
+alias nrs='npm start'
 alias nb='nodebrew'
 alias dc='docker-compose'
 alias p="cd ~/projects"
