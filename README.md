@@ -4,6 +4,11 @@
 条件分岐やループほぼ無し
 - brew cask は落とすバージョンが古かったりするのでなるたけ使わない
 
+## TASK
+- [ ] defaults コマンド
+- [ ] brew cask
+- [ ] git はある前提でいいかも
+
 ## 手順
 
 1. [主要App](./doc/app-list.md)を入れる
