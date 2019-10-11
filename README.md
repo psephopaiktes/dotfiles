@@ -6,20 +6,15 @@
 
 1. $ `xcode-select --install`
 
-// 1. $ `xcodebuild -license accept`. 
-// need Xcode
+1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
 
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
 
-1. [Macのシステム環境設定](./doc/mac-setting.md)  
-`defautl`コマンドは現実的に管理できないので使わない
+1.  クリップボードの鍵を[GitHubのSSH keys](https://github.com/settings/ssh)に登録。不要なら古いのは消す。
 
-1. $ `cd ~/.ssh && ssh-keygen -t rsa` して $ `pbcopy < ~/.ssh/id_rsa.pub` して[GitHub](https://github.com/settings/ssh)にSSH設定。  
-不要なら古いのは消す。  
-// .sshって最初からあるっけ？
+1. [Macのシステム環境設定](./doc/mac-setting.md)
 
 1. [アプリ設定](./doc/app-setting.md)  
-mackup 同期がめんどいので使わない  
 // [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)必要?
 
 1. [Apple](https://developer.apple.com/fonts/) からSFフォントをすべて入れる
@@ -27,12 +22,12 @@ mackup 同期がめんどいので使わない
 1. アピアランスの整備
     - Finderツールバーをカスタマイズ
         – 不要なものを消す
-     - Chrome,Ps,Ai,Codeを追加
+        - Chrome,Ps,Ai,Codeを追加
     - 壁紙を変える
     - Dock整理
     - 通知センターに Calendar、天気、計算機
-    
-1. RESTART
+
+1. 再起動して終了
 
 
 ## Clean Install の手順
