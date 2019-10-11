@@ -23,6 +23,13 @@ brew cleanup
 brew cask cleanup
 
 
+# SSH ########################################################
+mkdir ~/.ssh
+cd ~/.ssh
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
+
+
 # other ########################################################
 
 defaults write com.apple.finder AppleShowAllFiles -bool true
