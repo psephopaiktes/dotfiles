@@ -4,6 +4,11 @@
 
 ## 手順
 
+1. $ `xcode-select --install`
+
+1. $ `xcodebuild -license accept`. 
+need Xcode
+
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
 
 1. [Macのシステム環境設定](./doc/mac-setting.md)  
@@ -26,6 +31,8 @@ mackup 同期がめんどいので使わない
     - 壁紙を変える
     - Dock整理
     - 通知センターに Calendar、天気、計算機
+    
+1. RESTART
 
 
 ## Clean Install の手順
