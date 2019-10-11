@@ -26,3 +26,31 @@ mackup 同期がめんどいので使わない
     - 壁紙を変える
     - Dock整理
     - 通知センターに Calendar、天気、計算機
+
+
+## Clean Install の手順
+
+1. Music.app からサインアウト
+    - メニューの「Account」からサインアウト
+
+1. iCloud からサインアウト
+    -  >「System Preference」>「Apple ID」
+    - 「iCloud」タブで「Find My」を無効化
+    - 「Overview」タブでサインアウト
+
+1. Message.app からサインアウト
+    - メニューの「Messages」>「Preferences」の「iMessage」タブからサインアウト
+    
+1. ペアリングした Bluetooth デバイスをすべて削除
+
+1. `⌘R` を押しながら起動
+
+1. ディスクユーティリティを実行
+
+1. `Macintosh HD` を選択して `消去` を実行。フォーマットはAPFSを選択
+
+1. `Macintosh HD - Data` を選択して `消去` を実行。フォーマットはAPFSを選択
+
+1. macOSをインストールする
+
+1. 初期設定。英語にする。
