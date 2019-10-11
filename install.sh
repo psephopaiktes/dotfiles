@@ -10,6 +10,8 @@ ln -snf $DOTPATH/.gitignore_global ~
 ln -snf $DOTPATH/.hyper.js ~
 ln -snf $DOTPATH/.zshenv ~
 ln -snf $DOTPATH/.zshrc ~
+source ~/.zsh
+source ~/.zshrc
 
 # create work space
 mkdir ~/projects
