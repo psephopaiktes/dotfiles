@@ -40,8 +40,8 @@ echo "install NODEs"
 
 # nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
-nvm i --lts
-nvm use --lts
+sudo nvm i --lts
+sudo nvm use --lts
 
 # Install Global NPM Packages
 npm i -g firebase-tools
