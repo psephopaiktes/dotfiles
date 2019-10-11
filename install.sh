@@ -37,3 +37,5 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 defaults write org.n8gray.QLColorCode extraHLFlags '-l'
 defaults write com.apple.finder QLEnableTextSelection -bool true
 qlmanage -r
+
+xcodebuild -license accept  
