@@ -2,11 +2,6 @@
 GITHUB_URL=https://github.com/psephopaiktes/dotfiles.git
 DOTPATH=~/.dotfiles
 
-# Install Xcode CUI
-echo "Xcode CLI Settings..."
-sudo xcode-select --install
-sudo xcodebuild -license accept
-
 # Deploy Dotfiles
 echo "Clone & Deploy Dotfils"
 git clone "$GITHUB_URL" "$DOTPATH"
