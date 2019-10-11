@@ -10,8 +10,6 @@ ln -snf $DOTPATH/.gitignore_global ~
 ln -snf $DOTPATH/.hyper.js ~
 ln -snf $DOTPATH/.zshenv ~
 ln -snf $DOTPATH/.zshrc ~
-source ~/.zshenv
-source ~/.zshrc
 
 # create work space
 mkdir ~/projects
@@ -40,8 +38,10 @@ echo "...install NODEs"
 
 # nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
-sudo nvm i --lts
-sudo nvm use --lts
+source ~/.zshenv
+source ~/.zshrc
+nvm i --lts
+nvm use --lts
 
 # Install Global NPM Packages
 npm i -g firebase-tools
@@ -68,7 +68,7 @@ formulas=(
   tree
 )
 for formula in "${formulas[@]}"; do
-  brew install -y $formula || brew upgrade $formula
+  brew install $formula || brew upgrade $formula
 done
 
 ## Install GUI Apps
@@ -106,7 +106,7 @@ casks=(
   woff2
 )
 for cask in "${casks[@]}"; do
-  brew cask install -y $cask || brew upgrade $cask
+  brew cask install $cask || brew upgrade $cask
 done
 
 ## Install AppStore Apps
