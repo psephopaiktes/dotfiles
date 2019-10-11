@@ -2,6 +2,10 @@
 - 平田のMac環境構築用
 - English前提
 
+## TBD
+- [ ] install.sh が止まる
+- [ ] zshに変更
+
 ## 手順
 
 1. $ `xcode-select --install`
