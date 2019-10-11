@@ -52,7 +52,7 @@
 
 1. `Macintosh HD` を選択して `消去` を実行。フォーマットはAPFSを選択
 
-1. `Macintosh HD - Data` を選択して `消去` を実行。フォーマットはAPFSを選択
+1. `Macintosh HD - Data` は削除（自動で作り直される）
 
 1. macOSをインストールする
 
