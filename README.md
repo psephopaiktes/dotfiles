@@ -1,41 +1,28 @@
 # dotfiles
-- Macの環境構築用
-- ドットファイルの数が少なく、ストアアプリについてのシンボリックリンク処理も行うのでほぼべた書き  
-条件分岐やループほぼ無し
-- brew cask は落とすバージョンが古かったりするのでなるたけ使わない
-
-## TASK
-- [ ] defaults コマンド
-- [ ] brew cask
-- [ ] git はある前提でいいかも
+- 平田のMac環境構築用
+- English前提
 
 ## 手順
 
-1. [主要App](./doc/app-list.md)を入れる
+1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
 
-2. システム環境設定を[変える](./doc/mac-setting.md)
+1. [Macのシステム環境設定](./doc/mac-setting.md)  
+`defautl`コマンドは現実的に管理できないので使わない
 
-3. 以下のコマンドを実行する。GitやZshをインスコ、dotfilesをデプロイします。
-```
-sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"
-```
+1. $ `cd ~/.ssh && ssh-keygen -t rsa` して $ `pbcopy < ~/.ssh/id_rsa.pub` して[GitHub](https://github.com/settings/ssh)にSSH設定。  
+不要なら古いのは消す。  
+// .sshって最初からあるっけ？
 
-4. [その他のApp](./doc/app-list.md)をインスコ､各種設定
+1. [アプリ設定](./doc/app-setting.md)  
+mackup 同期がめんどいので使わない  
+// [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)必要?
 
-5. その他のCUI設定、GoogleDrive内の設定ファイルをシンボリックリンク設定  
-**GoogleDriveの同期後に実行すること｡**
-```
-~/.dotfiles/app-setting.sh
-```
+1. [Apple](https://developer.apple.com/fonts/) からSFフォントをすべて入れる
 
-6. 見た目の整備
-- Finderツールバーをカスタマイズ
-  – 不要なものを消す
-  - Chrome,PS,Codeを追加
-- 壁紙を変える
-- Dock整理、LaunchPad整理 
-- 通知センター
-  - SNS、天気、Music、計算機
-
-7. Git Project
-- ssh
+1. アピアランスの整備
+    - Finderツールバーをカスタマイズ
+        – 不要なものを消す
+     - Chrome,Ps,Ai,Codeを追加
+    - 壁紙を変える
+    - Dock整理
+    - 通知センターに Calendar、天気、計算機

@@ -42,7 +42,7 @@ alias ls='ls -GAp'
 alias fb='firebase'
 alias nr='npm run'
 alias nrs='npm start'
-alias nb='nodebrew'
+alias nrb='npm build'
 alias dc='docker-compose'
 alias p="cd ~/projects"
 alias d="cd ~/Desktop"
@@ -65,6 +65,3 @@ precmd() { vcs_info }
 PROMPT='
 %F{178}%~%f ${vcs_info_msg_0_}
 %F{178}%B>%b%f  '
-
-#nodebrew
-export PATH=$HOME/.nodebrew/current/bin:$PATH
