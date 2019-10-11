@@ -6,8 +6,8 @@
 
 1. $ `xcode-select --install`
 
-1. $ `xcodebuild -license accept`. 
-need Xcode
+// 1. $ `xcodebuild -license accept`. 
+// need Xcode
 
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
 
