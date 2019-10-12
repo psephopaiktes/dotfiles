@@ -23,7 +23,9 @@
 
 1. [アプリ設定](./doc/app-setting.md)  
 
-1. [Apple](https://developer.apple.com/fonts/) からSFフォントをすべて入れる
+1. Caskで扱えないフォントをインストール
+    - [SF Font](https://developer.apple.com/fonts/)
+    - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
 
 1. アピアランスの整備
     - 壁紙を変える→5個に増やす
