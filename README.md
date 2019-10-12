@@ -22,11 +22,11 @@
 1. [Macのシステム環境設定](./doc/mac-setting.md)
 
 1. [アプリ設定](./doc/app-setting.md)  
-// [BST](https://itunes.apple.com/jp/app/bettersnaptool/id417375580)必要?
 
 1. [Apple](https://developer.apple.com/fonts/) からSFフォントをすべて入れる
 
 1. アピアランスの整備
+    - 壁紙を変える→5個に増やす
     - Finderツールバーをカスタマイズ
         – 不要なものを消す
         - Chrome,Ps,Ai,Codeを追加
@@ -40,7 +40,6 @@
             - ホーム
             - グーグルドライブ
             - projects
-    - 壁紙を変える
     - Dock整理
     - 通知センターに Calendar、天気、計算機
 
