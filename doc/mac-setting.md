@@ -48,7 +48,7 @@
 - Zoom > Use scroll gesture with modifier keys to zoom
 
 ### Extensions
-- All > Google D
+- All > Google Drive 
 
 ### セキュリティとプライバシー
 - 「ファイアウォール」：入
