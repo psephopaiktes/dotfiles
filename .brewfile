@@ -7,6 +7,7 @@ brew "hugo"
 brew "mas"
 brew "python"
 brew "tree"
+brew "woff2"
 cask "abstract"
 cask "adobe-creative-cloud"
 cask "alfred"
@@ -42,7 +43,6 @@ cask "qlmarkdown"
 cask "qlstephen"
 cask "quicklook-json"
 cask "webpquicklook"
-cask "woff2"
 mas "EdgeView 2", id: 1206246482
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
