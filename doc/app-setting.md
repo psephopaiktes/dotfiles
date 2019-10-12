@@ -3,19 +3,19 @@
 ## Primary
 アプリ | 設定項目
 --|--
-Chrome | ログイン、DL先をデスクトップに、Warn Before Quiting
-Google Drive | ログイン、同期するフォルダを指定、USBデバイスとSDカードのチェック外す
-Google Drive Files Stream | 起動時にログインしない
+Chrome | ログイン、DL先をデスクトップに
+Google Backup and Sync | ログイン、Desktopのみバックアップ、同期するフォルダを指定
+Google Drive Files Stream | ログイン、起動時に起動しない
 Dropbox | 同期するフォルダを指定、保存先をSSDに指定、起動時にログインしない
 Xcode | いちど起動して初期設定しておく
-Visual Studio Code | [SettingSync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)入れて[TOKEN入力し](https://github.com/settings/tokens)、`⌥⇧D`で設定落とす。パレットでShellって検索→インスコ
-[Sourcetree](https://ja.atlassian.com/software/sourcetree) | セットアップをスキップでOK? // Attrasianログイン､GitHubログイン､SSH作成､強制Pushを可能に
+Visual Studio Code | パレットでShellって検索→インスコ. [SettingSync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)入れてログインを押し、[Gistを選択](https://github.com/settings/tokens)、`⌥⇧D`で設定落とす。
+[Sourcetree](https://ja.atlassian.com/software/sourcetree) | AttrasianにGoogleログイン､<br>Advenced > 強制Pushを可能に<br>AccountsからGitHub追加>Defaultに
 Docker | ログイン､Start Doker when you login:OFF、割当メモリを増やす
 Abstract | ログイン
 Creative Cloud | 言語を日本語にしてから各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ→フォルダを削除
-ImageOptim |  最適化の速度:非常に高い
+ImageOptim |  Optimization Lavel: Insane
 Sketch |  下参照
-Figma | ログイン、[Fontsインスコ](https://www.figma.com/settings)
+Figma | ログイン<!-- 、[Fontsインスコ](https://www.figma.com/settings) -->
 Google IME | Macシステム環境設定→キーボード→入力ソースからほぼ消す<br>入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
 Alfred | PowerPackからActivate→Advancedからimport
 LINE | 送信方法⌘Enter
