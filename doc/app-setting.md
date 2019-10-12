@@ -22,6 +22,8 @@ LINE | Login, Chats > 送信方法⌘Enter
 AppCleaner | スマートシンクをONに、protectをすべて外す
 Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px <!-- 初回起動設定後BST消す､設定をimport -->
 アーカイブユーティリティ | プリイン。Dockに追加、`open /System/Library/CoreServices/Applications/` 保存場所:Desktop､展開後:ゴミ箱､アーカイブのフォーマット:Zip
+IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
+
 
 ### Adobe設定
 - 設定の同期機能が消えたので最低限のみメモ
