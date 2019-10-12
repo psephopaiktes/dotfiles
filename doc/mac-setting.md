@@ -1,5 +1,7 @@
 # Mac System Setting
 
+* After App settings.
+
 
 ## システム環境設定
 
@@ -48,83 +50,80 @@
 - Zoom > Use scroll gesture with modifier keys to zoom
 
 ### Extensions
-- All > Google Drive 
+- All > Google Drive などにチェック
 
-### セキュリティとプライバシー
-- 「ファイアウォール」：入
-- プライバシー　天気に位置情報を許可
-
-### ディスプレイ
-- ナイトシフト最強に　日の入りから日の出まで
-
-### 省エネルギー
-- 電源アダプタ接続中にPowerNapをオンにする OFF　（両方）
-
-### キーボード
-- キーボード
-    - 「リピート入力認識までの時間」 最短
-    - キーのリピート　速い
-    - タッチバー　ControlStrip（展開した状態）
-    − メニューバーにキーボードビューアと絵文字ビューアを表示 ON
-- capsをcontrolに変更
-- ユーザー辞書
-    - 「文頭を自動的に大文字にする」off
-    - 「スペースバーを二回押してピリオドを挿入」off
-    - 「スマート引用符とスマートダッシュを入力」off
-- ショートカット
-    - [キーボード]「次のウィンドウを操作対象にする」を⌘⌥Tabに
-    - spotlight　オフ
-
-### トラックパッド
-- 「タップでクリック」ON
-- クリック　弱い
-- 軌跡の速さ：7
-- 「アプリケーションExpose」ON
-- 「ページ間をスワイプ」OFF
-
-### App Store
-- 「無料ダウンロード」→ パスワードは不要
+### Security & Privacy
+- Firewall > Turn on Firewall
+- Privacy >　Weatherに位置情報を許可
 
 ### Bluetooth
-- メニューバーにBluetoothを表示
+- Show Bluetooth in menu bar: Check
 
-### 機能拡張
-− チェック入れる
+### Keyboard
+- Keyboard
+    - Key Repeat: Fast
+    - Delay Until Repeat: Short
+    − Show keyboard and emoji viewers in menu bar: Check
+    - Modifier Keys... > caps:control
+<!-- - ユーザー辞書
+    - 「文頭を自動的に大文字にする」off
+    - 「スペースバーを二回押してピリオドを挿入」off
+    - 「スマート引用符とスマートダッシュを入力」off -->
+- Shortcuts
+    - Keuboard > Move focus to next window: コマンドオルトたぶ
+    - Spotlight > Check off all
 
-### 日付と時刻
-- 「日付を表示」ON
+### Trackpad
+- Click: Light
+- Tracking speed: 4
+- More Gestures > App Expose: Check
+<!-- - 「ページ間をスワイプ」OFF -->
+
+### Displays
+- Night Shift > Schedule: Sunset to Sunrise, Color Temperature: Max
+
+### Energy Saver
+- Power Adapter > Enable Power Nap while plugged into a power adapter: Off
+
+### Date & Time
+- Clock > Show date: Check
+- Clock > Flash the time separators: Check
 
 
 ---
 
 
-## Finder環境設定
-- 表示形式を「カラム表示」にする
-- サイドバーを調整
-  - デスクトップ
-  - ダウンロード
-  - AirDrop
-  - アプリケーション
-  - ホーム
-  - グーグルドライブ
-  - projects
-- 新規ファインダーでデスクトップ表示
-- すべてのファイル名拡張子を表示
-- 「拡張心を変更する前に警告を表示」off
-- 検索実行時「現在のフォルダ内を検索」
-- 「30日後にゴミ箱から項目を削除」on
-### Finderを表示した状態で、メニューバーより[表示]を選択し、以下の項目をそれぞれ選択します。
-- タブバー表示
-- パスバー表示
-- ステータスバー表示
-- アプリフォルダからPsなどをツールバーへ⌘+ドラッグ
-- DockでChromeを右クリック→オプション→特定のデスクトップのみに
-- DockでFinderを右クリック→オプション→すべてのデスクトップ
+## Finder
 
-## デスクトップ
-デスクトップ上で2本指タップし、[表示オプシンを表示]
-- 表示順序の項目を「グリッドに沿う」
-- 「項目の情報を表示」on
+### Preference
+- General
+  - New Finder windows show: Desktop
+- Sidebar: Check only followings
+  - AirDrop
+  - Applications
+  - Desktop
+  - Downloads
+  - a-hirata
+  - External disks
+  - CDs,
+  - Bonjour computers
+  - Connected Servers
+- Advanced
+  - Show all filename extensions: Check
+  - Show warning...(ALL): Off
+  - Remove items from the Trash after 30 days: Check
+  - Keep folders on top: Check(Both)
+- When perforiing a search: Search the Cuttent Folder
+
+### View
+- Tab bar
+- Path bar
+- Status bar
+
+## Desktop
+Right click on Desktop > Show View Options
+- Sort by: Snap to grid
+- Show item info: Check
 
 ## バッテリー
-- メニューバーのバッテリーから「割合（％）を表示」ON
+- Click Menubar Battery icon > Show Percentage
