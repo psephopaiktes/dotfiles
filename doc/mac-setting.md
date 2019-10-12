@@ -1,9 +1,7 @@
-# Mac System Setting
-
-* After App settings.
+# Mac Setting
 
 
-## システム環境設定
+## System Preferences
 
 ### Apple ID
 - iCloud Drive, Safari, Siri, キーチェーン, Calendar, Finnd My Mac以外チェックOFF
@@ -120,10 +118,12 @@
 - Path bar
 - Status bar
 
+
 ## Desktop
 Right click on Desktop > Show View Options
 - Sort by: Snap to grid
 - Show item info: Check
 
-## バッテリー
+
+## Battery
 - Click Menubar Battery icon > Show Percentage
