@@ -15,3 +15,4 @@ ln -snf $DOTPATH/.brewfile ~
 
 # create work space
 mkdir ~/projects
+chown a-hirata ~/projects
