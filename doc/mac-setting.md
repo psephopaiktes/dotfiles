@@ -1,44 +1,58 @@
 # Mac System Setting
 
+
 ## システム環境設定
 
-### 一般
-- 「アピアランス」グラファイト
-- 「メニューバーとDockを暗くする」on
-- 「スクロールバーのクリック時」クリックされた場所にジャンプ
-- 「書類を閉じる時に変更内容を保持するか確認」on
-- 「最近使った項目」none
+### Apple ID
+- iCloud Drive, Safari, Siri, キーチェーン, Calendar, Finnd My Mac以外チェックOFF
 
-### デスクトップとスクリーンセーバー
-- 「スクリーンセーバー 開始までの時間」 開始しない
+### General
+- Appearance: Auto
+- Accent color: Graphite
+- Click in the scroll bar to: Jump to the spot that's clicked
+- Default web browser: Google Chrome
+- Ask to keep changes when quitting an app: check
+- Recent items: 10
+
+### Desktop & Screen Saver
+- Start after: Never
 
 ### Dock
-- サイズ小さく
-- ウィンドウをしまう時のエフェクト スケール
-- Dockを自動的に表示/非表示
-- 「ウィンドウをアプリケーションアイコンにしまう」（DOCKが伸びるのを防止）on
-- 「show recent applications in dock」 off
+- Size: 30%
+- Prefer tabs when opening documents: Always
+- Minimize windows using: Scale effect
+- Minimize windows into application icon: Check （DOCKが伸びるのを防止）
+- Automatically hide and show the Dock: Check
+- Show recent applications in dock: off
 
 ### Mission Control
-- 「最新の使用状況に基づいて操作スペースを自動的に並べ替える」off
-− 「ウィンドゥをアプリケーションごとにグループ化」 ON
-- dashboard　オフ
-- dashboardを表示　なし
+− Group windows by application: Check
 
-### 言語と地域
+### Language & Region
 - システム言語を英語にした場合は、第2言語に日本語を追加しておく
-- 曜日の開始日を月曜に
-- List Sort Orderを「Japanese」に
+- First day of week: Monday
+<!-- - List Sort Orderを「Japanese」に -->
+
+### Notifications
+- カレンダー、リマインダーの通知: None
+
+### Internet Accounts
+−　カレンダーにアカウントを有効化
+
+### Touch ID
+– 登録
+
+### Accessi bilit
+- Pinter Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
+- Display > Cursor > Cursor size: 10%
+- Zoom > Use scroll gesture with modifier keys to zoom
+
+### Extensions
+- All > Google D
 
 ### セキュリティとプライバシー
 - 「ファイアウォール」：入
 - プライバシー　天気に位置情報を許可
-
-### Spotlight
-- プライバシー → 特定フォルダを除外
-
-### 通知
-- カレンダー、リマインダーの通知なし
 
 ### ディスプレイ
 - ナイトシフト最強に　日の入りから日の出まで
@@ -68,12 +82,6 @@
 - 「アプリケーションExpose」ON
 - 「ページ間をスワイプ」OFF
 
-### iCloud
-- iCloud Drive, Safari, Siri, キーチェーン, Macを探す以外チェックOFF
-
-### インターネットアカウント
-−　アカウントを有効化
-
 ### App Store
 - 「無料ダウンロード」→ パスワードは不要
 
@@ -83,20 +91,8 @@
 ### 機能拡張
 − チェック入れる
 
-### Touch ID
-– 登録
-
-### ユーザとグループ
-- ログインオプション（鍵マークタップ）→「ファストユーザスイッチメニューを表示」off
-- 「ゲストにログインを許可」off
-
 ### 日付と時刻
 - 「日付を表示」ON
-
-### アクセシビリティ
-- [マウスとトラックパッド] -[トラックパッドオプション] - [ドラッグを有効にする]にチェック ダブルタップでドラッグできるようになる
-- [ディスプレイ] - [カーソルのサイズ]１くらいに
-- [ズーム機能] - [スクロールジェスチャと修飾キーを使ってズーム]
 
 
 ---
