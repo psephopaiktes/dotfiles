@@ -5,9 +5,9 @@
 echo "...install NODEs"
 
 # nvm
-#FIX: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
-#FIX: source ~/.zshenv
-#FIX: source ~/.zshrc
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | bash
+source ~/.zshenv
+source ~/.zshrc
 nvm i --lts
 nvm use --lts
 
