@@ -11,6 +11,7 @@ ln -snf $DOTPATH/.gitignore_global ~
 ln -snf $DOTPATH/.hyper.js ~
 ln -snf $DOTPATH/.zshenv ~
 ln -snf $DOTPATH/.zshrc ~
+ln -snf $DOTPATH/.brewfile ~
 
 # create work space
 mkdir ~/projects
