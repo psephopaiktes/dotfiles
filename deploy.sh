@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/zsh
+
 GITHUB_URL=https://github.com/psephopaiktes/dotfiles.git
 DOTPATH=~/.dotfiles
 
