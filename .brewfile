@@ -41,7 +41,6 @@ cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
 cask "qlstephen"
-cask "quicklook-json"
 cask "webpquicklook"
 mas "EdgeView 2", id: 1206246482
 mas "Keynote", id: 409183694
