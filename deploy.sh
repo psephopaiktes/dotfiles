@@ -12,6 +12,7 @@ ln -snf $DOTPATH/.hyper.js ~
 ln -snf $DOTPATH/.zshenv ~
 ln -snf $DOTPATH/.zshrc ~
 ln -snf $DOTPATH/.brewfile ~
+ln -snf $DOTPATH/.npmrc ~
 
 # create work space
 mkdir ~/projects
