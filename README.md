@@ -50,6 +50,8 @@
 
 ## Clean Install の手順
 
+0. `~/projects` のGitファイル群はコミットしておく
+
 1. Music.app からサインアウト
     - メニューの「Account」からサインアウト
 
