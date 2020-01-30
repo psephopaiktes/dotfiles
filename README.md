@@ -1,6 +1,6 @@
 # dotfiles
 - 平田のMac環境構築用
-- English前提
+- English, zsh 前提
 
 ## TBD
 - [ ] install.sh が止まる
