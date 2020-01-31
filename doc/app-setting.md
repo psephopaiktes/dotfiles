@@ -16,7 +16,7 @@ Creative Cloud | 言語を日本語にしてから各種インスコ､ログイ
 ImageOptim |  Optimization Lavel: Insane
 Sketch |  下参照
 Figma | ログイン<!-- 、[Fontsインスコ](https://www.figma.com/settings) -->
-Google IME | Macシステム環境設定→キーボード→入力ソースからほぼ消す/[Macの入力ソースからUSを消す方法](https://nishi3.hatenablog.com/entry/2018/01/18/161745)<br>入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
+Google IME | Macシステム環境設定→キーボード→Google（ひらがなと英数）を追加して、最初のは入力ソースからほぼ消す/[Macの入力ソースからUSを消す方法](https://nishi3.hatenablog.com/entry/2018/01/18/161745)<br>入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
 Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定
 LINE | Login, Chats > 送信方法⌘Enter
 AppCleaner | スマートシンクをONに、protectをすべて外す
