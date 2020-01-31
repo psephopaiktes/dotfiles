@@ -42,8 +42,8 @@
 ### Touch ID
 – 登録
 
-### Accessi bilit
-- Pinter Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
+### Accessibility
+- Pointer Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
 - Display > Cursor > Cursor size: 10%
 - Zoom > Use scroll gesture with modifier keys to zoom
 
