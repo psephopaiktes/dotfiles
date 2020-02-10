@@ -63,6 +63,8 @@
 1. Message.app からサインアウト
     - メニューの「Messages」>「Preferences」の「iMessage」タブからサインアウト
     
+1. Sketchからサインアウト
+
 1. ペアリングした Bluetooth デバイスをすべて削除
 
 1. `⌘R` を押しながら起動
