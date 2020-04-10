@@ -55,6 +55,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 alias st='open -a SourceTree'
+alias owa='say -v Kyoko おわりましたああああああああ'
 
 # prompt
 autoload -Uz vcs_info
