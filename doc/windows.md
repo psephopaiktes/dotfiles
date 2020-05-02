@@ -1,12 +1,13 @@
 # Windows Setting
 
-ワンライナーなし。暫定版
-初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。
+ワンライナーなし。暫定版  
 
-ローカルアカウントでセットアップ後にサインイン。
-サインイン関連
-https://pc-karuma.net/windows10-disable-password-login/
-https://blog.naosan.jp/2017/04/8338/
+初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。  
+(5文字まででカットされてしまう仕様...)
+
+ローカルアカウントでセットアップ後にサインイン。サインイン関連
+- [Windows10 - 起動時のパスワード入力を省略 - 自動サインイン - PC設定のカルマ](https://pc-karuma.net/windows10-disable-password-login/)
+- [Microsoftアカウント使用時に自動サインインできなくなってしまったら（Windows 10） | たまプラ通信](https://blog.naosan.jp/2017/04/8338/)
 
 # 初期設定
 - OSアップデート
@@ -17,15 +18,15 @@ https://blog.naosan.jp/2017/04/8338/
   - 「ユーザーアカウント制御」を1段階下げる
   - 「エクスプローラのオプション」 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
 - OneDriveサインイン→ログイン時に起動しない
-- Primary Appsを入れる
+- [Primary Apps](## Primary)を入れる
 - クラウドストレージ選択同期
   - リムーバルメディアに入れる場合、Dropboxは[シンボリックリンクが必要](https://plaza.rakuten.co.jp/mscrtf/diary/201507060000/)
-  - ポータブルアプリのショートカット追加
-- CapsをCtrlに
+  - Dropbox内のポータブルアプリのショートカット追加
+  - CapsをCtrlに
 - 英字配列のキーボードで困ったら → [Windows10日本語版で英語配列キーボードを使用する - Qiita](https://qiita.com/shimizu14/items/000cceb9e72a492b9176)
 - 各種アプリを入れる
 - TBD スタートの構成 画像
-- iTunesシンボリックリンク
+
 
 ## Ubuntu + VS CODE + Zsh
 0. VS CODEをインスコしとく
@@ -50,7 +51,7 @@ https://blog.naosan.jp/2017/04/8338/
 
 ### TMP Memo
 `cd /mnt/c/Users/a-hirata/prpjects`をbashrcとかに
-WInだけのCODEターミナル設定同期したくない
+WinだけのCODEターミナル設定同期したくない
 
 # app-list
 
@@ -106,3 +107,4 @@ WInだけのCODEターミナル設定同期したくない
 [U-NEXT](https://www.microsoft.com/ja-jp/p/u-next-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-%E6%98%A0%E7%94%BB-%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E8%A6%8B%E6%94%BE%E9%A1%8C/9nblggh52267) | 
 Dropbox | 
 [VLC](https://www.microsoft.com/ja-jp/p/vlc/9nblggh4vvnh) | 
+[コンセプト](https://www.microsoft.com/ja-jp/p/concepts/9ngqm8fph9wq?&activetab=pivot:overviewtab) |
