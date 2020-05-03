@@ -24,26 +24,6 @@ Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of
 アーカイブユーティリティ | プリイン。Dockに追加、`open /System/Library/CoreServices/Applications/` 保存場所:Desktop､展開後:ゴミ箱､アーカイブのフォーマット:Zip
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 
-### Pock
-#### General
-- Launch at Login
-- Check for updates
-#### Dock
-- Notification: 10
-- App Expose: More than 1 window
-- Hide finder: on
-- Hide trash: on
-- Item spacing: 4pt
-#### Status
-- Show Battery Percentage: off
-- Show Mute Item: on
-- Show only time
-#### Now Playing
-- Most simple style
-- Hide when no item: on
-- Animate: on
-
-
 ### Adobe設定
 - 設定の同期機能が消えたので最低限のみメモ
 - Ps
