@@ -103,8 +103,5 @@ WinだけのCODEターミナル設定同期したくない
 --|--
 [Netflix](https://www.microsoft.com/ja-jp/p/netflix/9wzdncrfj3tj) | 
 [LINE](https://www.microsoft.com/ja-jp/p/line/9wzdncrfj2g6) | 
-[iTunes](https://www.microsoft.com/ja-jp/p/itunes/9pb2mz1zmb1s) | 
-[U-NEXT](https://www.microsoft.com/ja-jp/p/u-next-%E3%83%A6%E3%83%BC%E3%83%8D%E3%82%AF%E3%82%B9%E3%83%88-%E6%98%A0%E7%94%BB-%E3%83%89%E3%83%A9%E3%83%9E-%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E8%A6%8B%E6%94%BE%E9%A1%8C/9nblggh52267) | 
-Dropbox | 
 [VLC](https://www.microsoft.com/ja-jp/p/vlc/9nblggh4vvnh) | 
 [コンセプト](https://www.microsoft.com/ja-jp/p/concepts/9ngqm8fph9wq?&activetab=pivot:overviewtab) |
