@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#00000099",
+        "font" : "System Light",
+        "color" : "#0000007F"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#00000019",
+        "font" : "System Light",
+        "color" : "#00000019"
+      },
+      "backgroundSelected" : "#00000018",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#00000099"
+      },
+      "iconPaddingHorizontal" : 8,
+      "paddingVertical" : 8,
+      "iconSize" : 32
+    },
+    "search" : {
+      "paddingVertical" : 0,
+      "background" : "#5DF3FF00",
+      "spacing" : 8,
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#000000CC"
+      },
+      "backgroundSelected" : "#D8D8DBFF"
+    },
+    "window" : {
+      "color" : "#FEFFFECC",
+      "paddingHorizontal" : 8,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#FEFFFEB3",
+      "blur" : 14,
+      "roundness" : 4,
+      "paddingVertical" : 12
+    },
+    "credit" : "Akira HIRATA",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#000000CA",
+      "thickness" : 2
+    },
+    "name" : "Smoke"
+  }
+}

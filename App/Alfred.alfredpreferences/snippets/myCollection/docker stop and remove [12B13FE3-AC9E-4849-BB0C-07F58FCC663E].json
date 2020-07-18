@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "docker stop $(docker ps -aq) ; docker rm $(docker ps -aq)",
+    "uid" : "12B13FE3-AC9E-4849-BB0C-07F58FCC663E",
+    "name" : "docker stop and remove",
+    "keyword" : "docker,stop,remove"
+  }
+}

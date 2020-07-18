@@ -1,0 +1,9 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "python -m SimpleHTTPServer 8888",
+    "dontautoexpand" : true,
+    "uid" : "798E43AE-9FE9-485A-B8F5-3ECAA88C4FAC",
+    "name" : "launch server",
+    "keyword" : "server"
+  }
+}

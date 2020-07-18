@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 GITHUB_URL=https://github.com/psephopaiktes/dotfiles.git
-DOTPATH=~/.dotfiles
+DOTPATH=~/dotfiles
 
 # Deploy Dotfiles
 echo "...Clone & Deploy Dotfils"

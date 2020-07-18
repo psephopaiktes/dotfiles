@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#FEFFFE7F",
+        "font" : "System Light",
+        "color" : "#FEFFFE66"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFF4C",
+        "font" : "System Light",
+        "color" : "#FFFFFF4C"
+      },
+      "backgroundSelected" : "#FEFFFE19",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#FEFFFEB2",
+        "font" : "System Light",
+        "color" : "#FEFFFE99"
+      },
+      "iconPaddingHorizontal" : 8,
+      "paddingVertical" : 12,
+      "iconSize" : 32
+    },
+    "search" : {
+      "paddingVertical" : 10,
+      "background" : "#FEFFFE00",
+      "spacing" : 4,
+      "text" : {
+        "size" : 28,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#FEFFFEE5"
+      },
+      "backgroundSelected" : "#D8D8DBFF"
+    },
+    "window" : {
+      "color" : "#000C1879",
+      "paddingHorizontal" : 0,
+      "width" : 559,
+      "borderPadding" : 0,
+      "borderColor" : "#FEFFFEB3",
+      "blur" : 30,
+      "roundness" : 4,
+      "paddingVertical" : 0
+    },
+    "credit" : "Akira HIRATA",
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#797979FF",
+      "thickness" : 2
+    },
+    "name" : "Glass--dark"
+  }
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>08617FD3-96B6-4E4F-BC64-5AD4A87FC284</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>nico</string>
+			<key>text</key>
+			<string>Search in NicoNico</string>
+			<key>url</key>
+			<string>http://www.nicovideo.jp/search/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>2460BA27-4C84-417C-8014-B89D02B83BC7</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>hulu</string>
+			<key>text</key>
+			<string>Search in Happyon</string>
+			<key>url</key>
+			<string>https://www.happyon.jp/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>31EC6764-2D87-45F8-96A9-FB12E34F6287</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>material</string>
+			<key>text</key>
+			<string>Search in Material Icons</string>
+			<key>url</key>
+			<string>https://material.io/tools/icons/?search={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>39F334AA-1D31-4D6C-8218-3D070B28C69A</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>netflix</string>
+			<key>text</key>
+			<string>Search in Netflix</string>
+			<key>url</key>
+			<string>https://www.netflix.com/search?q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>69167BAC-9B30-4284-A7FC-C165C14A33FA</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>unext</string>
+			<key>text</key>
+			<string>Search in U-NEXT</string>
+			<key>url</key>
+			<string>http://video.unext.jp/freeword?query={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>69B20496-66FC-4EC2-86B2-24064EE5CAEF</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>twitter</string>
+			<key>text</key>
+			<string>Tweet text</string>
+			<key>url</key>
+			<string>https://twitter.com/intent/tweet?text={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>85E4C4C1-E025-4363-B917-7F87A805E2E1</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>2j</string>
+			<key>text</key>
+			<string>Translate to Japanese</string>
+			<key>url</key>
+			<string>https://translate.google.com/?#auto/ja/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>88380A02-EDBD-4EA4-A7FE-068F9E56C204</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>en</string>
+			<key>text</key>
+			<string>Search Google Englihs for '{query}'</string>
+			<key>url</key>
+			<string>https://www.google.com/search?gl=us&amp;hl=en&amp;q={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>9221D977-DCE9-4BC1-8A2E-2D1B8C8589BD</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>amazon</string>
+			<key>text</key>
+			<string>Search in Amazon Video</string>
+			<key>url</key>
+			<string>https://www.amazon.co.jp/s/?url=search-alias%3Dinstant-video&amp;field-keywords={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>DEA17FF8-4E75-49A6-9FEC-BADFB00007A8</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>2e</string>
+			<key>text</key>
+			<string>Translate to English</string>
+			<key>url</key>
+			<string>https://translate.google.com/?#auto/en/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>FA5A8225-6917-433D-9CE5-85978554AD07</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>yahoo</string>
+			<key>text</key>
+			<string>Search in Yahoo!  Movie</string>
+			<key>url</key>
+			<string>https://movies.yahoo.co.jp/search/?query={query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
