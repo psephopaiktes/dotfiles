@@ -44,6 +44,10 @@
             - projects
     - Dock整理
     - 通知センターに Calendar、天気、計算機
+    
+1. ghコマンドの設定
+    1. `$ gh auth login` -> ブラウザにコード入れてログインし、プロトコルにSSHを選択
+    1. `$ gh config set editor "code --wait"` でエディタをVS CODEに設定
 
 1. 再起動して終了
 
