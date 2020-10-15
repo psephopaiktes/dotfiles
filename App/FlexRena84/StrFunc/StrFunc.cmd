@@ -1,1 +1,0 @@
-RegSvr32 StrFunc.dll
