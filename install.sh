@@ -14,7 +14,7 @@ nvm use --lts
 # Install Global NPM Packages
 npm i -g firebase-tools
 npm i -g @vue/cli
-npm i -g gatsby-cli
+npm i -g vercel
 
 
 # brew ########################################################
