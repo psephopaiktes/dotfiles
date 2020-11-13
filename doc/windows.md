@@ -26,6 +26,7 @@
 - 英字配列のキーボードで困ったら → [Windows10日本語版で英語配列キーボードを使用する - Qiita](https://qiita.com/shimizu14/items/000cceb9e72a492b9176)
 - 各種アプリを入れる
 - TBD スタートの構成 画像
+- [パスワードや PIN の入力を省略して、Windows 10 に自動でサインインできるようにする方法 - ｋ本的に無料ソフト・フリーソフト](https://www.gigafree.net/Windows/No-Password-PIN-Sign-in/)
 
 
 ## Ubuntu + VS CODE + Zsh
