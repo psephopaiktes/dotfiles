@@ -42,6 +42,9 @@
 ### Touch ID
 – 登録
 
+### User &Groups
+- Login Options > Show fast user switch menu: off
+
 ### Accessibility
 - Pointer Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
 - Display > Cursor > Cursor size: 10%
