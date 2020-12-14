@@ -15,6 +15,7 @@ nvm use --lts
 npm i -g firebase-tools
 npm i -g @vue/cli
 npm i -g vercel
+npm i -g @squoosh/cli
 
 
 # brew ########################################################
