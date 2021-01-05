@@ -1,6 +1,7 @@
 # Windows Setting
 
 ワンライナーなし。暫定版  
+- [ ] https://smhn.info/202101-how-to-use-microsoft-windows-powertoys
 
 初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。  
 (5文字まででカットされてしまう仕様...)
