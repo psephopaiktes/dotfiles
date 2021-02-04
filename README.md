@@ -23,9 +23,11 @@
 
 1. [アプリ設定](./doc/app-setting.md)  
 
-1. Caskで扱えないフォントをインストール
+1. Caskで扱えないのをインストール
     - [SF Font](https://developer.apple.com/fonts/)
     - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
+    - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
+    - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
 
 1. アピアランスの整備
     - 壁紙を変える→5個に増やす
