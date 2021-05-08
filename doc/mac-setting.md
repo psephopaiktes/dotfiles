@@ -71,7 +71,7 @@
     - 「スペースバーを二回押してピリオドを挿入」off
     - 「スマート引用符とスマートダッシュを入力」off -->
 - Shortcuts
-    - Keuboard > Move focus to next window: コマンドオルトたぶ
+    - Keuboard > Move focus to next window: ⌘⌥タブ
     - Spotlight > Check off all
 
 ### Trackpad
