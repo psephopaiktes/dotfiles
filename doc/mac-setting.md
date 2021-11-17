@@ -29,9 +29,9 @@
 − Group windows by application: Check
 
 ### Language & Region
+しばらくMac入力使ってみる
 - システム言語を英語にした場合は、第2言語に日本語を追加しておく
 - First day of week: Monday
-<!-- - List Sort Orderを「Japanese」に -->
 
 ### Notifications & Focus
 - カレンダー、リマインダーの通知: None
@@ -67,10 +67,10 @@
     - Delay Until Repeat: Short
     − Show keyboard and emoji viewers in menu bar: Check
     - Modifier Keys... > caps:control
-<!-- - ユーザー辞書
+- ユーザー辞書
     - 「文頭を自動的に大文字にする」off
     - 「スペースバーを二回押してピリオドを挿入」off
-    - 「スマート引用符とスマートダッシュを入力」off -->
+    - 「スマート引用符とスマートダッシュを入力」off
 - Shortcuts
     - Keuboard > Move focus to next window: ⌘⌥タブ
     - Spotlight > Check off all
