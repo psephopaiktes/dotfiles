@@ -1,6 +1,6 @@
 # dotfiles
 - 平田のMac環境構築用
-- English, zsh 前提
+- English, zsh, ユーザー名は`a-hirata` 前提
 
 ## TBD
 - [ ] install.sh が止まる
