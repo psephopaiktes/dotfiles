@@ -33,8 +33,9 @@
 - First day of week: Monday
 <!-- - List Sort Orderを「Japanese」に -->
 
-### Notifications
+### Notifications & Focus
 - カレンダー、リマインダーの通知: None
+- Focus → Share across devices: off
 
 ### Internet Accounts
 - カレンダーにアカウントを有効化
