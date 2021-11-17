@@ -31,6 +31,9 @@ echo "...install brew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 wait
 
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/a-hirata/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew bundle --global
 wait
 
