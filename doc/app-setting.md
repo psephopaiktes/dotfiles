@@ -6,7 +6,6 @@
 Chrome | ログイン、DL先をデスクトップに
 Google Backup and Sync | ログイン、Desktopのみバックアップ、同期するフォルダを指定
 Google Drive Files Stream | ログイン、起動時に起動しない
-Dropbox | 同期するフォルダを指定、保存先をSSDに指定、起動時にログインしない
 Xcode | いちど起動して初期設定しておく
 Visual Studio Code | パレットでShellって検索→インスコ. [SettingSync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)入れてログインを押し、[Gistを選択](https://github.com/settings/tokens)、`⌥⇧D`で設定落とす。
 [Sourcetree](https://ja.atlassian.com/software/sourcetree) | AttrasianにGoogleログイン､<br>Advenced > 強制Pushを可能に<br>AccountsからGitHub追加>Defaultに
