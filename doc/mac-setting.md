@@ -4,7 +4,7 @@
 ## System Preferences
 
 ### Apple ID
-- iCloud Drive, Safari, Siri, キーチェーン, Calendar, Finnd My Mac以外チェックOFF
+- iCloud Drive, Safari, Siri, キーチェーン, Calendar, Find My Mac以外チェックOFF
 
 ### General
 - Appearance: Auto
@@ -37,10 +37,10 @@
 - カレンダー、リマインダーの通知: None
 
 ### Internet Accounts
-−　カレンダーにアカウントを有効化
+- カレンダーにアカウントを有効化
 
 ### Touch ID
-– 登録
+- 登録
 
 ### User &Groups
 - Login Options > Show fast user switch menu: off
