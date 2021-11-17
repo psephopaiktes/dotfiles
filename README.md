@@ -10,8 +10,6 @@
 
 1. $ `xcode-select --install`
 
-
-
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
 
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
@@ -28,6 +26,7 @@
     - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
+    - [会社VPN](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 1. アピアランスの整備
     - 壁紙を変える→5個に増やす
@@ -56,7 +55,7 @@
 
 ## Clean Install の手順
 
-0. `~/projects`と`~/dotfiles`のGitファイル群はコミットしておく。
+0. `~/projects`と`~/dotfiles`のGitファイル群はコミットしておく。DesktopやDownloadフォルダの退避
 
 1. Music.app からサインアウト
     - メニューの「Account」からサインアウト
