@@ -22,8 +22,9 @@
 1. [アプリ設定](./doc/app-setting.md)  
 
 1. Caskで扱えないのをインストール
-    - [SF Font](https://developer.apple.com/fonts/)
-    - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
+    // - [SF Font](https://developer.apple.com/fonts/)
+    // - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
+    - [Adobe CC](https://creativecloud.adobe.com/apps)
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
     - [会社VPN](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
