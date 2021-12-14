@@ -22,7 +22,8 @@ Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 
 ### Adobe設定
-- 設定の同期機能が消えたので最低限のみメモ
+設定の同期機能が消えたので最低限のみメモ
+- System Preferences > Extensions > Core Sync を無効にしておく
 - Ps
  - ドキュメントを開いていないときにスタートワークスペースを表示 OFF
  - 単位をすべてpxに
