@@ -3,7 +3,7 @@
 ## Primary
 アプリ | 設定項目
 --|--
-Chrome | ログインx3 + td192w（XeKeep確認）
+Chrome | ログインx3 + td192w
 Google Drive | ログイン、一部をオフライン許可
 Xcode | いちど起動して初期設定しておく
 Visual Studio Code | GitHubでログインして同期
@@ -13,13 +13,12 @@ Creative Cloud | 各種インスコ､ログイン時に起動をオフ､ファ
 ImageOptim | Optimization Lavel: Insane
 Sketch |  下参照
 Figma | ログイン、[Fontsインスコ](https://www.figma.com/settings)
-Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定→Request Permissionsを全部やる
+Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定, Advanced→Force Keyboard: ABC
 LINE | Login, Chats > 送信方法⌘Enter
 AppCleaner | スマートシンクをONに、protectをすべて外す
 Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
 アーカイブユーティリティ | 起動して設定 展開後:ゴミ箱
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
-
 
 ### ghコマンドの設定
 1. `$ gh auth login` -> ブラウザにコード入れてログインし、プロトコルにSSHを選択
