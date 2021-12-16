@@ -3,7 +3,7 @@
 ## Primary
 アプリ | 設定項目
 --|--
-Chrome | ログインx3 + td192w
+Chrome | ログインx3 + td192w（XeKeep確認）
 Google Drive | ログイン、一部をオフライン許可
 Xcode | いちど起動して初期設定しておく
 Visual Studio Code | GitHubでログインして同期
@@ -19,6 +19,7 @@ AppCleaner | スマートシンクをONに、protectをすべて外す
 Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
 アーカイブユーティリティ | 起動して設定 展開後:ゴミ箱
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
+
 
 ### ghコマンドの設定
 1. `$ gh auth login` -> ブラウザにコード入れてログインし、プロトコルにSSHを選択
