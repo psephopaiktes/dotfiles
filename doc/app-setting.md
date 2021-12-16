@@ -28,6 +28,7 @@ IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 ### Adobe設定
 設定の同期機能が消えたので最低限のみメモ
 - System Preferences > Extensions > Core Sync を無効にしておく
+- System Preferences > Language & Region > Apps から日本語にできる？
 - CC Manager を自動起動しない設定にする
 - Ps
  - 言語を日本語に
