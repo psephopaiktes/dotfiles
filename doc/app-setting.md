@@ -3,22 +3,21 @@
 ## Primary
 アプリ | 設定項目
 --|--
-Chrome | ログイン、DL先をデスクトップに
-Google Drive | ログイン、同期するフォルダを指定
+Chrome | ログインx3 + td192w
+Google Drive | ログイン、一部をオフライン許可
 Xcode | いちど起動して初期設定しておく
 Visual Studio Code | GitHubでログインして同期
-[Sourcetree](https://ja.atlassian.com/software/sourcetree) | AttrasianにGoogleログイン､<br>Advenced > 強制Pushを可能に<br>AccountsからGitHub追加>Defaultに
+Sourcetree | AttrasianにGoogleログイン､<br>Advenced > 強制Pushを可能に<br>AccountsからGitHub追加>Defaultに
 Abstract | ログイン
-Creative Cloud | 言語を日本語にしてから各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ
-ImageOptim |  Optimization Lavel: Insane
+Creative Cloud | 各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ
+ImageOptim | Optimization Lavel: Insane
 Sketch |  下参照
 Figma | ログイン、[Fontsインスコ](https://www.figma.com/settings)
-Google IME | Macシステム環境設定→キーボード→Google（ひらがなと英数）を追加して、最初のは入力ソースからほぼ消す/[Macの入力ソースからUSを消す方法](https://nishi3.hatenablog.com/entry/2018/01/18/161745)<br>入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート
-Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定（dotflieかも
+Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定
 LINE | Login, Chats > 送信方法⌘Enter
 AppCleaner | スマートシンクをONに、protectをすべて外す
 Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
-アーカイブユーティリティ | 検索してDockに追加、`open /System/Library/CoreServices/Applications/` 保存場所:Desktop､展開後:ゴミ箱､アーカイブのフォーマット:Zip
+アーカイブユーティリティ | 起動して設定 展開後:ゴミ箱
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 
 ### ghコマンドの設定
@@ -26,20 +25,9 @@ IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 1. `$ gh config set editor "code --wait"` でエディタをVS CODEに設定
 
 ### Adobe設定
-設定の同期機能が消えたので最低限のみメモ
 - System Preferences > Extensions > Core Sync を無効にしておく
 - System Preferences > Language & Region > Apps から日本語にできる？
 - CC Manager を自動起動しない設定にする
-- Ps
- - 言語を日本語に
- - 単位をすべてpxに
- - プラグイン > Generatorを有効する ON
-- Ai
- - 言語を日本語に
- - 単位をすべてpxに 
- - キー入力を1pxに
- - サイズ行送り、ベースラインシフト 1px
- - ユーザーインターフェース 最大まで明るく
 
 ### Sketch 設定
 - 設定
