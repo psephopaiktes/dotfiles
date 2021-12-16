@@ -17,3 +17,8 @@ ln -snf $DOTPATH/.npmrc ~
 # create work space
 mkdir ~/projects
 chown $USER ~/projects
+
+# cloene chrome ex
+cd ~/projects
+git clone git@github.com:psephopaiktes/chrome-stylize.git
+git clone git@github.com:psephopaiktes/chrome-stylize-xe.git
