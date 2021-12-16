@@ -30,6 +30,7 @@ cask "keycastr"
 cask "sf-symbols"
 cask "sketch"
 cask "skybox"
+cask "slack"
 cask "sourcetree"
 cask "visual-studio-code"
 mas "EdgeView 2", id: 1206246482
