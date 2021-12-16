@@ -1,10 +1,10 @@
 # Mac Setting
-
+※ `言語と地域` から英語を最優先言語にしておく
 
 ## System Preferences
 
 ### Apple ID
-- iCloud Drive, Safari, Siri, キーチェーン, Calendar, Find My Mac以外チェックOFF
+- iCloud: Drive, Safari, Siri, キーチェーン, Calendar, Find My Mac以外チェックOFF
 
 ### General
 - Appearance: Auto
