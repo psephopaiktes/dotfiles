@@ -1,9 +1,6 @@
 # dotfiles
-- 平田のMac環境構築用
+平田のMac環境構築用
 
-## TBD
-- [ ] install.sh が止まる
-- [ ] zshに変更
 
 ## 手順
 
@@ -14,7 +11,7 @@
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
 
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
-    - 要修正. １行ずつやるとうまくいく
+    - [ ] 要修正. １行ずつやるとうまくいく
 
 1.  クリップボードの鍵を[GitHubのSSH keys](https://github.com/settings/ssh)に登録。不要なら古いのは消す。
 
