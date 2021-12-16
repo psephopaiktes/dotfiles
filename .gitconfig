@@ -5,7 +5,7 @@
   editor = code --wait
   precomposeunicode = true
   quotepath = false
-  excludesfile = /Users/a-hirata/.gitignore_global
+  excludesfile = ~/.gitignore_global
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
   path =
@@ -13,7 +13,7 @@
   cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
   trustExitCode = true
 [commit]
-  template = /Users/a-hirata/.stCommitMsg
+  template = ~/.stCommitMsg
 [color]
   status = auto
   diff = auto
