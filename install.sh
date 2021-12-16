@@ -1,7 +1,4 @@
-#!/usr/bin/env bash
-
-
-sudo xcodebuild -license accept  
+#!/usr/bin/env bash 
 
 
 # node ########################################################
@@ -56,6 +53,8 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 
 # other ########################################################
+
+sudo xcodebuild -license accept 
 
 defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
