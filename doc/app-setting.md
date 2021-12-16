@@ -13,7 +13,7 @@ Creative Cloud | 各種インスコ､ログイン時に起動をオフ､ファ
 ImageOptim | Optimization Lavel: Insane
 Sketch |  下参照
 Figma | ログイン、[Fontsインスコ](https://www.figma.com/settings)
-Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定
+Alfred | PowerPackからActivate→AdvancedからGoogleDriveを指定→Request Permissionsを全部やる
 LINE | Login, Chats > 送信方法⌘Enter
 AppCleaner | スマートシンクをONに、protectをすべて外す
 Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
