@@ -30,6 +30,7 @@ cask "skybox"
 cask "slack"
 cask "sourcetree"
 cask "visual-studio-code"
+cask "zoom"
 mas "EdgeView 2", id: 1206246482
 mas "LINE", id: 539883307
 mas "The Unarchiver", id: 425424353
