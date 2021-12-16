@@ -8,6 +8,8 @@
 
 ## 手順
 
+1. Mac本体Versionを最新版にしておく
+
 1. $ `xcode-select --install`
 
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
