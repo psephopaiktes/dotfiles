@@ -8,9 +8,9 @@
 
 1. $ `xcode-select --install`
 
-1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
+1. $ `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
 
-1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
+1. $ `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
     - [ ] 要修正. １行ずつやるとうまくいく
 
 1.  公開鍵がコピーされているので、[GitHubのSSH keys](https://github.com/settings/ssh)に登録。不要なら古いMacのは消しておく。
