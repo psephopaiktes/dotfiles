@@ -1,4 +1,4 @@
-# Mac Setting
+必要なら隠す# Mac Setting
 ※ `言語と地域` から英語を最優先言語にしておく
 
 ## System Preferences
@@ -26,7 +26,6 @@
 - Minimize windows into application icon: Check （DOCKが伸びるのを防止）
 - Automatically hide and show the Dock: Check
 - Show recent applications in dock: off
-- Automatically hide...: on
 #### Menu Bar
 - Bluetooth: show
 - Clock: Flash the time separators: on
@@ -38,46 +37,43 @@
 - Hot Corners > Quick Note: off
 
 ### Spotlight
-- Privacy > 
+- Privacy > 必要なら追加
 
 ### Language & Region
-しばらくMac入力使ってみる
 - システム言語を英語にした場合は、第2言語に日本語を追加しておく
-- First day of week: Monday
+- Advanced > First day of week: Monday
 
 ### Notifications & Focus
-- カレンダー、リマインダーの通知: None
-- Focus → Share across devices: off
+- Calendar, Mail, Tips: None
+- Chrome etc: on
+- When the screen is locked: off
 
-### Internet Accounts
-- カレンダーにアカウントを有効化
-
-### Touch ID
-- 登録
-
-### User &Groups
-- Login Options > Show fast user switch menu: off
+### Internet Account
+- a-hirata@unext.jp > Calendars: on
 
 ### Accessibility
+- Zoom > Use scroll gesture with modifier keys to zoom
 - Pointer Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
 - Display > Cursor > Cursor size: 10%
-- Zoom > Use scroll gesture with modifier keys to zoom
 
 ### Extensions
+全て見てチェック
 - All > Google Drive などにチェック
 
 ### Security & Privacy
+- General > Require password: 4hour
 - Firewall > Turn on Firewall
-- Privacy >　Weatherに位置情報を許可
 
-### Bluetooth
-- Show Bluetooth in menu bar: Check
+### Sound
+- Play sound on startup: off
+
+### Touch ID
+- 登録
 
 ### Keyboard
 - Keyboard
     - Key Repeat: Fast
     - Delay Until Repeat: Short
-    − Show keyboard and emoji viewers in menu bar: Check
     - Modifier Keys... > caps:control
 - ユーザー辞書
     - 「文頭を自動的に大文字にする」off
@@ -86,22 +82,16 @@
 - Shortcuts
     - Keuboard > Move focus to next window: ⌘⌥タブ
     - Spotlight > Check off all
+- Input Sources > Japanese
+    - Candidate Window: Hiragino Sans W4
 
 ### Trackpad
 - Click: Light
 - Tracking speed: 4
 - More Gestures > App Expose: Check
-<!-- - 「ページ間をスワイプ」OFF -->
 
 ### Displays
 - Night Shift > Schedule: Sunset to Sunrise, Color Temperature: Max
-
-### Energy Saver
-- Power Adapter > Enable Power Nap while plugged into a power adapter: Off
-
-### Date & Time
-- Clock > Show date: Check
-- Clock > Flash the time separators: Check
 
 
 ---
@@ -127,10 +117,9 @@
   - Show warning...(ALL): Off
   - Remove items from the Trash after 30 days: Check
   - Keep folders on top: Check(Both)
-- When perforiing a search: Search the Cuttent Folder
+- When perforiing a search: Use the Previoud Search scope
 
 ### View
-- Tab bar
 - Path bar
 - Status bar
 
@@ -143,18 +132,18 @@ Right click on Desktop > Show View Options
 
 ## Appearance
 - 壁紙を変える→5個に増やす
+- DockでChromeを右クリック→オプション→特定のデスクトップのみに
+- DockでFinderを右クリック→オプション→すべてのデスクトップ
 - Finderツールバーをカスタマイズ
     – 不要なものを消す
-    - Chrome,Ps,Ai,Codeを追加
-    - DockでChromeを右クリック→オプション→特定のデスクトップのみに
-    - DockでFinderを右クリック→オプション→すべてのデスクトップ
-    - サイドバーを調整
-        - デスクトップ
-        - ダウンロード
-        - AirDrop
-        - アプリケーション
-        - ホーム
-        - グーグルドライブ
-        - projects
-- Dock整理
+    - Chrome,Ps,Ai,Codeを⌘ドラッグで追加
+- サイドバーを調整
+    - デスクトップ
+    - ダウンロード
+    - AirDrop
+    - アプリケーション
+    - ホーム
+    - グーグルドライブ
+    - projects
 - 通知センターに Calendar、天気、計算機 のウィジェットを設定
+- Dock整理
