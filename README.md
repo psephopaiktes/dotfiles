@@ -20,8 +20,6 @@
 1. [アプリ設定](./doc/app-setting.md)  
 
 1. Caskで扱えないアプリをインストール
-    // - [SF Font](https://developer.apple.com/fonts/)
-    // - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
     - [Adobe CC](https://creativecloud.adobe.com/apps)
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
