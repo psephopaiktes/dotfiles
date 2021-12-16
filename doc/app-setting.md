@@ -3,7 +3,7 @@
 ## Primary
 アプリ | 設定項目
 --|--
-Chrome | ログインx3 + td192w
+Chrome | ログインx3 + td192w, chrome-stylize を反映
 Google Drive | ログイン、一部をオフライン許可
 Xcode | いちど起動して初期設定しておく
 Visual Studio Code | GitHubでログインして同期
