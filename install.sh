@@ -1,5 +1,9 @@
 #!/bin/zsh
 
+
+xcodebuild -license accept  
+
+
 # node ########################################################
 
 echo "...install NODEs"
@@ -57,8 +61,6 @@ defaults write org.n8gray.QLColorCode extraHLFlags '-l'
 defaults write com.apple.finder QLEnableTextSelection -bool true
 qlmanage -r
 wait
-
-xcodebuild -license accept  
 
 
 echo "DONE"
