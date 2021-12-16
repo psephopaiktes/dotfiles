@@ -147,3 +147,4 @@ Right click on Desktop > Show View Options
     - projects
 - 通知センターに Calendar、天気、計算機 のウィジェットを設定
 - Dock整理
+![image](https://user-images.githubusercontent.com/4294850/146400319-54712c16-1917-45d1-aedf-8c2c3c4ada4e.png)
