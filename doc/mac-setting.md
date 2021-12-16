@@ -131,3 +131,22 @@ Right click on Desktop > Show View Options
 
 ## Battery
 - Click Menubar Battery icon > Show Percentage
+
+
+## Appearance
+- 壁紙を変える→5個に増やす
+- Finderツールバーをカスタマイズ
+    – 不要なものを消す
+    - Chrome,Ps,Ai,Codeを追加
+    - DockでChromeを右クリック→オプション→特定のデスクトップのみに
+    - DockでFinderを右クリック→オプション→すべてのデスクトップ
+    - サイドバーを調整
+        - デスクトップ
+        - ダウンロード
+        - AirDrop
+        - アプリケーション
+        - ホーム
+        - グーグルドライブ
+        - projects
+- Dock整理
+- 通知センターに Calendar、天気、計算機 のウィジェットを設定
