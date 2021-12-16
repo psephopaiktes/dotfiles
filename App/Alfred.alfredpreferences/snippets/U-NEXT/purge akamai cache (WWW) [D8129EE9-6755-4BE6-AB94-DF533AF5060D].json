@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "cd ~\/projects\/utilities\/node-akamai-purge;node src\/ccu.js --config www.video.unext.jp_708642.conf --cpcode 708642",
-    "uid" : "D8129EE9-6755-4BE6-AB94-DF533AF5060D",
-    "name" : "purge akamai cache (WWW)",
-    "keyword" : "www,akamai,cache"
-  }
-}

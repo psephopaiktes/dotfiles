@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "git branch --merged | grep -vE '^\\*|master$|develop$' | xargs -I % git branch -d %",
-    "uid" : "45E72EE0-C4FE-4679-96D7-747948EB0B3F",
-    "name" : "delete merged branch",
-    "keyword" : "git,merged"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "sips -Z 1200 {*,*\/*}",
-    "uid" : "01922AB2-79AF-4E65-8D84-AAF441FDE575",
-    "name" : "Resize image",
-    "keyword" : "sips, resize"
-  }
-}
