@@ -21,19 +21,24 @@ Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of
 アーカイブユーティリティ | 検索してDockに追加、`open /System/Library/CoreServices/Applications/` 保存場所:Desktop､展開後:ゴミ箱､アーカイブのフォーマット:Zip
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 
+### ghコマンドの設定
+1. `$ gh auth login` -> ブラウザにコード入れてログインし、プロトコルにSSHを選択
+1. `$ gh config set editor "code --wait"` でエディタをVS CODEに設定
+
 ### Adobe設定
 設定の同期機能が消えたので最低限のみメモ
 - System Preferences > Extensions > Core Sync を無効にしておく
+- CC Manager を自動起動しない設定にする
 - Ps
- - ドキュメントを開いていないときにスタートワークスペースを表示 OFF
+ - 言語を日本語に
  - 単位をすべてpxに
  - プラグイン > Generatorを有効する ON
 - Ai
+ - 言語を日本語に
  - 単位をすべてpxに 
  - キー入力を1pxに
  - サイズ行送り、ベースラインシフト 1px
  - ユーザーインターフェース 最大まで明るく
- - ドキュメントを開いていないときにスタートワークスペースを表示 OFF
 
 ### Sketch 設定
 - 設定
