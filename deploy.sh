@@ -16,4 +16,4 @@ ln -snf $DOTPATH/.npmrc ~
 
 # create work space
 mkdir ~/projects
-chown a-hirata ~/projects
+chown $USER ~/projects
