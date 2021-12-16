@@ -4,29 +4,41 @@
 ## System Preferences
 
 ### Apple ID
-- iCloud: Drive, Safari, Siri, キーチェーン, Calendar, Find My Mac以外チェックOFF
+- iCloud: Photos,Mail,Stocks: off
 
 ### General
 - Appearance: Auto
-- Accent color: Graphite
+- Accent color, Highright Color: Graphite
 - Click in the scroll bar to: Jump to the spot that's clicked
 - Default web browser: Google Chrome
 - Ask to keep changes when quitting an app: check
 - Recent items: 10
 
 ### Desktop & Screen Saver
+- Change Desktop Picture from `~/dotfiles/Image`
 - Start after: Never
 
-### Dock
+### Dock & Menu Bar
 - Size: 30%
-- Prefer tabs when opening documents: Always
+- Magnification: 40%
 - Minimize windows using: Scale effect
+- Prefer tabs when opening documents: Always
 - Minimize windows into application icon: Check （DOCKが伸びるのを防止）
 - Automatically hide and show the Dock: Check
 - Show recent applications in dock: off
+- Automatically hide...: on
+#### Menu Bar
+- Bluetooth: show
+- Clock: Flash the time separators: on
+- Spotlight: off
+- Siri: off
 
 ### Mission Control
 − Group windows by application: Check
+- Hot Corners > Quick Note: off
+
+### Spotlight
+- Privacy > 
 
 ### Language & Region
 しばらくMac入力使ってみる
@@ -127,10 +139,6 @@
 Right click on Desktop > Show View Options
 - Sort by: Snap to grid
 - Show item info: Check
-
-
-## Battery
-- Click Menubar Battery icon > Show Percentage
 
 
 ## Appearance
