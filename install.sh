@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env bash
 
 
 sudo xcodebuild -license accept  
@@ -12,8 +12,10 @@ echo "...install NODEs"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 wait
 
+source ~/.nvm/nvm.sh
 source ~/.zshenv
 source ~/.zshrc
+wait
 
 nvm i --lts
 wait
