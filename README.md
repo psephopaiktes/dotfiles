@@ -13,41 +13,19 @@
 1. $ `sudo bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
     - [ ] 要修正. １行ずつやるとうまくいく
 
-1.  クリップボードの鍵を[GitHubのSSH keys](https://github.com/settings/ssh)に登録。不要なら古いのは消す。
+1.  公開鍵がコピーされているので、[GitHubのSSH keys](https://github.com/settings/ssh)に登録。不要なら古いMacのは消しておく。
 
 1. [Macのシステム環境設定](./doc/mac-setting.md)
 
 1. [アプリ設定](./doc/app-setting.md)  
 
-1. Caskで扱えないのをインストール
+1. Caskで扱えないアプリをインストール
     // - [SF Font](https://developer.apple.com/fonts/)
     // - [RictyDiminished](https://github.com/edihbrandon/RictyDiminished)
     - [Adobe CC](https://creativecloud.adobe.com/apps)
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
-    - [会社VPN](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
-
-1. アピアランスの整備
-    - 壁紙を変える→5個に増やす
-    - Finderツールバーをカスタマイズ
-        – 不要なものを消す
-        - Chrome,Ps,Ai,Codeを追加
-        - DockでChromeを右クリック→オプション→特定のデスクトップのみに
-        - DockでFinderを右クリック→オプション→すべてのデスクトップ
-        - サイドバーを調整
-            - デスクトップ
-            - ダウンロード
-            - AirDrop
-            - アプリケーション
-            - ホーム
-            - グーグルドライブ
-            - projects
-    - Dock整理
-    - 通知センターに Calendar、天気、計算機
-    
-1. ghコマンドの設定
-    1. `$ gh auth login` -> ブラウザにコード入れてログインし、プロトコルにSSHを選択
-    1. `$ gh config set editor "code --wait"` でエディタをVS CODEに設定
+    - [会社VPN設定](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 1. 再起動して終了
 
