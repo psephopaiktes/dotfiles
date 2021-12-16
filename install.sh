@@ -12,9 +12,7 @@ echo "...install NODEs"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 wait
 
-source ~/.nvm/nvm.sh
-source ~/.zshenv
-source ~/.zshrc
+exec $SHELL -l
 wait
 
 nvm i --lts
@@ -35,6 +33,8 @@ echo "...install brew"
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 wait
+
+exec $SHELL -l
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 wait
