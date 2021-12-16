@@ -66,3 +66,7 @@ SVGO Compressor | 公式のSVG圧縮プラグイン
 Find and Replace | テキスト置換
 Browser Preview |
 [Move-to-library-sketchplugin](https://github.com/ahmedmigo/Move-to-library-sketchplugin) | 
+
+
+全て終わったら
+- System Preference >  Security & Privacy > Accessibility, Full Disk Access などを許可
