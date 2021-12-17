@@ -59,3 +59,4 @@ Browser Preview |
 全て終わったら
 - System Preference >  Security & Privacy > Accessibility, Full Disk Access などを許可
 - System Preference >  Users & Groups > Login Items を整理
+- https://github.com/psephopaiktes/remo-portal
