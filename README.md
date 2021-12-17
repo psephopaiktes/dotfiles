@@ -24,6 +24,7 @@
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
     - [会社VPN設定](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+    - [Logicool Options](https://www.logicool.co.jp/ja-jp/product/options)
 
 1. 再起動して終了
 
