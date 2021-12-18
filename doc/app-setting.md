@@ -19,6 +19,7 @@ AppCleaner | スマートシンクをONに、protectをすべて外す
 Better Touch Tool |  iCloudと同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
 アーカイブユーティリティ | 起動して設定 展開後:ゴミ箱
 IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
+forklift3 | default terminal 変更、Hide Mini、https://binarynights.com/manual#fileviewer
 
 ### ghコマンドの設定
 1. `$ gh auth login` -> ブラウザにコード入れてログインし、プロトコルにSSHを選択
