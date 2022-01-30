@@ -26,6 +26,7 @@
 - Minimize windows into application icon: Check （DOCKが伸びるのを防止）
 - Automatically hide and show the Dock: Check
 - Show recent applications in dock: off
+
 #### Menu Bar
 - Bluetooth: show
 - Clock: Flash the time separators: on
@@ -33,7 +34,7 @@
 - Siri: off
 
 ### Mission Control
-− Group windows by application: Check
+- Group windows by application: Check
 - Hot Corners > Quick Note: off
 
 ### Spotlight
@@ -82,8 +83,7 @@
 - Shortcuts
     - Keuboard > Move focus to next window: ⌘⌥タブ
     - Spotlight > Check off all
-- Input Sources > Japanese
-    - Candidate Window: Hiragino Sans W4
+- Input Sources: add Google IME
 
 ### Trackpad
 - Click: Light
