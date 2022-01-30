@@ -84,6 +84,7 @@
     - Keuboard > Move focus to next window: ⌘⌥タブ
     - Spotlight > Check off all
 - Input Sources: add Google IME
+    - [Macの入力ソースからUSを消す方法](https://nishi3.hatenablog.com/entry/2018/01/18/161745)
 
 ### Trackpad
 - Click: Light
