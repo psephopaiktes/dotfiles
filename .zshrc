@@ -43,6 +43,7 @@ alias fb='firebase'
 alias nr='npm run'
 alias nrs='npm start'
 alias nrb='npm run build'
+alias nrd='npm run dev'
 alias dc='docker-compose'
 alias p="cd ~/projects"
 alias d="cd ~/Desktop"
