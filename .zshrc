@@ -22,6 +22,10 @@ setopt hist_save_no_dups
 # 自動補完を有効にする
 autoload -U compinit; compinit
 
+# Alt + Backspaceを有効にする
+autoload -U select-word-style
+select-word-style bash
+
 # 同時に起動したzshの間でヒストリを共有する
 setopt share_history
 
