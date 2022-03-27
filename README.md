@@ -26,6 +26,8 @@
     - [会社VPN設定](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
     - [Logicool Options](https://www.logicool.co.jp/ja-jp/product/options)
     - [Material Icon](https://github.com/google/material-design-icons)
+    - [morisawa-biz-ud-gothic](https://github.com/googlefonts/morisawa-biz-ud-gothic/)
+    - [morisawa-biz-ud-mincho](https://github.com/googlefonts/morisawa-biz-ud-mincho/)
 
 1. 再起動して終了
 
