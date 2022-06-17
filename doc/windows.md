@@ -1,7 +1,18 @@
 # Windows Setting
 
+## TODO
 ワンライナーなし。暫定版  
 - [ ] https://smhn.info/202101-how-to-use-microsoft-windows-powertoys
+- [ ] WSL
+- [ ] Android APP
+- [ ] [Microsoft公式ツール「Powertoys」を解説。なんでこの機能、Windowsに標準で入ってないの？という神機能が特盛！ - すまほん!!](https://smhn.info/202101-how-to-use-microsoft-windows-powertoys)
+- [ ] [Windows11アップグレード後の動作を高速化(軽量化)する方法｜エンジニア目線](https://info-boxes.net/2021/11/02/windows11_performance/)
+- [ ] https://www.google.com/search?q=WIndows+11+新機能
+- [ ] Ctrl+b,f,p,n,a,eはカーソル移動に。Alt+Aを全選択、Alt+b
+  - [ ] [Windows 10でも「Emacs風キーバインド」を使おう【AutoHotKey】 | LFI](https://linuxfan.info/windows-emacs-keybindings)
+  - [ ] [Windowsで好きなキーバインドを常に使えるようにする](https://zenn.dev/fss_bass/articles/40f222effd5ef2)みたいに、Ctrlはそのまま、Capslockとの連携だけ変える?
+- [ ] `cd /mnt/c/Users/a-hirata/prpjects`をbashrcとかに。WinだけのCODEターミナル設定同期したくない
+- [ ] [Cap2Ctrlは公式のがあるぽい?]([Ctrl2cap | Microsoft Docs](https://docs.microsoft.com/ja-jp/previous-versions/bb897578(v=msdn.10)?redirectedfrom=MSDN))
 
 初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。  
 (5文字まででカットされてしまう仕様...)
@@ -50,10 +61,6 @@
 12. nodeのインスコ `nodebrew install-binary stable` → `nodebrew use stable`
 13. VS CODEのターミナル変更
   - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
-
-### TMP Memo
-`cd /mnt/c/Users/a-hirata/prpjects`をbashrcとかに
-WinだけのCODEターミナル設定同期したくない
 
 # app-list
 
