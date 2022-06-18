@@ -13,6 +13,7 @@
   - [ ] [Windowsで好きなキーバインドを常に使えるようにする](https://zenn.dev/fss_bass/articles/40f222effd5ef2)みたいに、Ctrlはそのまま、Capslockとの連携だけ変える?
 - [ ] `cd /mnt/c/Users/a-hirata/prpjects`をbashrcとかに。WinだけのCODEターミナル設定同期したくない
 - [ ] [Cap2Ctrlは公式のがあるぽい?]([Ctrl2cap | Microsoft Docs](https://docs.microsoft.com/ja-jp/previous-versions/bb897578(v=msdn.10)?redirectedfrom=MSDN))
+- [ ] [Windows10でアプリを一括インストール／更新するなら「winget」 | 4thsight.xyz](https://4thsight.xyz/30394)
 
 初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。  
 (5文字まででカットされてしまう仕様...)
