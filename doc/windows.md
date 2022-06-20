@@ -69,8 +69,7 @@
 アプリ | 設定項目
 --|--
 [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)  |  ログイン、DL先をデスクトップに
-[Google Drive](https://www.google.com/drive/download/)  |  同期するフォルダを選択、USBデバイスとSDカードのチェック外す
-[Dropbox](https://www.dropbox.com/install)  |   同期するフォルダを選択、 Not launch at login
+[Dropbox](https://www.dropbox.com/install)  |   同期するフォルダを選択
 [Google IME](https://www.google.co.jp/ime/)  |  入力補助 -「、。」「・「」」など意外は全部半角入力に<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート<br>[Ctrl Spaceで切り替えられるようにしておく](http://d.hatena.ne.jp/ang65/20110409/1302316109)
 
 
@@ -78,25 +77,24 @@
 アプリ | 設定項目
 --|--
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
-[Google Noto Fonts](https://www.google.com/get/noto/#sans-jpan) | 
+
 
 ## Dev
 アプリ | 設定項目
 --|--
 [Visual Studio Code](https://code.visualstudio.com/) | [SettingSync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)入れて[TOKEN入力し](https://github.com/settings/tokens)、`⌥⇧D`で設定落とす→自動UP,DLにしとく。パレットでShellって検索→インスコ
-[Opera](http://www.opera.com/ja)  |  
-[Vivaldi](https://vivaldi.com/?lang=ja_JP)  |  
-[Firefox](https://www.mozilla.org/ja/firefox/new/)  |  ログイン
-[WinSCP](https://winscp.net/eng/download.php) | 
 [Hyper™](https://hyper.is/) | .hyper.jsを読み込み
+GhDesktop
+Gh
+Slack
 
 ## Design
 アプリ | 設定項目
 --|--
-[CLIP STUDIO](https://www.clip-studio.com/clip_site/rental/rental_download/sprental/)  |   起動初期設定､ログイン､PAINT起動→[アクティベート](https://www.clip-studio.com/clip_site/tool/manage/store)
 [FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Figma](https://www.figma.com/download/desktop/mac) / [Fonts](https://www.figma.com/settings) | ログイン
 [Honeyview](https://www.bandisoft.com/honeyview/) | 
+Adobe
 
 ## Other
 アプリ | 設定項目
@@ -107,6 +105,8 @@
 [VLC](https://www.videolan.org/vlc/index.ja.html) | 
 [SKYBOX](https://skybox.xyz/en/download/) | 
 [Steam](https://store.steampowered.com) | ログイン
+Microsoft Security Essentials3.74
+
 
 ## Windows Store
 アプリ | 設定項目
