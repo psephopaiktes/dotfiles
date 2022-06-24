@@ -25,7 +25,6 @@
 # 初期設定
 - OSアップデート
 - サインイン→基本的な設定は同期されるはず
-- [Sモードを解除](http://snow-white.cocolog-nifty.com/first/2018/05/windows-10-sver.html)する
 - [ClearTypeフォント](https://www.japan-secure.com/entry/how_to_change_the_system_font_of_windows_10.html)の設定をする
 - コンパネ
   - 「ユーザーアカウント制御」を1段階下げる
@@ -34,8 +33,8 @@
 - [Primary Apps](## Primary)を入れる
 - クラウドストレージ選択同期
   - リムーバルメディアに入れる場合、Dropboxは[シンボリックリンクが必要](https://plaza.rakuten.co.jp/mscrtf/diary/201507060000/)
-  - Dropbox内のポータブルアプリのショートカット追加
-  - CapsをCtrlに
+  - いまはいらないかも？
+- CapsをCtrlに
 - 英字配列のキーボードで困ったら → [Windows10日本語版で英語配列キーボードを使用する - Qiita](https://qiita.com/shimizu14/items/000cceb9e72a492b9176)
 - 各種アプリを入れる
 - TBD スタートの構成 画像
@@ -76,13 +75,13 @@
 ## Font
 アプリ | 設定項目
 --|--
-[Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  | 最新版を全ウェイトいれる
+[Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  |  最新版を全ウェイトいれる
 
 
 ## Dev
 アプリ | 設定項目
 --|--
-[Visual Studio Code](https://code.visualstudio.com/) | [SettingSync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)入れて[TOKEN入力し](https://github.com/settings/tokens)、`⌥⇧D`で設定落とす→自動UP,DLにしとく。パレットでShellって検索→インスコ
+[Visual Studio Code](https://code.visualstudio.com/) | GitHub Sign In
 [Hyper™](https://hyper.is/) | .hyper.jsを読み込み
 GhDesktop
 Gh
@@ -91,7 +90,6 @@ Slack
 ## Design
 アプリ | 設定項目
 --|--
-[FontBase](https://fontba.se/) | GoogleDriveのフォントを読み込んでおく
 [Figma](https://www.figma.com/download/desktop/mac) / [Fonts](https://www.figma.com/settings) | ログイン
 [Honeyview](https://www.bandisoft.com/honeyview/) | 
 Adobe
@@ -100,10 +98,8 @@ Adobe
 アプリ | 設定項目
 --|--
 [QuickLook](https://github.com/QL-Win/QuickLook/releases) | 
-[Kindle](https://www.amazon.co.jp/kindleapps)  |  
 [Explzh](https://www.ponsoftware.com/) | 
 [VLC](https://www.videolan.org/vlc/index.ja.html) | 
-[SKYBOX](https://skybox.xyz/en/download/) | 
 [Steam](https://store.steampowered.com) | ログイン
 Microsoft Security Essentials3.74
 
