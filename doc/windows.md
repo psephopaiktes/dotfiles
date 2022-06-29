@@ -15,7 +15,25 @@
 
 ## STEP
 - [Primary Apps](## Primary)を入れる
+1. Englishでスタート、MSサインイン、アップデート
+1. 設定同期のためOne Drive サインインしとく
+1. 言語を日本語に変更、Cleartypeで検索して設定
+1. コントロールパネル
+  - 「ユーザーアカウント制御」を1段階下げる
+  - 「エクスプローラのオプション」
+      - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
+      - 表示 → タイトルバーに完全なパスを表示
+1. プライバシーとセキュリティから検索除外するフォルダを設定
+1. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
+    - IMEをCtrl Spaceで切り替えられるようにする→キー設定の選択から「IMEを無効化」「IMEを有効化」をすべてCtrl Spaceに
 
+1. 英字配列のキーボードで困ったら → [Windows10日本語版で英語配列キーボードを使用する - Qiita](https://qiita.com/shimizu14/items/000cceb9e72a492b9176)
+
+設定→アプリ→スタートアップから選択
+
+1. OneDriveログイン時に起動しない
+1. TBD スタートの構成 画像
+1. システム言語を英語に変更
 
 ## Ubuntu + VS CODE + Zsh
 0. VS CODEをインスコしとく
