@@ -1,5 +1,8 @@
 # Windows Setting
 
+## TBD
+- [ ] Winget
+
 ## TODO
 ワンライナーなし。暫定版  
 - [ ] WSL
@@ -9,8 +12,8 @@
   - [ ] [Windows 10でも「Emacs風キーバインド」を使おう【AutoHotKey】 | LFI](https://linuxfan.info/windows-emacs-keybindings)
   - [ ] [Windowsで好きなキーバインドを常に使えるようにする](https://zenn.dev/fss_bass/articles/40f222effd5ef2)みたいに、Ctrlはそのまま、Capslockとの連携だけ変える?
 - [ ] `cd /mnt/c/Users/a-hirata/prpjects`をbashrcとかに。WinだけのCODEターミナル設定同期したくない
-- [ ] [Windows10でアプリを一括インストール／更新するなら「winget」 | 4thsight.xyz](https://4thsight.xyz/30394)
 
+## STEP
 - [Primary Apps](## Primary)を入れる
 
 
