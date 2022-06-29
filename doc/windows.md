@@ -15,30 +15,7 @@
 - [ ] [Cap2Ctrlは公式のがあるぽい?]([Ctrl2cap | Microsoft Docs](https://docs.microsoft.com/ja-jp/previous-versions/bb897578(v=msdn.10)?redirectedfrom=MSDN))
 - [ ] [Windows10でアプリを一括インストール／更新するなら「winget」 | 4thsight.xyz](https://4thsight.xyz/30394)
 
-初期設定時に、**MSアカウントにログインしない**こと。ユーザーフォルダ名がおかしくなる。  
-(5文字まででカットされてしまう仕様...)
-
-ローカルアカウントでセットアップ後にサインイン。サインイン関連
-- [Windows10 - 起動時のパスワード入力を省略 - 自動サインイン - PC設定のカルマ](https://pc-karuma.net/windows10-disable-password-login/)
-- [Microsoftアカウント使用時に自動サインインできなくなってしまったら（Windows 10） | たまプラ通信](https://blog.naosan.jp/2017/04/8338/)
-
-# 初期設定
-- OSアップデート
-- サインイン→基本的な設定は同期されるはず
-- [ClearTypeフォント](https://www.japan-secure.com/entry/how_to_change_the_system_font_of_windows_10.html)の設定をする
-- コンパネ
-  - 「ユーザーアカウント制御」を1段階下げる
-  - 「エクスプローラのオプション」 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
-- OneDriveサインイン→ログイン時に起動しない
 - [Primary Apps](## Primary)を入れる
-- クラウドストレージ選択同期
-  - リムーバルメディアに入れる場合、Dropboxは[シンボリックリンクが必要](https://plaza.rakuten.co.jp/mscrtf/diary/201507060000/)
-  - いまはいらないかも？
-- CapsをCtrlに
-- 英字配列のキーボードで困ったら → [Windows10日本語版で英語配列キーボードを使用する - Qiita](https://qiita.com/shimizu14/items/000cceb9e72a492b9176)
-- 各種アプリを入れる
-- TBD スタートの構成 画像
-- [パスワードや PIN の入力を省略して、Windows 10 に自動でサインインできるようにする方法 - ｋ本的に無料ソフト・フリーソフト](https://www.gigafree.net/Windows/No-Password-PIN-Sign-in/)
 
 
 ## Ubuntu + VS CODE + Zsh
