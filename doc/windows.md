@@ -65,6 +65,8 @@ GhDesktop
 Gh
 Slack
 Adobe
+Hiragino Sans
+その他Dotfiles, Macソフト確認
 Microsoft Security Essentials3.74
 
 ## 保留
