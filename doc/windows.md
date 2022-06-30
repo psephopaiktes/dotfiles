@@ -1,6 +1,4 @@
 # Windows Setting
-- [ ] Apps
-- [ ] WSL [## Ubuntu + VS CODE + Zsh](## Ubuntu + VS CODE + Zsh)
 - [ ] Ctrl+b,f,p,n,a,eはカーソル移動に。Alt+Aを全選択、Alt+b
   - [ ] [Windows 10でも「Emacs風キーバインド」を使おう【AutoHotKey】 | LFI](https://linuxfan.info/windows-emacs-keybindings)
   - [ ] [Windowsで好きなキーバインドを常に使えるようにする](https://zenn.dev/fss_bass/articles/40f222effd5ef2)みたいに、Ctrlはそのまま、Capslockとの連携だけ変える?
@@ -35,26 +33,26 @@
 10. システム言語を英語に変更
 14. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
-## Ubuntu + VS CODE + Zsh
+## WSL、Develop
 1. Terminalで`wsl --install`
 5. 再起動
 6. ユーザー・パスを設定 Windowsと一緒にしとく。(hirat/ログオンPass)
 7. いちど `code .` するとCodeコマンドがインスコされる
-
-### Zsh
 8. `sudo apt update`→`sudo apt upgrade -y`
 9. `sudo apt install zsh`
 10. `which zsh` して、`chsh`の結果にそのパスを打つ→再起動
   - たぶん `chsh -s /usr/bin/zsh` になるはず
+16. VS CODEのターミナルが変わってなければ変更
+  - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
+13. nvm `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+14. node `nvm i --lts` → `nvm use --lts`
+15. GitHub cli `winget install --id GitHub.cli`
 12. .zshrc, .git_config, Hyeper.js などを**WSLの**ユーザーフォルダに置く
   - `C:\Users\{User}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_*\LocalState\rootfs\home\{User}` にある
   - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(WSLのは開けない)
   - そのまま置くとパーミッションがないことが多いので、chmod 644とかしたほうがいいかも
-13. nvm `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
-14. node `nvm i --lts` → `nvm use --lts`
-15. GitHub cli `winget install --id GitHub.cli`
-16. VS CODEのターミナルが変わってなければ変更
-  - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
+1. WSLのユーザーフォルダをExploerにピン留めしておく
+
 
 # app-list
 
