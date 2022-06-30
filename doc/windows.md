@@ -44,13 +44,14 @@
 8. `sudo apt update`→`sudo apt upgrade -y`
 9. `sudo apt install zsh`
 10. `which zsh` して、`chsh`の結果にそのパスを打つ→Ubuntu再起動
-11. .zshrc, .git_configなどを置く
+11. .zshrc, .git_config, Hyeper.js などを**WSLの**ユーザーフォルダに置く
   - `C:\Users\{User}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_*\LocalState\rootfs\home\{User}` にある
   - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(WSLのは開けない)
   - そのまま置くとパーミッションがないことが多いので、chmod 644とかしたほうがいいかも
 12. nvm `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
 13. node `nvm i --lts` → `nvm use --lts`
-14. VS CODEのターミナル変更
+14. GitHub cli `winget install --id GitHub.cli`
+15. VS CODEのターミナルが変わってなければ変更
   - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
 
 # app-list
