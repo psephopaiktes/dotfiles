@@ -57,7 +57,7 @@
 
 アプリ | 設定項目
 --|--
-[Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  |  最新版を全ウェイトいれる
+[Ricty Diminished](https://github.com/edihbrandon/RictyDiminished)  |  最新版を全ウェイトいれる
 [Visual Studio Code](https://code.visualstudio.com/) | GitHub Sign In
 [Hyper™](https://hyper.is/) | [.hyper.js](https://github.com/psephopaiktes/dotfiles/blob/master/.hyper.js)を読み込み
 [GitHub Desktop](https://desktop.github.com/) | 
