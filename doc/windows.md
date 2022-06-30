@@ -62,7 +62,6 @@
 [Visual Studio Code](https://code.visualstudio.com/) | GitHub Sign In
 [Hyper™](https://hyper.is/) | [.hyper.js](https://github.com/psephopaiktes/dotfiles/blob/master/.hyper.js)を読み込み
 [GitHub Desktop](https://desktop.github.com/) | 
-Gh
 
 ## 保留
 [Honeyview](https://www.bandisoft.com/honeyview/) | 
