@@ -1,8 +1,6 @@
 # Windows Setting
 - [ ] Apps
 - [ ] WSL [## Ubuntu + VS CODE + Zsh](## Ubuntu + VS CODE + Zsh)
-- [ ] Android APP
-- [ ] https://www.google.com/search?q=WIndows+11+新機能
 - [ ] Ctrl+b,f,p,n,a,eはカーソル移動に。Alt+Aを全選択、Alt+b
   - [ ] [Windows 10でも「Emacs風キーバインド」を使おう【AutoHotKey】 | LFI](https://linuxfan.info/windows-emacs-keybindings)
   - [ ] [Windowsで好きなキーバインドを常に使えるようにする](https://zenn.dev/fss_bass/articles/40f222effd5ef2)みたいに、Ctrlはそのまま、Capslockとの連携だけ変える?
@@ -10,6 +8,7 @@
 
 ## TBD
 - [ ] Winget
+- [ ] Android APP
 
 ## STEP
 1. Englishでスタート、MSサインイン、アップデート
@@ -33,25 +32,25 @@
 8. 設定→アプリ→スタートアップから選択
 9. Start, Taskバーの整理
 10. システム言語を英語に変更
+14. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 ## Ubuntu + VS CODE + Zsh
-1. WIn+R→「appwiz.cpl」
-2. 「Turn Windows feature on or off」
-3. 「Windows Subsystem for Linux」on → Restart
-4. Windowsストアで「Linux」と検索 → Ubuntuをインスコ
-5. Ubuntuを起動 しばらく時間がかかる
-6. ユーザー・パスを設定
-7. `sudo apt update`→`sudo apt upgrade -y`
-8. `sudo apt install zsh`
-9. `which zsh` して、`chsh`の結果にそのパスを打つ→Ubuntu再起動
-10. .zshrc, .git_configなどを置く
+1. Terminalで`wsl --install`
+5. 再起動
+6. ユーザー・パスを設定 Windowsと一緒にしとく。(hirat/ログオンPass)
+7. いちど `code .` するとCodeコマンドがインスコされる
+
+### Zsh
+8. `sudo apt update`→`sudo apt upgrade -y`
+9. `sudo apt install zsh`
+10. `which zsh` して、`chsh`の結果にそのパスを打つ→Ubuntu再起動
+11. .zshrc, .git_configなどを置く
   - `C:\Users\{User}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_*\LocalState\rootfs\home\{User}` にある
   - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(WSLのは開けない)
   - そのまま置くとパーミッションがないことが多いので、chmod 644とかしたほうがいいかも
-11. nodebrewのインスコ `curl -L git.io/nodebrew | perl - setup`
-  - `export PATH=$HOME/.nodebrew/current/bin:$PATH`を.bashrcに追加
-12. nodeのインスコ `nodebrew install-binary stable` → `nodebrew use stable`
-13. VS CODEのターミナル変更
+12. nvm `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+13. node `nvm i --lts` → `nvm use --lts`
+14. VS CODEのターミナル変更
   - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
 
 # app-list
@@ -60,16 +59,13 @@
 --|--
 [Ricty Diminished](http://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)  |  最新版を全ウェイトいれる
 [Visual Studio Code](https://code.visualstudio.com/) | GitHub Sign In
-[Hyper™](https://hyper.is/) | .hyper.jsを読み込み
-GhDesktop
+[Hyper™](https://hyper.is/) | [.hyper.js](https://github.com/psephopaiktes/dotfiles/blob/master/.hyper.js)を読み込み
+[GitHub Desktop](https://desktop.github.com/) | 
 Gh
-Slack
-Adobe
-Hiragino Sans
-その他Dotfiles, Macソフト確認
-Microsoft Security Essentials3.74
 
 ## 保留
 [Honeyview](https://www.bandisoft.com/honeyview/) | 
 [VLC](https://www.videolan.org/vlc/index.ja.html) | 
 [Explzh](https://www.ponsoftware.com/) | 
+[Adobe CC](https://creativecloud.adobe.com/apps) | 
+Hiragino Sans
