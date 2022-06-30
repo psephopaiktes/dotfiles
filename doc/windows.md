@@ -17,6 +17,7 @@
 3. Powertoys設定
     - 常に管理者として実行
     - Caps → Ctrl 
+    - Alt Q → Alt F4
     - その他ひととおり確認
 4. Primary Apps を入れる、[App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
     - [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)
