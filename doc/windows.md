@@ -45,14 +45,11 @@
 16. VS CODEのターミナルが変わってなければ変更
   - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
 17. .zshrc, .git_config, Hyeper.js などを**WSLの**ユーザーフォルダに置く
-  - `C:\Users\{User}\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_*\LocalState\rootfs\home\{User}` にある
-  - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(WSLのは開けない)
+  - Exploerのサイドバー`Linux`というのからいけるはず。Quick Accessにもピン留め
+  - `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"` すれば良さそう。一応[中身](https://github.com/psephopaiktes/dotfiles/blob/master/deploy.sh)確認
+  - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(ただしWSLのは開けない)
   - そのまま置くとパーミッションがないことが多いので、chmod 644とかしたほうがいいかも
-18. WSLのユーザーフォルダをExploerにピン留めしておく
-13. nvm `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-  - 案内にそって`/home/hirat/.profile`などにExport追記 (追記済みかも)
-  - Terminal再起動
-15. node `nvm i --lts` → `nvm use --lts`
+13. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
 16. GitHub cli `winget install --id GitHub.cli`
 
 
