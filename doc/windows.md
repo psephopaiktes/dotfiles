@@ -7,6 +7,7 @@
 ## TBD
 - [ ] Winget
 - [ ] Android APP
+- [ ] GitHub Cli aptだとダメ、Brewが必要。
 
 ## STEP
 1. Englishでスタート、MSサインイン、アップデート
@@ -38,10 +39,10 @@
 5. 再起動
 6. ユーザー・パスを設定 Windowsと一緒にしとく。(hirat/ログオンPass)
 8. `sudo apt update`→`sudo apt upgrade -y`
-17. .zshrc, .git_config, .git_ignore, .hyeper.js を**WSLの**ユーザーフォルダに置いとく
+17. .zshrc, .git_config, .git_ignore を**WSLの**ユーザーフォルダに置いとく
     - Exploerのサイドバー`Linux`というのからいけるはず。Quick Accessにもピン留め
     - .zshrc 最後の方の行は消していい
-    - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(ただしWSLのは開けない)
+    - `open`が使えるように、以下を.zshrcの末尾に追記
         ```
         function open() {
             if [ $# != 1 ]; then
@@ -60,8 +61,9 @@
   - たぶん `chsh -s /usr/bin/zsh` になるはず
 7. いちど `code .` するとCodeコマンドがインスコされる
 16. VS CODEのターミナルが変わってなければ変更
-16. GitHub cli `winget install --id GitHub.cli`
 13. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
+14. Windows Terminal の設定からデフォルトシェルをWSLに
+
 
 
 # app-list
@@ -70,7 +72,6 @@
 --|--
 [Ricty Diminished](https://github.com/edihbrandon/RictyDiminished)  |  最新版を全ウェイトいれる
 [Visual Studio Code](https://code.visualstudio.com/) | GitHub Sign In
-[Hyper™](https://hyper.is/) | [.hyper.js](https://github.com/psephopaiktes/dotfiles/blob/master/.hyper.js)を読み込み
 [GitHub Desktop](https://desktop.github.com/) | 
 
 ## 保留
