@@ -37,20 +37,31 @@
 1. Terminalで`wsl --install`
 5. 再起動
 6. ユーザー・パスを設定 Windowsと一緒にしとく。(hirat/ログオンPass)
-7. いちど `code .` するとCodeコマンドがインスコされる
 8. `sudo apt update`→`sudo apt upgrade -y`
+17. .zshrc, .git_config, .git_ignore, .hyeper.js を**WSLの**ユーザーフォルダに置いとく
+    - Exploerのサイドバー`Linux`というのからいけるはず。Quick Accessにもピン留め
+    - .zshrc 最後の方の行は消していい
+    - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(ただしWSLのは開けない)
+        ```
+        function open() {
+            if [ $# != 1 ]; then
+                explorer.exe .
+            else
+                if [ -e $1 ]; then
+                    cmd.exe /c start $(wslpath -w $1) 2> /dev/null
+                else
+                    echo "open: $1 : No such file or directory" 
+                fi
+            fi
+        }
+        ```
 9. `sudo apt install zsh`
 10. `which zsh` して、`chsh`の結果にそのパスを打つ→再起動
   - たぶん `chsh -s /usr/bin/zsh` になるはず
+7. いちど `code .` するとCodeコマンドがインスコされる
 16. VS CODEのターミナルが変わってなければ変更
-  - `terminal.integrated.shell.windows": "C:/Windows/System32/wsl.exe"`
-17. .zshrc, .git_config, Hyeper.js などを**WSLの**ユーザーフォルダに置く
-  - Exploerのサイドバー`Linux`というのからいけるはず。Quick Accessにもピン留め
-  - `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"` すれば良さそう。一応[中身](https://github.com/psephopaiktes/dotfiles/blob/master/deploy.sh)確認
-  - `open`が使えるように、`alias open="cmd.exe /c start"`を追加(ただしWSLのは開けない)
-  - そのまま置くとパーミッションがないことが多いので、chmod 644とかしたほうがいいかも
-13. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
 16. GitHub cli `winget install --id GitHub.cli`
+13. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
 
 
 # app-list
