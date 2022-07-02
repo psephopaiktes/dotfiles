@@ -9,7 +9,7 @@
 7. 言語を日本語に変更、Cleartypeで検索して設定
 3. Powertoys設定
     - 常に管理者として実行
-    - Caps → Ctrl 
+    - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
     - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
     - その他ひととおり確認
 4. Primary Apps を入れる、[App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
