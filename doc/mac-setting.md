@@ -55,6 +55,7 @@
 ### Accessibility
 - Zoom > Use scroll gesture with modifier keys to zoom
 - Pointer Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
+- Pointer Control > Spring Loading を短くしておく
 - Display > Cursor > Cursor size: 10%
 
 ### Extensions
