@@ -29,7 +29,7 @@
     - [morisawa-biz-ud-gothic](https://github.com/googlefonts/morisawa-biz-ud-gothic/)
     - [morisawa-biz-ud-mincho](https://github.com/googlefonts/morisawa-biz-ud-mincho/)
 
-1. 再起動して終了
+1. 再起動して終了, 最後にLogin Items と Background Process の整理
 
 
 ## Clean Install の手順
