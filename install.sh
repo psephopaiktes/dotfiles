@@ -16,6 +16,10 @@ nvm i --lts
 wait
 
 nvm use --lts
+wait
+
+nvm alias default 'lts/*'
+wait
 
 # Install Global NPM Packages
 npm i -g @vue/cli
