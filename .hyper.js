@@ -4,7 +4,7 @@ module.exports = {
   config: {
     updateChannel: 'stable',
     fontSize: 16,
-    fontFamily: '"Ricty Diminished", Ricty, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"HackGen Console NFJ", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     fontWeight: 'normal',
     fontWeightBold: 'bold',
     lineHeight: 1.4,
