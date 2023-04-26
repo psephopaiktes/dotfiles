@@ -82,7 +82,7 @@
     - 「スペースバーを二回押してピリオドを挿入」off
     - 「スマート引用符とスマートダッシュを入力」off
 - Shortcuts
-    - Keuboard > Move focus to next window: ⌘⌥タブ
+    - Keuboard > Move focus to next window: ⌥ Tab
     - Spotlight > Check off all
 - Input Sources: add Google IME
     - [Macの入力ソースからUSを消す方法](https://nishi3.hatenablog.com/entry/2018/01/18/161745)
