@@ -63,12 +63,22 @@ alias st='open -a SourceTree'
 alias owa='say -v Kyoko おわりましたああああああああ'
 
 # prompt
+add_newline() {
+  if [[ -z $PS1_NEWLINE_LOGIN ]]; then
+    PS1_NEWLINE_LOGIN=true
+  else
+    printf '\n'
+  fi
+}
 autoload -Uz vcs_info
 autoload -U colors; colors
 setopt prompt_subst
 zstyle ':vcs_info:*' formats '%F{247}[ %b ]%f'
 zstyle ':vcs_info:*' actionformats '%F{red}[ %b(%a) ]%f'
-precmd() { vcs_info }
+precmd() {
+  vcs_info
+  add_newline
+}
 PROMPT='
 %F{178}%~%f ${vcs_info_msg_0_}
 %F{178}%B>%b%f  '
