@@ -20,20 +20,21 @@
     - 常に管理者として実行
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
     - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
-    - その他ひととおり確認
+    - Dropbox/Appからバックアップを復元、その他ひととおり確認
 1. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
-1. コントロールパネル
+    2. Logi Optionの設定、トラックパッドの設定など
+3. コントロールパネル
   - 「ユーザーアカウント制御」を1段階下げる
   - 「エクスプローラのオプション」
       - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
       - 表示 → タイトルバーに完全なパスを表示
-1. プライバシーとセキュリティから検索除外するフォルダを設定
-1. OneDriveなどスタートアップアプリを減らす
-1. MS Store → ライブラリから必要なソフトをインスコ
-1. 設定→アプリ→スタートアップから選択
-1. Start, Taskバーの整理
-1. システム言語を英語に変更
-1. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+4. プライバシーとセキュリティから検索除外するフォルダを設定
+5. OneDriveなどスタートアップアプリを減らす
+6. MS Store → ライブラリから必要なソフトをインスコ
+7. 設定→アプリ→スタートアップから選択
+8. Start, Taskバーの整理
+9. システム言語を英語に変更
+10. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
