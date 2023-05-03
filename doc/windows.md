@@ -6,31 +6,34 @@
 - Search: `winget search`
 - JSON Export: `winget export -o apps.json`
 - JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --ignore-unavailable`
+- 手動インストール
+    - [Explzh](https://www.ponsoftware.com/)
+    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
+    - 
 
 ## STEP
 1. Englishでスタート、MSサインイン、アップデート
-2. 設定同期のためOne Drive サインインしとく
-7. 言語を日本語に変更、Cleartypeで検索して設定
-3. Powertoys設定
+1. 設定同期のためOne Drive サインインしとく
+1. 言語を日本語に変更、Cleartypeで検索して設定
+1. WinGet Install
+1. Powertoys設定
     - 常に管理者として実行
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
     - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
     - その他ひととおり確認
-4. Primary Apps を入れる、[App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
-    - [Chrome](https://www.google.co.jp/chrome/browser/desktop/index.html)
-    - [Dropbox](https://www.dropbox.com/install)
-    - [Google IME](https://www.google.co.jp/ime/)
-5. コントロールパネル
+1. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
+1. コントロールパネル
   - 「ユーザーアカウント制御」を1段階下げる
   - 「エクスプローラのオプション」
       - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
       - 表示 → タイトルバーに完全なパスを表示
-6. プライバシーとセキュリティから検索除外するフォルダを設定
-7. MS Store → ライブラリから必要なソフトをインスコ
-8. 設定→アプリ→スタートアップから選択
-9. Start, Taskバーの整理
-10. システム言語を英語に変更
-14. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+1. プライバシーとセキュリティから検索除外するフォルダを設定
+1. OneDriveを無効化
+1. MS Store → ライブラリから必要なソフトをインスコ
+1. 設定→アプリ→スタートアップから選択
+1. Start, Taskバーの整理
+1. システム言語を英語に変更
+1. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
@@ -61,20 +64,3 @@
 16. VS CODEのターミナルが変わってなければ変更
 13. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
 14. Windows Terminal の設定からデフォルトシェルをWSLに
-
-
-
-# app-list
-
-アプリ | 設定項目
---|--
-[Ricty Diminished](https://github.com/edihbrandon/RictyDiminished)  |  最新版を全ウェイトいれる
-[Visual Studio Code](https://code.visualstudio.com/) | GitHub Sign In
-[GitHub Desktop](https://desktop.github.com/) | 
-
-## 保留
-[Honeyview](https://www.bandisoft.com/honeyview/) | 
-[VLC](https://www.videolan.org/vlc/index.ja.html) | 
-[Explzh](https://www.ponsoftware.com/) | 
-[Adobe CC](https://creativecloud.adobe.com/apps) | 
-Hiragino Sans
