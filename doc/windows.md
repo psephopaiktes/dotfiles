@@ -40,10 +40,10 @@
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
-5. 再起動
-6. ユーザー・パスを設定 Windowsと一緒にしとく。(hirat/ログオンPass)
-8. `sudo apt update`→`sudo apt upgrade -y`
-17. .zshrc, .git_config, .git_ignore を**WSLの**ユーザーフォルダに置いとく
+1. 再起動
+1. ユーザー・パスを設定 Windowsと一緒にしとく。(hirat/ログオンPass)
+1. `sudo apt update`→`sudo apt upgrade -y`
+1. .zshrc, .git_config, .git_ignore を**WSLの**ユーザーフォルダに置いとく
     - Exploerのサイドバー`Linux`というのからいけるはず。Quick Accessにもピン留め
     - .zshrc 最後の方の行は消していい
     - `open`が使えるように、以下を.zshrcの末尾に追記
@@ -60,10 +60,10 @@
             fi
         }
         ```
-9. `sudo apt install zsh`
-10. `which zsh` して、`chsh`の結果にそのパスを打つ→再起動
-  - たぶん `chsh -s /usr/bin/zsh` になるはず
-7. いちど `code .` するとCodeコマンドがインスコされる
-16. VS CODEのターミナルが変わってなければ変更
-13. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
-14. Windows Terminal の設定からデフォルトシェルをWSLに
+1. `sudo apt install zsh`
+1. `which zsh` して、`chsh`の結果にそのパスを打つ→再起動
+    - たぶん `chsh -s /usr/bin/zsh` になるはず
+1. いちど `code .` するとCodeコマンドがインスコされる
+1. VS CODEのターミナルが変わってなければ変更
+1. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
+1. Windows Terminal の設定からデフォルトシェルをWSLに
