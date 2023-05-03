@@ -22,14 +22,15 @@
     - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
     - Dropbox/Appからバックアップを復元、その他ひととおり確認
 1. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
-    2. Logi Optionの設定、トラックパッドの設定など
-3. コントロールパネル
+    1. Google IME の設定で「一般→キー設定の選択」でME-IMEを選んだあと、「編集」から[Ctrl Spaceによる切り替えを追加](https://kurobutasan.com/google-ime-ctrl-space/)
+    1. Logi Optionの設定、トラックパッドの設定など
+1. コントロールパネル
   - 「ユーザーアカウント制御」を1段階下げる
   - 「エクスプローラのオプション」
       - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
       - 表示 → タイトルバーに完全なパスを表示
-4. プライバシーとセキュリティから検索除外するフォルダを設定
-5. OneDriveなどスタートアップアプリを減らす
+1. プライバシーとセキュリティから検索除外するフォルダを設定
+1. OneDriveなどスタートアップアプリを減らす
 6. MS Store → ライブラリから必要なソフトをインスコ
 7. 設定→アプリ→スタートアップから選択
 8. Start, Taskバーの整理
