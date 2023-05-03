@@ -3,13 +3,15 @@
 - [ ] GitHub Cli aptだとダメ、Brewが必要。
 
 ## WinGet
+- 先に手動インストール
+    - Chrome
+    - Google IME
+    - [Explzh](https://www.ponsoftware.com/)
+    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
 - Search: `winget search`
 - JSON Export: `winget export -o apps.json`
 - JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --ignore-unavailable`
-- 手動インストール
-    - [Explzh](https://www.ponsoftware.com/)
-    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
-    - 
+
 
 ## STEP
 1. Englishでスタート、MSサインイン、アップデート
