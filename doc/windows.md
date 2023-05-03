@@ -1,7 +1,11 @@
 ## TBD
-- [ ] Winget
 - [ ] Android APP
 - [ ] GitHub Cli aptだとダメ、Brewが必要。
+
+## WinGet
+- Search: `winget search`
+- JSON Export: `winget export -o apps.json`
+- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --ignore-unavailable`
 
 ## STEP
 1. Englishでスタート、MSサインイン、アップデート
