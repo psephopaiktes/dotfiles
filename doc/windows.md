@@ -38,7 +38,8 @@
 1. 設定→アプリ→スタートアップから選択
 1. Start, Taskバーの整理
 1. システム言語を英語に変更
-1. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+2. Remote Desktop の場合、3本指タップが意図通りにならない場合もある。その場合はDropbox/AppのRegファイルを実行
+3. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
