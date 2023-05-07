@@ -15,31 +15,32 @@
 
 
 ## STEP
-1. Englishでスタート、MSサインイン、アップデート
-1. 設定同期のためOne Drive サインインしとく
-1. 言語を日本語に変更、Cleartypeで検索して設定
-1. WinGet Install
-1. Powertoys設定
+1. Englishでスタート？、MSサインイン、「以前のPCから設定を引き継ぐ」
+2. アップデート
+3. 設定同期のためOne Drive サインインしとく
+4. 言語を日本語に変更、Cleartypeで検索して設定
+5. WinGet Install
+6. Powertoys設定
     - 常に管理者として実行
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
     - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
     - Dropbox/Appからバックアップを復元、その他ひととおり確認
-1. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
+7. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
     1. Google IME の設定で「一般→キー設定の選択」でインポート
     1. Logi Optionの設定、トラックパッドの設定など
-1. コントロールパネル
+8. コントロールパネル
     - 「ユーザーアカウント制御」を1段階下げる
-1. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
-1. エクスプローラのオプション
+9. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
+10. エクスプローラのオプション
     - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
     - 表示 → タイトルバーに完全なパスを表示
     - 表示 → 隠しファイルの表示、拡張子の表示
-1. プライバシーとセキュリティから検索除外するフォルダを設定
-1. 設定→アプリ→スタートアップから選択
-1. Start, Taskバーの整理
-1. システム言語を英語に変更
-2. Remote Desktop の場合、3本指タップが意図通りにならない場合もある。その場合はDropbox/AppのRegファイルを実行
-3. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+11. プライバシーとセキュリティから検索除外するフォルダを設定
+12. 設定→アプリ→スタートアップから選択
+13. Start, Taskバーの整理
+14. システム言語を英語に変更
+15. Remote Desktop の場合、3本指タップが意図通りにならない場合もある。その場合はDropbox/AppのRegファイルを実行
+16. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
