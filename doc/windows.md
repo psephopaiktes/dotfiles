@@ -6,7 +6,7 @@
 - 先に手動インストール
     - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
     - [Google IME](https://www.google.co.jp/ime/)
-    - [Explzh](https://www.ponsoftware.com/)
+    - [Explzh](https://www.ponsoftware.com/archiver/download.htm)
     - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
     - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
 - Search: `winget search`
