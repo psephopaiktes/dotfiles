@@ -1,6 +1,7 @@
 ## TBD
 - [ ] Android APP
 - [ ] GitHub Cli aptだとダメ、Brewが必要。
+- [ ] https://pcmanager-en.microsoft.com/
 
 ## WinGet
 - 先に手動インストール
