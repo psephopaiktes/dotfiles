@@ -39,8 +39,17 @@
 12. 設定→アプリ→スタートアップから選択
 13. Start, Taskバーの整理
 14. システム言語を英語に変更
-15. Remote Desktop の場合、3本指タップが意図通りにならない場合もある。その場合はDropbox/AppのRegファイルを実行
-16. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+15. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+
+## シンクライアント運用
+- ホスト
+    - 設定のリモートから有効化する
+    - Remote Desktop の場合、3本指タップが意図通りにならない場合もある。その場合はDropbox/AppのRegファイルを実行
+- クライアント
+    - 設定から「パフォーマンス」を検索、「パフォーマンスを優先」に変更
+    - 設定→アクセシビリティ→視覚効果→すべてオフに
+- [ ] 外部リモート
+
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
