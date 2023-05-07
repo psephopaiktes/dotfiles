@@ -4,8 +4,8 @@
 
 ## WinGet
 - 先に手動インストール
-    - Chrome
-    - Google IME
+    - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
+    - [Google IME](https://www.google.co.jp/ime/)
     - [Explzh](https://www.ponsoftware.com/)
     - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
     - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
