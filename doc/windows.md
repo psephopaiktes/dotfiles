@@ -26,7 +26,7 @@
     - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
     - Dropbox/Appからバックアップを復元、その他ひととおり確認
 7. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
-    1. Google IME の設定で「一般→キー設定の選択」でインポート
+    1. Google IME の設定で「一般→キー設定の選択」でインポート. アプリを再起動するまでは反映されないので注意
     1. Logi Optionの設定、トラックパッドの設定など
 8. コントロールパネル
     - 「ユーザーアカウント制御」を1段階下げる
