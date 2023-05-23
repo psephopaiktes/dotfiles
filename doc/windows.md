@@ -40,7 +40,8 @@
 12. 設定→アプリ→スタートアップから選択
 13. Start, Taskバーの整理
 14. システム言語を英語に変更
-15. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+15. Clear Type を検索して設定
+16. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 ## シンクライアント運用
 - ホスト
