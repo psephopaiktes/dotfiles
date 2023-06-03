@@ -24,3 +24,5 @@
   co = checkout
   b = branch
   tree = log --graph --oneline
+[push]
+  default = current
