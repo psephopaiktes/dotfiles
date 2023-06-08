@@ -4,7 +4,7 @@
 - [ ] https://pcmanager-en.microsoft.com/
 
 ## WinGet
-- 先に手動インストール
+- 先に手動インストール？Wingetでいけそうならそっちへ
     - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
     - [Google IME](https://www.google.co.jp/ime/)
     - [Explzh](https://www.ponsoftware.com/archiver/download.htm)
