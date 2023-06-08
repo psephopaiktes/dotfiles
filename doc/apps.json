@@ -85,6 +85,9 @@
 					"PackageIdentifier" : "Nvidia.GeForceExperience"
 				},
 				{
+					"PackageIdentifier" : "QL-Win.QuickLook"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
 				}
 			],
