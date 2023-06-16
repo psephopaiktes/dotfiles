@@ -1,8 +1,5 @@
 ## TBD
 - [ ] Android APP
-- [ ] GitHub Cli aptだとダメ、Brewが必要。
-- [ ] Explzhもういらないかも https://pc.watch.impress.co.jp/docs/news/1503026.html
-- [ ] https://pcmanager-en.microsoft.com/
 
 ## WinGet
 - 先に手動インストール？Wingetでいけそうならそっちへ
