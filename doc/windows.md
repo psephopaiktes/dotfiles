@@ -11,7 +11,7 @@
 - Search: `winget search`
 - Update: `winget upgrade --all`
 - JSON Export: `winget export -o apps.json`
-- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --ignore-unavailable`
+- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --accept-source-agreements --ignore-unavailable`
 
 
 ## STEP
