@@ -8,6 +8,7 @@
     - [Explzh](https://www.ponsoftware.com/archiver/download.htm)
     - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
     - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
+    - [Files](https://www.microsoft.com/store/productId/9NGHP3DX8HDX)
 - Search: `winget search`
 - Update: `winget upgrade --all`
 - JSON Export: `winget export -o apps.json`
