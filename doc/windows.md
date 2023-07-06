@@ -1,5 +1,6 @@
 ## TBD
 - [ ] Android APP
+- [ ] https://twitter.com/zmukkuri/status/1651151599853772802
 
 ## WinGet
 - 先に手動インストール？Wingetでいけそうならそっちへ
