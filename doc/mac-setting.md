@@ -39,6 +39,7 @@
 
 ### Spotlight
 - Privacy > 必要なら追加
+- Macintosh HD ごと追加しちゃう & 検索対象をすべてOFF にしたら軽くなるかも？
 
 ### Language & Region
 - システム言語を英語にした場合は、第2言語に日本語を追加しておく
