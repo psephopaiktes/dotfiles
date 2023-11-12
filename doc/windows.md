@@ -9,6 +9,7 @@
     - [Explzh](https://www.ponsoftware.com/archiver/download.htm)
     - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
     - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
+    - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
 - Search: `winget search`
 - Update: `winget upgrade --all`
 - JSON Export: `winget export -o apps.json`
