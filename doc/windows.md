@@ -10,6 +10,7 @@
     - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
     - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
     - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
+    - [Twinkle Tray](https://apps.microsoft.com/detail/twinkle-tray%3A-brightness-slider/9PLJWWSV01LK?hl=ja-JP&gl=US)
 - Search: `winget search`
 - Update: `winget upgrade --all`
 - JSON Export: `winget export -o apps.json`
