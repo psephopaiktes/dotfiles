@@ -135,8 +135,11 @@ Right click on Desktop > Show View Options
 
 ## Appearance
 - 壁紙を変える→5個に増やす
-- DockでChromeを右クリック→オプション→特定のデスクトップのみに
-- DockでFinderを右クリック→オプション→すべてのデスクトップ
+- Dockでアプリを右クリック→オプション→デスクトップを指定しておく
+    - Chrome: Desktop3
+    - Figma, Abstractなどデザインツール: Desktop2
+    - Slack, LINE, Discrodなどコミュニケーションツール: Desktop5
+    - Finder: すべてのデスクトップ
 - Finderツールバーをカスタマイズ
     – 不要なものを消す
     - Chrome,Ps,Ai,Codeを⌘ドラッグで追加
