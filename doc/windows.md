@@ -2,8 +2,9 @@
 - [ ] Android APP
 - [ ] https://twitter.com/zmukkuri/status/1651151599853772802
 - [ ] プライバシー系
-    - [ ] Media Player 最近使ったファイル
+    - [ ] Media Player 最近使ったファイル →消せなそうだから他のアプリかなあ VLC?
     - [ ] Dropbox やOther検索にヒットさせない
+    - [ ] 漫画Viewer
 
 ## WinGet
 - 先に手動インストール？Wingetでいけそうならそっちへ
