@@ -22,8 +22,6 @@ nvm alias default 'lts/*'
 wait
 
 # Install Global NPM Packages
-npm i -g @vue/cli
-npm i -g vercel
 npm i -g @squoosh/cli
 wait
 
