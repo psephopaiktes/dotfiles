@@ -12,7 +12,7 @@
 1. Englishでスタート？、MSサインイン、「以前のPCから設定を引き継ぐ」
 2. 設定同期のためOne Driveに最初だけサインインしとく
 3. ひたすらアップデート
-4. Option: 言語を日本語に変更、Cleartypeで検索して設定
+4. 言語を日本語に変更、Cleartypeで検索して設定, Ager Egnlish
 5. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
 6. Powertoys設定
     - 常に管理者として実行
