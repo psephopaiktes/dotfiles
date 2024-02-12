@@ -36,6 +36,8 @@
 15. Clear Type を検索して設定
 16. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
+
+
 ## シンクライアント運用
 - ホスト
     - 設定のリモートから有効化する
@@ -43,7 +45,7 @@
 - クライアント
     - 設定から「パフォーマンス」を検索、「パフォーマンスを優先」に変更
     - 設定→アクセシビリティ→視覚効果→すべてオフに
-- [ ] 外部リモート
+    - [SoftEther VPN プロジェクト - SoftEther VPN プロジェクト](https://ja.softether.org/)
 
 
 
