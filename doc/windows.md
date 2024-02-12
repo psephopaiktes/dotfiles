@@ -9,10 +9,10 @@
 
 
 ## STEP
-1. Englishでスタート？、MSサインイン、「以前のPCから設定を引き継ぐ」
+1. 日本語でスタート、MSサインイン、「以前のPCから設定を引き継ぐ」
 2. 設定同期のためOne Driveに最初だけサインインしとく
 3. ひたすらアップデート
-4. 言語を日本語に変更、Cleartypeで検索して設定
+4. Cleartypeで検索して設定
 5. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
 6. Dropbox/Appフォルダはローカルに設定
 7. Powertoys設定
@@ -35,8 +35,10 @@
 14. Start, Taskバーの整理
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/0864bfc2-713d-4ce0-925e-a379e54520b3)
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/02d9316c-7157-48be-8010-217bc905a60c)
-16. システム言語を英語に変更
-17. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+15. その他
+    * ナイトシフト
+17. システム言語を英語に変更
+18. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 
 
