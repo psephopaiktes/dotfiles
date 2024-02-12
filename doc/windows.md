@@ -13,7 +13,7 @@
 2. 設定同期のためOne Driveに最初だけサインインしとく
 3. ひたすらアップデート
 4. Option: 言語を日本語に変更、Cleartypeで検索して設定
-5. apps.json落として[WinGetでInstall↓](# WinGet)
+5. apps.json落として[WinGetでInstall↓](#WinGet)
 6. Powertoys設定
     - 常に管理者として実行
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
