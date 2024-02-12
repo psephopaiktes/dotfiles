@@ -26,19 +26,22 @@
 9. コントロールパネル
     - 「ユーザーアカウント制御」を1段階下げる
 10. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
-11. エクスプローラのオプション
+11. トラックパッドの設定
+    * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/5a005926-ecbd-416e-9946-5f501e059528)
+    * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/168c1393-bd0a-44e6-bee2-12f9e0fb2bf7)
+13. エクスプローラのオプション
     - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
     - 表示 → タイトルバーに完全なパスを表示
     - 表示 → 隠しファイルの表示、拡張子の表示
-12. プライバシーとセキュリティから検索除外するフォルダを設定
-13. 設定→アプリ→スタートアップから選択
-14. Start, Taskバーの整理
+14. プライバシーとセキュリティから検索除外するフォルダを設定
+15. 設定→アプリ→スタートアップから選択
+16. Start, Taskバーの整理
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/0864bfc2-713d-4ce0-925e-a379e54520b3)
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/02d9316c-7157-48be-8010-217bc905a60c)
-15. その他
+17. その他
     * ナイトシフト
-17. システム言語を英語に変更
-18. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+18. システム言語を英語に変更
+19. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 
 
