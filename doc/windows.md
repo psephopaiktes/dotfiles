@@ -14,26 +14,29 @@
 3. ひたすらアップデート
 4. 言語を日本語に変更、Cleartypeで検索して設定
 5. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
-6. Powertoys設定
+6. Dropbox/Appフォルダはローカルに設定
+7. Powertoys設定
     - 常に管理者として実行
-    - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
-    - ![image](https://user-images.githubusercontent.com/4294850/176980594-c80ecee4-11c9-4bb3-aa93-35662c748127.png)
+    - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、DropboxのCapsToCtrlを実行
+        - もしくは[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
     - Dropbox/Appからバックアップを復元、その他ひととおり確認
-7. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
+8. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
     1. Google IME の設定で「一般→キー設定の選択」でインポート. アプリを再起動するまでは反映されないので注意
     1. Logi Optionの設定、トラックパッドの設定など
-8. コントロールパネル
+9. コントロールパネル
     - 「ユーザーアカウント制御」を1段階下げる
-9. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
-10. エクスプローラのオプション
+10. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
+11. エクスプローラのオプション
     - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
     - 表示 → タイトルバーに完全なパスを表示
     - 表示 → 隠しファイルの表示、拡張子の表示
-11. プライバシーとセキュリティから検索除外するフォルダを設定
-12. 設定→アプリ→スタートアップから選択
-13. Start, Taskバーの整理
-14. システム言語を英語に変更
-16. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+12. プライバシーとセキュリティから検索除外するフォルダを設定
+13. 設定→アプリ→スタートアップから選択
+14. Start, Taskバーの整理
+    * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/0864bfc2-713d-4ce0-925e-a379e54520b3)
+    * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/02d9316c-7157-48be-8010-217bc905a60c)
+16. システム言語を英語に変更
+17. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 
 
