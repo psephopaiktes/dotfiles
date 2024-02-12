@@ -12,7 +12,7 @@
 1. Englishでスタート？、MSサインイン、「以前のPCから設定を引き継ぐ」
 2. 設定同期のためOne Driveに最初だけサインインしとく
 3. ひたすらアップデート
-4. 言語を日本語に変更、Cleartypeで検索して設定, Ager Egnlish
+4. 言語を日本語に変更、Cleartypeで検索して設定
 5. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
 6. Powertoys設定
     - 常に管理者として実行
@@ -33,7 +33,6 @@
 12. 設定→アプリ→スタートアップから選択
 13. Start, Taskバーの整理
 14. システム言語を英語に変更
-15. Clear Type を検索して設定
 16. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
 
 
