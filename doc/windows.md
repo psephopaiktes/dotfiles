@@ -6,27 +6,14 @@
     - [ ] Dropbox やOther検索にヒットさせない
     - [ ] 漫画Viewer
 
-## WinGet
-- 先に手動インストール？Wingetでいけそうならそっちへ
-    - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
-    - [Google IME](https://www.google.co.jp/ime/)
-    - [Explzh](https://www.ponsoftware.com/archiver/download.htm)
-    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
-    - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
-    - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
-    - [Twinkle Tray](https://apps.microsoft.com/detail/twinkle-tray%3A-brightness-slider/9PLJWWSV01LK?hl=ja-JP&gl=US)
-- Search: `winget search`
-- Update: `winget upgrade --all`
-- JSON Export: `winget export -o apps.json`
-- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --accept-source-agreements --ignore-unavailable`
 
 
 ## STEP
 1. Englishでスタート？、MSサインイン、「以前のPCから設定を引き継ぐ」
-2. アップデート
-3. 設定同期のためOne Drive サインインしとく
-4. 言語を日本語に変更、Cleartypeで検索して設定
-5. WinGet Install
+2. 設定同期のためOne Driveに最初だけサインインしとく
+3. ひたすらアップデート
+4. Option: 言語を日本語に変更、Cleartypeで検索して設定
+5. apps.json落として[WinGetでInstall↓](# WinGet)
 6. Powertoys設定
     - 常に管理者として実行
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので、[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
@@ -57,6 +44,23 @@
     - 設定から「パフォーマンス」を検索、「パフォーマンスを優先」に変更
     - 設定→アクセシビリティ→視覚効果→すべてオフに
 - [ ] 外部リモート
+
+
+
+## WinGet
+- 先に手動インストール？Wingetでいけそうならそっちへ
+    - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
+    - [Google IME](https://www.google.co.jp/ime/)
+    - [Explzh](https://www.ponsoftware.com/archiver/download.htm)
+    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
+    - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
+    - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
+    - [Twinkle Tray](https://apps.microsoft.com/detail/twinkle-tray%3A-brightness-slider/9PLJWWSV01LK?hl=ja-JP&gl=US)
+- Search: `winget search`
+- Update: `winget upgrade --all`
+- JSON Export: `winget export -o apps.json`
+- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --accept-source-agreements --ignore-unavailable`
+
 
 
 ## WSL、Develop
