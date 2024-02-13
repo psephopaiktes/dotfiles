@@ -53,7 +53,7 @@
 - クライアント
     - 設定から「パフォーマンス」を検索、「パフォーマンスを優先」に変更
     - 設定→アクセシビリティ→視覚効果→すべてオフに
-    - [SoftEther VPN プロジェクト - SoftEther VPN プロジェクト](https://ja.softether.org/)
+    - [SoftEther VPN プロジェクト - SoftEther VPN プロジェクト](https://www.softether-download.com/ja.aspx?product=softether)
 
 
 
