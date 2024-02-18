@@ -65,6 +65,7 @@
     - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
     - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
     - [Twinkle Tray](https://apps.microsoft.com/detail/twinkle-tray%3A-brightness-slider/9PLJWWSV01LK?hl=ja-JP&gl=US)
+    - [MS PC Maneger](https://pcmanager.microsoft.com/)
 - Search: `winget search`
 - Update: `winget upgrade --all`
 - JSON Export: `winget export -o apps.json`
