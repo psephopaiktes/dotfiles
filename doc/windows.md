@@ -17,8 +17,8 @@
 6. Dropbox/Appフォルダはローカルに設定
 7. Powertoys設定
     - 常に管理者として実行
-    - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるので[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってレジストリからCtrl(Right)に変える
-        - 将来的にはレジストリ実行ファイル用意したいなあ
+    - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるのでDropbox/App/CapToRightCtrl.regを実行する
+        - もしくは[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってCtrl(Right)に変える
     - Dropbox/Appからバックアップを復元、その他ひととおり確認
 8. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
     1. Google IME の設定で「一般→キー設定の選択」でインポート. アプリを再起動するまでは反映されないので注意
