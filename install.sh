@@ -6,7 +6,7 @@
 echo "...install NODEs"
 
 # nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 wait
 
 exec $SHELL -l
