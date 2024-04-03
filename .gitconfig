@@ -22,6 +22,7 @@
   grep = auto
 [alias]
   co = checkout
+  sw = switch
   b = branch
   tree = log --graph --oneline
 [push]
