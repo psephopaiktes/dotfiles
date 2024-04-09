@@ -28,8 +28,18 @@
 10. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
 11. トラックパッドの設定
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/5a005926-ecbd-416e-9946-5f501e059528)
-    * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/168c1393-bd0a-44e6-bee2-12f9e0fb2bf7)
-    * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/b0e76cc1-fe1c-49cc-bd8c-21175205c2b9)
+    * 3 Finger
+        * タップ: マウスの中央ボタン
+        * 上方向にスワイプ: `^⇧T`
+        * 下方向にスワイプ: `^W`
+        * 左方向にスワイプ: `^⇧⇥`
+        * 右方向にスワイプ: `^⇥`
+    * 4 Finger
+        * タップ: マウスの戻るボタン
+        * 上方向にスワイプ: `Win⇥`
+        * 下方向にスワイプ: デスクトップの表示
+        * 左方向にスワイプ: `Win^←`
+        * 右方向にスワイプ: `Win^→`
 13. エクスプローラのオプション
     - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
     - 表示 → タイトルバーに完全なパスを表示
