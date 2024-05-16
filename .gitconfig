@@ -1,19 +1,12 @@
 [user]
-  name = a-hirata
+  name = Akira HIRATA
   email = hirataakira6@gmail.com
 [core]
   editor = code --wait
   precomposeunicode = true
   quotepath = false
-  excludesfile = ~/.gitignore_global
-[difftool "sourcetree"]
-  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-  path =
-[mergetool "sourcetree"]
-  cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-  trustExitCode = true
-[commit]
-  template = ~/.stCommitMsg
+  excludesfile = /Users/a-hirata/.gitignore_global
+  ignorecase = false
 [color]
   status = auto
   diff = auto
@@ -25,5 +18,10 @@
   sw = switch
   b = branch
   tree = log --graph --oneline
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [push]
   default = current
