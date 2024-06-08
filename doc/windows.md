@@ -1,5 +1,6 @@
 ## TBD
 - [ ] https://twitter.com/zmukkuri/status/1651151599853772802
+- [ ] https://zenn.dev/lovegraph/articles/529fe37caa3f19?utm_source=pocket_saves
 - [ ] プライバシー系
     - [ ] Media Player 最近使ったファイル →消せなそうだから他のアプリかなあ VLC?
     - [ ] Dropbox やOther検索にヒットさせない
