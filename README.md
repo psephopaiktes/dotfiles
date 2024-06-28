@@ -1,8 +1,8 @@
 # dotfiles
 平田のMac環境構築用
 
-TODO: [俺たちはもう GitHub のために ssh-keygen しなくていい](https://zenn.dev/lovegraph/articles/529fe37caa3f19?utm_source=pocket_saves)
-TODO: nvmいらんくてpnpmだけでいいかも。Winも。
+- TODO: [俺たちはもう GitHub のために ssh-keygen しなくていい](https://zenn.dev/lovegraph/articles/529fe37caa3f19?utm_source=pocket_saves)
+- TODO: nvmいらんくてpnpmだけでいいかも。Winも。 → Astroのおすすめに従ってCorepack使いたい
 
 
 ## 手順
