@@ -2,7 +2,10 @@
 平田のMac環境構築用
 
 - TODO: [俺たちはもう GitHub のために ssh-keygen しなくていい](https://zenn.dev/lovegraph/articles/529fe37caa3f19?utm_source=pocket_saves)
-- TODO: nvmいらんくてpnpmだけでいいかも。Winも。 → Astroのおすすめに従ってCorepack使いたい
+- TODO: nvmいらんくてpnpmだけでいいかも。Winも
+    -  → Astroのおすすめに従ってCorepack使いたい
+    -  pnpmを親にするのか、Nodeを親にするのか・・・
+    -  https://qiita.com/oekazuma/items/1e2ee304877efa48c122
 
 
 ## 手順
