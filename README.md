@@ -5,7 +5,8 @@
 - TODO: nvmいらんくてpnpmだけでいいかも。Winも
     -  → Astroのおすすめに従ってCorepack使いたい
     -  pnpmを親にするのか、Nodeを親にするのか・・・
-    -  https://qiita.com/oekazuma/items/1e2ee304877efa48c122
+        -  https://qiita.com/oekazuma/items/1e2ee304877efa48c122
+        -  たぶん基本的に今後はnode.jsの最新版をアップデート→必要ならpackaje.jsonにpackegeMangerを指定するだけで良さそう
 
 
 ## 手順
