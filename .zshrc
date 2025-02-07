@@ -21,6 +21,7 @@ setopt hist_save_no_dups
 
 # 自動補完を有効にする
 autoload -U compinit; compinit
+eval "$(gh completion -s zsh)"
 
 # Alt + Backspaceを有効にする
 autoload -U select-word-style
