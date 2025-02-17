@@ -22,6 +22,9 @@
 			"Packages" : 
 			[
 				{
+					"PackageIdentifier" : "Bandisoft.BandiView"
+				},
+				{
 					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
