@@ -31,6 +31,9 @@
 					"PackageIdentifier" : "Dropbox.Dropbox"
 				},
 				{
+					"PackageIdentifier" : "FilesCommunity.Files"
+				},
+				{
 					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
