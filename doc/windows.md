@@ -1,6 +1,4 @@
 ## TBD
-- [ ] https://twitter.com/zmukkuri/status/1651151599853772802
-- [ ] https://zenn.dev/lovegraph/articles/529fe37caa3f19?utm_source=pocket_saves
 - [ ] https://www.ubackup.com/jp/windows-11/windows-11-random-restart.html
 - [ ] [Windows 11のPCが勝手に再起動する場合の対処法6つ](https://www.ubackup.com/jp/windows-11/windows-11-random-restart.html)
 - [ ] プライバシー系
