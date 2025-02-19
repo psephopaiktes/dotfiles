@@ -1,32 +1,34 @@
-## TBD
-- [ ] https://www.ubackup.com/jp/windows-11/windows-11-random-restart.html
-- [ ] [Windows 11のPCが勝手に再起動する場合の対処法6つ](https://www.ubackup.com/jp/windows-11/windows-11-random-restart.html)
-- [ ] プライバシー系
-    - [ ] Media Player 最近使ったファイル →消せなそうだから他のアプリかなあ VLC?
-    - [ ] Dropbox やOther検索にヒットさせない
-    - [ ] 漫画Viewer
-
-
+## ※低スペックPCの場合
+以下だけ意識しとく
+- 設定→ゲーム から以下を開いてOFFICE
+    - →Xbox Game Bar
+    - →ゲームモード
+- 「透明効果」をオフ
+- システムの詳細設定→詳細設定→パフォーマンスで「パフォーマンスを優先」に。ただし
+`スクリーンフォントの縁を滑らかにする`はONにしておく。
+    - Cleartypeは設定不要かな。
+    - デスクトップ移動のアニメーションは欲しいかも
 
 ## STEP
-1. 日本語でスタート、MSサインイン、「以前のPCから設定を引き継ぐ」
-2. 設定同期のためOne Driveに最初だけサインインしとく
-3. ひたすらアップデート
-4. Cleartypeで検索して設定
-5. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
-6. Dropbox/Appフォルダはローカルに設定
-7. Powertoys設定
+0. 日本語でスタート、MSサインイン、「以前のPCから設定を引き継ぐ」
+    0. 設定同期のためOne Driveに最初だけサインインしとく
+    0. ひたすらOSアップデート
+0. ナイトシフトを設定
+0. Cleartypeで検索して設定
+0. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
+0. Dropbox/Appフォルダはオフラインアクセスに設定
+0. Powertoys設定
     - 常に管理者として実行
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるのでDropbox/App/CapToRightCtrl.regを実行する
         - もしくは[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってCtrl(Right)に変える
-    - Dropbox/Appからバックアップを復元、その他ひととおり確認
-8. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
-    1. Google IME の設定で「一般→キー設定の選択」でインポート. アプリを再起動するまでは反映されないので注意
-    1. Logi Optionの設定、トラックパッドの設定など
-9. コントロールパネル
+    - Dropbox/Appからバックアップを復元(Renameが必要かも?)、その他ひととおり確認
+0. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
+    0. Google IME の設定で「一般→キー設定の選択」でインポート。アプリを再起動するまでは反映されないので注意
+    0. Logi Optionの設定、トラックパッドの設定など。ログインで同期できるっけ?
+0. コントロールパネル
     - 「ユーザーアカウント制御」を1段階下げる
-10. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
-11. トラックパッドの設定
+0. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
+0. トラックパッドの設定
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/5a005926-ecbd-416e-9946-5f501e059528)
     * 3 Finger
         * タップ: マウスの中央ボタン
@@ -40,19 +42,37 @@
         * 下方向にスワイプ: デスクトップの表示
         * 左方向にスワイプ: `Win^←`
         * 右方向にスワイプ: `Win^→`
-13. エクスプローラのオプション
+0. エクスプローラのオプション
     - 全般 → 「最近使ったファイルを...」「よく使うフォルダを...」OFF
     - 表示 → タイトルバーに完全なパスを表示
     - 表示 → 隠しファイルの表示、拡張子の表示
-14. プライバシーとセキュリティから検索除外するフォルダを設定
-15. 設定→アプリ→スタートアップから選択
-16. Start, Taskバーの整理
+0. プライバシーとセキュリティからDropboxなど検索除外するフォルダを設定
+    - Media Player, BandiView, 最近使ったファイルを表示させない
+0. アプリ→インストールされているアプリから不要なものを削除。詳細オプションで『このアプリをバックグラウンドで実行する』を『常にオフ』に。
+0. 設定→アプリ→スタートアップから選択
+0. システムの詳細設定→詳細設定→起動と回復の設定で`自動的に再起動`をオフ
+0. Start, Taskバーの整理
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/0864bfc2-713d-4ce0-925e-a379e54520b3)
     * ![image](https://github.com/psephopaiktes/dotfiles/assets/4294850/02d9316c-7157-48be-8010-217bc905a60c)
-17. その他
-    * ナイトシフト
-18. システム言語を英語に変更
-19. [会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+0. システム言語を英語に変更
+0. 必要なら[会社VPNの接続](https://wiki.unext-info.jp/pages/viewpage.action?pageId=71448379)
+0. OneDriveを切る
+
+
+
+## WinGet
+- 先に手動インストール？Wingetでいけそうならそっちへ
+    - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
+    - [Google IME](https://www.google.co.jp/ime/)
+    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
+    - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
+    - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
+    - [Twinkle Tray](https://apps.microsoft.com/detail/twinkle-tray%3A-brightness-slider/9PLJWWSV01LK?hl=ja-JP&gl=US)
+    - [MS PC Maneger](https://pcmanager.microsoft.com/)
+- Search: `winget search {query}`
+- Update: `winget upgrade --all`
+- JSON Export: `winget export -o apps.json`
+- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --accept-source-agreements --ignore-unavailable`
 
 
 
@@ -67,21 +87,7 @@
 
 
 
-## WinGet
-- 先に手動インストール？Wingetでいけそうならそっちへ
-    - [Chrome](https://www.google.com/intl/ja_jp/chrome/)
-    - [Google IME](https://www.google.co.jp/ime/)
-    - [LINE](https://apps.microsoft.com/store/detail/line/9WZDNCRFJ2G6)
-    - [Quest Setup のアプリ](https://www.meta.com/jp/quest/setup/)
-    - [Logi Options+](https://www.logicool.co.jp/ja-jp/software/logi-options-plus.html)
-    - [Twinkle Tray](https://apps.microsoft.com/detail/twinkle-tray%3A-brightness-slider/9PLJWWSV01LK?hl=ja-JP&gl=US)
-    - [MS PC Maneger](https://pcmanager.microsoft.com/)
-- Search: `winget search`
-- Update: `winget upgrade --all`
-- JSON Export: `winget export -o apps.json`
-- JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --accept-source-agreements --ignore-unavailable`
-
-
+<!--
 
 ## WSL、Develop
 1. Terminalで`wsl --install`
@@ -112,3 +118,5 @@
 1. VS CODEのターミナルが変わってなければ変更
 1. https://github.com/psephopaiktes/dotfiles/blob/master/install.sh 参考に
 1. Windows Terminal の設定からデフォルトシェルをWSLに
+
+-->
