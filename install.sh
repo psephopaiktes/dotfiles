@@ -45,18 +45,11 @@ brew cleanup
 wait
 
 
-# SSH ########################################################
-mkdir ~/.ssh
-cd ~/.ssh
-ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
-wait
-
-pbcopy < ~/.ssh/id_rsa.pub
-
-
 # other ########################################################
 
 sudo xcodebuild -license accept 
+
+gh auth login
 
 defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
