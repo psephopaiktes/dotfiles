@@ -1,13 +1,6 @@
 # dotfiles
 平田のMac環境構築用
 
-- GitHubはCLIで認証。ssh-keygenはしない。
-- TODO: nvmいらんくてpnpmだけでいいかも。Winも
-    -  → Astroのおすすめに従ってCorepack使いたい
-    -  pnpmを親にするのか、Nodeを親にするのか・・・
-        -  https://qiita.com/oekazuma/items/1e2ee304877efa48c122
-        -  たぶん基本的に今後はnode.jsの最新版をアップデート→必要ならpackaje.jsonにpackegeMangerを指定するだけで良さそう
-
 
 ## 手順
 
@@ -19,14 +12,13 @@
 
 1. $ `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
     - [ ] 要修正. １行ずつやるとうまくいく
-
-1.  公開鍵がコピーされているので、[GitHubのSSH keys](https://github.com/settings/ssh)に登録。不要なら古いMacのは消しておく。
+    - GitHubはCLIで認証。ssh-keygenはしない。 
 
 1. [Macのシステム環境設定](./doc/mac-setting.md)
 
 1. [アプリ設定](./doc/app-setting.md)  
 
-1. Caskで扱えないアプリをインストール
+1. Caskで扱えないアプリをインストール(一応探してみる)
     - [Adobe CC](https://creativecloud.adobe.com/apps)
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
