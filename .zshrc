@@ -44,12 +44,12 @@ setopt auto_cd
 # short command
 alias server="python -m SimpleHTTPServer"
 alias ls='ls -GAp'
+alias gho='gh repo view --web'
 alias fb='firebase'
 alias nr='npm run'
 alias nrs='npm start'
 alias nrb='npm run build'
 alias nrd='npm run dev'
-alias dc='docker-compose'
 alias p="cd ~/projects"
 alias d="cd ~/Desktop"
 alias mk="touch"
@@ -60,10 +60,8 @@ alias ....='cd ../../..'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
-alias st='open -a SourceTree'
-alias owa='say -v Kyoko おわりましたああああああああ'
 
-# prompt
+# promptの表示カスタム
 add_newline() {
   if [[ -z $PS1_NEWLINE_LOGIN ]]; then
     PS1_NEWLINE_LOGIN=true
@@ -84,14 +82,17 @@ PROMPT='
 %F{178}%~%f ${vcs_info_msg_0_}
 %F{178}%B>%b%f  '
 
-# plugin
+# Zshのplugin
 plugins=(
   zsh-autosuggestions
 )
 
+## 次回はいったん以降を消す?
+
+# This loads nvm bash_completion
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
