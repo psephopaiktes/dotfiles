@@ -4,7 +4,7 @@
 
 ## 手順
 
-- [ ] 次の環境では[asdf](https://github.com/asdf-vm/asdf)か[mise](https://github.com/jdx/mise)にしたい。基本miseが良さそうだけど、asdfがGOになってるならありかも。
+- [ ] 次の環境では[asdf](https://github.com/asdf-vm/asdf)か[mise](https://github.com/jdx/mise)にしたい。基本miseが良さそうだけど、asdfがGOになってるならありかも。Winにも対応してて欲しい。
 
 1. Mac本体Versionを最新版にしておく
 
