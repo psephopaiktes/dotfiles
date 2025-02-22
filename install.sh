@@ -21,10 +21,6 @@ wait
 nvm alias default 'lts/*'
 wait
 
-# Install Global NPM Packages
-npm i -g @squoosh/cli
-wait
-
 
 # brew ########################################################
 
