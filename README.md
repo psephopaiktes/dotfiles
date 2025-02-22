@@ -10,10 +10,10 @@
 
 1. $ `xcode-select --install`
 
-1. $ `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh)"`
+1. $ `curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/deploy.sh | zsh`
     - GitHubはあとからCLIで認証。ssh-keygenはしない。 →もしかして最初にやらないとbash -c動かない?
 
-1. $ `bash -c "$(curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh)"`
+1. $ `curl -L raw.githubusercontent.com/psephopaiktes/dotfiles/master/install.sh | zsh"`
     - [ ] 要修正. １行ずつやるとうまくいく
 
 1. [Macのシステム環境設定](./doc/mac-setting.md)
