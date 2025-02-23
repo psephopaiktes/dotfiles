@@ -20,6 +20,7 @@
 0. Dropbox/Appフォルダはオフラインアクセスに設定
 0. Powertoys設定
     - 常に管理者として実行
+    - US配列では Ctrl + ` が送信できないので[レジストリをいじる](https://zenn.dev/hkiku482/articles/0ab2ca2cfb287c)
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるのでDropbox/App/CapToRightCtrl.regを実行する
         - もしくは[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってCtrl(Right)に変える
     - Dropbox/Appからバックアップを復元(Renameが必要かも?)、その他ひととおり確認
