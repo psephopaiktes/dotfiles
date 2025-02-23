@@ -14,6 +14,7 @@
     0. 設定同期のためOne Driveに最初だけサインインしとく
     0. ひたすらOSアップデート
 0. ナイトシフトを設定
+0. 設定→システム→開発者向け を各種設定
 0. Cleartypeで検索して設定
 0. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
 0. Dropbox/Appフォルダはオフラインアクセスに設定
