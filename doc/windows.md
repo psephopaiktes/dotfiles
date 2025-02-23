@@ -73,6 +73,9 @@
 - Update: `winget upgrade --all`
 - JSON Export: `winget export -o apps.json`
 - JSON Import: `winget import -i apps.json --ignore-versions --accept-package-agreements --accept-source-agreements --ignore-unavailable`
+- PowerShell(Wndows PowerShellとは別)をTerminalの規定のシェルにしたい
+    - 手動でパス追加しなきゃだめかも
+    - `C:\Users\hirat\AppData\Local\Microsoft\WinGet\Links\pwsh.exe` とか
 
 
 
