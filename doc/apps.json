@@ -46,6 +46,9 @@
 					"PackageIdentifier" : "Microsoft.PCManager"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
 					"PackageIdentifier" : "Mozilla.Firefox"
 				},
 				{
