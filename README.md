@@ -5,6 +5,8 @@
 ## 手順
 
 - [ ] 次の環境では[asdf](https://github.com/asdf-vm/asdf)か[mise](https://github.com/jdx/mise)にしたい。基本miseが良さそうだけど、asdfがGOになってるならありかも。Winにも対応してて欲しい。
+    - [ ] https://dev.classmethod.jp/articles/mac-recommended-initial-settings/#%25E3%2583%2590%25E3%2583%25BC%25E3%2582%25B8%25E3%2583%25A7%25E3%2583%25B3%25E7%25AE%25A1%25E7%2590%2586
+    - [ ] tomlファイルつくっときたい。lts指定で
 
 1. Mac本体Versionを最新版にしておく
 
