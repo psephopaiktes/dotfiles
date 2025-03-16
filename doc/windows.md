@@ -18,6 +18,9 @@
 0. 設定→システム→通知→最下部の`追加の設定`→`Windowsを最大限に活用し・・・`をオフ
 0. Cleartypeで検索して設定
 0. apps.json落として中身確認し、[WinGetでInstall↓](#WinGet)
+0. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
+    0. Google IME の設定で「一般→キー設定の選択」で辞書やキーマップをインポート。アプリを再起動するまでは反映されないので注意
+    0. Logi Optionの設定、トラックパッドの設定など。ログインで同期できるっけ?
 0. Dropbox/Appフォルダはオフラインアクセスに設定
 0. Powertoys設定
     - 常に管理者として実行
@@ -25,9 +28,6 @@
     - Caps → Ctrl は Ctrl が押しっぱなし状態になってしまうバグがあるのでDropbox/App/CapToRightCtrl.regを実行する
         - もしくは[Change Key](https://forest.watch.impress.co.jp/library/software/changekey/)を使ってCtrl(Right)に変える
     - Dropbox/Appからバックアップを復元(Renameが必要かも?)、その他ひととおり確認
-0. [App Setting 参考](https://github.com/psephopaiktes/dotfiles/blob/master/doc/app-setting.md)
-    0. Google IME の設定で「一般→キー設定の選択」でインポート。アプリを再起動するまでは反映されないので注意
-    0. Logi Optionの設定、トラックパッドの設定など。ログインで同期できるっけ?
 0. コントロールパネル
     - 「ユーザーアカウント制御」を1段階下げる
 0. デスクトップ右クリック→個人用設定→テーマ→ゴミ箱アイコンを非表示にする
