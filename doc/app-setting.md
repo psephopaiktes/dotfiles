@@ -6,7 +6,7 @@
 [Figma](https://figma.com) | 右上のSettng sからFont Installer をセットアップ
 Chrome | ログインx3 + td1q2w, chrome-stylize を反映
 Google Drive | ログイン、一部をオフライン許可
-Google IME | 入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般→スペースの入力 Width:Half<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート。キーマップはいらないかも？
+Google IME | 入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般→スペースの入力 Width:Half<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書をインポート。キーマップも。
 Xcode | いちど起動して初期設定しておく
 Visual Studio Code | GitHubでログインして同期
 Creative Cloud | 各種インスコ､ログイン時に起動をオフ､ファイル同期をオフ
