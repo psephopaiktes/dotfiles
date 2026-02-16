@@ -1,0 +1,22 @@
+theme = light:GitHub, dark:GitHub Dark Dimmed
+
+font-family = "HackGen Console NFJ"
+font-size = 16
+adjust-cell-height = 10%
+
+cursor-color = #FFCC66
+cursor-opacity = 0.8
+
+window-padding-x = 28
+window-padding-y = 20
+window-padding-balance = true
+window-theme = system
+window-save-state = always
+
+background-opacity = 0.9
+background-blur-radius = 12
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+unfocused-split-opacity = 0.8
+
+shell-integration = zsh

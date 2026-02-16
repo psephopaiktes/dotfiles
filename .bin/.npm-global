@@ -1,0 +1,8 @@
+# Global npm packages
+# This file lists npm packages to be installed globally
+# Add one package per line (comments starting with # are ignored)
+
+@anthropic-ai/claude-code
+@openai/codex
+@google/gemini-cli
+@modelcontextprotocol/server-filesystem

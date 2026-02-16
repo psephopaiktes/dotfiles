@@ -1,0 +1,30 @@
+{
+  "contextFileName": "AGENTS.md",
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/a-hirata/projects",
+        "/Users/a-hirata/Desktop"
+      ]
+    },
+    "figma": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.figma.com/mcp"
+      ]
+    }
+  },
+  "ui": {
+    "theme": "Default Light"
+  }
+}

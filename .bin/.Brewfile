@@ -1,0 +1,63 @@
+tap "homebrew/bundle"
+brew "bat"
+brew "curl"
+brew "ffmpeg"
+brew "fzf"
+brew "gh"
+brew "git-lfs"
+brew "mas"
+brew "mise"
+brew "rust"
+brew "tree"
+brew "uv"
+brew "webp"
+brew "woff2"
+brew "zoxide"
+brew "zsh-autosuggestions"
+cask "appcleaner"
+cask "adobe-creative-cloud"
+cask "bettertouchtool"
+cask "chatgpt"
+cask "claude"
+cask "discord"
+cask "dropbox"
+cask "figma"
+cask "firefox"
+cask "font-hackgen"
+cask "font-hackgen-nerd"
+cask "font-material-icons"
+cask "font-noto-sans-jp"
+cask "font-roboto"
+cask "font-sf-compact"
+cask "font-sf-mono"
+cask "font-sf-pro"
+cask "forklift"
+cask "github"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "handy"
+cask "iina"
+cask "imageoptim"
+cask "keycastr"
+cask "logi-options+"
+cask "monitorcontrol"
+cask "raycast"
+cask "sf-symbols"
+cask "shottr"
+cask "skybox"
+cask "slack"
+cask "tunnelblick"
+cask "visual-studio-code"
+cask "zoom"
+mas "Craft", id: 1487937127
+mas "EdgeView", id: 1580323719
+mas "EdgeView 2", id: 1206246482
+mas "Goodnotes", id: 1444383602
+mas "Hand Mirror", id: 1502839586
+mas "Keynote", id: 409183694
+mas "LINE", id: 539883307
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "The Unarchiver", id: 425424353
+mas "Xcode", id: 497799835
+mas "アニメ画像に変換する君", id: 1127676902

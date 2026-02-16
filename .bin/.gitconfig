@@ -1,0 +1,27 @@
+[user]
+  name = Akira HIRATA
+  email = psephopaiktes@users.noreply.github.com
+[core]
+  editor = code --wait
+  precomposeunicode = true
+  quotepath = false
+  excludesfile = ~/.gitignore_global
+  ignorecase = false
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+[alias]
+  co = checkout
+  sw = switch
+  b = branch
+  tree = log --graph --oneline
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[push]
+  default = current
