@@ -2,7 +2,7 @@
 - [ ] [SageThumbs download | SourceForge.net](https://sourceforge.net/projects/sagethumbs/)
 - [ ] OneDriveの配下にDesktopやDownloadが置かれかねない。いちどそうなるとけっこうめんどい。最初からいっさい使わないで速攻アンインストールがいいかなあ。
 - [ ] フォルダ名がかなり厄介なので、絶対に英語で初期化!!!!
-
+https://forest.watch.impress.co.jp/docs/news/2086112.html
 
 ## ※低スペックPCの場合
 以下だけ意識しとく
