@@ -29,7 +29,7 @@ if (( needs_git || needs_make )); then
     xcode-select --install || true
 
     echo "ポップアップの「インストール」を押してください。完了まで待機中..."
-    until xcode-select --print-path &> /dev/null; do
+    until git --version &> /dev/null && make --version &> /dev/null; do
       sleep 5
       echo "インストール中..."
     done
@@ -38,13 +38,13 @@ if (( needs_git || needs_make )); then
 fi
 
 # gitコマンドの存在確認
-if (( needs_git )); then
+if ! git --version &> /dev/null; then
   echo "エラー: gitが見つかりません。新しいターミナルを開いて再実行してください。" >&2
   exit 1
 fi
 
 # makeコマンドの存在確認
-if (( needs_make )); then
+if ! make --version &> /dev/null; then
   echo "エラー: makeが見つかりません。新しいターミナルを開いて再実行してください。" >&2
   exit 1
 fi
