@@ -33,17 +33,16 @@
 
 ## 初期設定手順
 
-1. 
+1. Gitを使えるようにするために Command Line Tools をインストールする
     ```zsh
     xcode-select --install
-    ```
-    Gitを使えるようにするために Command Line Tools をインストールする
+    ```  
 
-1. 
+1. 以下のワンライナーを実行
     ```zsh
     curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
     ```
-    このワンライナーで以下が実行されます
+    以下が自動実行されます
     - このリポジトリをCloneする（既にある場合はpull）
     - そのまま `make all` でシェルスクリプトを実行する
 
