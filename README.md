@@ -40,7 +40,7 @@
 
 1. 以下のワンライナーを実行
     ```zsh
-    curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
+    sudo curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
     ```
     以下が自動実行されます
     - このリポジトリをCloneする（既にある場合はpull）
