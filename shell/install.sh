@@ -75,7 +75,7 @@ SSH_KEY="$HOME/.ssh/id_ed25519"
 
 if [[ ! -f "$SSH_KEY" ]]; then
 	echo "GitHubに登録するメールアドレスを入力してください:"
-	read -r git_email
+	read -r git_email </dev/tty
 	ssh-keygen -t ed25519 -C "$git_email" -f "$SSH_KEY" -N ""
 	eval "$(ssh-agent -s)"
 	ssh-add "$SSH_KEY"
@@ -86,7 +86,7 @@ if [[ ! -f "$SSH_KEY" ]]; then
 	cat "${SSH_KEY}.pub"
 	echo ""
 	echo "登録が完了したらEnterを押してください..."
-	read -r
+	read -r </dev/tty
 else
 	echo "SSHキーが既に存在します。スキップします。"
 fi
