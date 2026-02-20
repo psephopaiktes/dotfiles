@@ -6,6 +6,7 @@ export VISUAL='code'
 # PATH
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export PATH="$PATH:$HOME/bin"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 
