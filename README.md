@@ -12,22 +12,20 @@
 1. `~/projects`配下のローカルリポジトリ群は変更をPushしておく。DesktopやDownloadフォルダのバックアップ。
 1. Music.app からサインアウト
     - メニューの`Account`からサインアウト
-1. iCloud からサインアウト
-    - `` >`System Preference` >`Apple ID`
-    - `iCloud`タブで`Find My`を無効化
-    - `Overview`タブでサインアウト
 1. Message.app からサインアウト
     - メニューの`Messages`>`Preferences`の`iMessage`タブからサインアウト
+1. iCloud からサインアウト
+    - `` >`System Preference` > 自分のApple IDを選択
+    - `iCloud`で`Find My`を無効化
+    - 最下部からサインアウト
 1. ペアリングした Bluetooth デバイスをすべて削除
 
 ### 初期化
-※ 最新の情報を確認してください。
-1. `⌘R` を押しながら起動
-1. ディスクユーティリティを実行
-1. `Macintosh HD` を選択して `消去` を実行。フォーマットはAPFSを選択
-1. `Macintosh HD - Data` は削除（自動で作り直される）
-1. macOSをインストールする
-1. 初期設定。**いったん英語にしとく**
+
+[Macを消去して工場出荷時の初期設定にリセットする - Apple サポート (日本)](https://support.apple.com/ja-jp/102664)
+
+※ OSに対応した最新の情報を確認する
+※ 初期設定時は**いったん英語ですすめる**ことを推奨
 
 
 <br /><br />
