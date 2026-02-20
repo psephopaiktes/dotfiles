@@ -10,7 +10,8 @@ Chrome | ログイン, 会社メールでログイン(プロファイルは`利�
 Figma| [Font Installer](https://www.figma.com/ja-jp/downloads/?fuid=636494703104775006)をセットアップ
 Visual Studio Code | GitHubでログイン
 Raycast | 設定ファイルをDropboxからImport
-Better Touch Tool |  Dropboxから設定同期、Launch BTT on startup､→これはもうNativeのやつを割り当てればいいかも<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
+Better Touch Tool |  Dropboxから設定同期, Launch BTT on startup, ライセンスキーをアップロード
+これはもうNativeのやつを割り当てればいいかも<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
 slack | ログイン
 
 ## Other
