@@ -44,6 +44,5 @@ Macの`キーボード` → `キーボードショートカット` → `アプ�
 
 
 ## 全て終わってから
-- System Preference >  Security & Privacy > Accessibility, Full Disk Access などをアプリごとに許可
-- System Preference >  Users & Groups > Login Items を整理
-- Background Process の整理
+- `システム設定` > `一般` > `ログイン項目と機能拡張` を整理
+- `システム設定` > `プライバシーとセキュリティ` > `フルディスクアクセス` を整理
