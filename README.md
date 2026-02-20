@@ -35,7 +35,7 @@
 
 1. 
     ```zsh
-    curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/master/init.sh | zsh
+    curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
     ```
     このワンライナーで以下が実行されます
     - このリポジトリをCloneする（既にある場合はpull）
