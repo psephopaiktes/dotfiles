@@ -35,6 +35,12 @@
 
 1. 
     ```zsh
+    xcode-select --install
+    ```
+    Gitを使えるようにするために Command Line Tools をインストールする
+
+1. 
+    ```zsh
     curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
     ```
     このワンライナーで以下が実行されます
