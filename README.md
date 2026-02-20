@@ -40,7 +40,7 @@
     xcode-select --install
     ```  
 
-1. 以下のワンライナーを実行
+1. 以下のワンライナーを実行。定期的にパスワード入力を求められる。かなり時間はかかるので、後述の手動設定を並行してやるのを推奨。
     ```zsh
     sudo curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
     ```
