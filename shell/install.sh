@@ -136,4 +136,20 @@ fi
 mkdir -p "$HOME/projects"
 
 # chrome-stylizeのクローン/更新
-sync_repo "https://github.com/psephopaiktes/chrome-styliz
+sync_repo "https://github.com/psephopaiktes/chrome-stylize.git" "$HOME/projects/chrome-stylize"
+
+# hira.pageのクローン/更新
+sync_repo "https://github.com/psephopaiktes/hira.page.git" "$HOME/projects/hira.page"
+
+
+# -----------------------------------------------------------------------------
+# Generate .env
+# -----------------------------------------------------------------------------
+
+# .envファイルの生成（存在しない場合のみ）
+if [[ ! -f .env ]]; then
+	cp .env.example .env
+fi
+
+
+echo "DONE"
