@@ -35,10 +35,13 @@
 
 ## 初期設定手順
 
-1. Gitを使えるようにするために Command Line Tools をインストールする
+1. Gitを使えるようにするために Command Line Tools をインストールして同意
     ```zsh
     xcode-select --install
-    ```  
+    ```
+    ```zsh
+    sudo xcodebuild -license
+    ```
 
 1. 以下のワンライナーを実行。定期的にパスワード入力を求められる。かなり時間はかかるので、後述の手動設定を並行してやるのを推奨。Caskで必要になるので、AppleIDはサインインしとくと良いかも。
     ```zsh
