@@ -8,7 +8,7 @@ if [[ "${OSTYPE:-}" != darwin* ]]; then
 fi
 
 if [[ $(uname -m) != "arm64" ]]; then
-  echo "Error: This script is for Apple Silicon Mac only." >&2
+  echo "Error: このスクリプトはApple Silicon Mac専用です" >&2
   exit 1
 fi
 
@@ -25,22 +25,27 @@ command -v make >/dev/null 2>&1 || needs_make=1
 
 if (( needs_git || needs_make )); then
   if ! xcode-select --print-path &> /dev/null; then
-    echo "Command line tools not found. Installing..."
+    echo "Command Line Toolsが見つかりません。インストールを開始します..."
     xcode-select --install || true
-    echo "Re-run this script after the installation finishes." >&2
-    exit 1
+
+    echo "ポップアップの「インストール」を押してください。完了まで待機中..."
+    until xcode-select --print-path &> /dev/null; do
+      sleep 5
+      echo "インストール中..."
+    done
+    echo "Command Line Toolsのインストールが完了しました。"
   fi
 fi
 
 # gitコマンドの存在確認
 if (( needs_git )); then
-  echo "git not found. Please open a new terminal and re-run." >&2
+  echo "エラー: gitが見つかりません。新しいターミナルを開いて再実行してください。" >&2
   exit 1
 fi
 
 # makeコマンドの存在確認
 if (( needs_make )); then
-  echo "make not found. Please open a new terminal and re-run." >&2
+  echo "エラー: makeが見つかりません。新しいターミナルを開いて再実行してください。" >&2
   exit 1
 fi
 
@@ -49,10 +54,10 @@ echo "...Clone dotfiles"
 if [[ -d "$DOTPATH/.git" ]]; then
   if git -C "$DOTPATH" diff --quiet && git -C "$DOTPATH" diff --cached --quiet; then
     if ! git -C "$DOTPATH" pull --ff-only; then
-      echo "Warning: pull failed, skipped update: $DOTPATH" >&2
+      echo "警告: pullに失敗しました。更新をスキップします: $DOTPATH" >&2
     fi
   else
-    echo "Warning: local changes detected, skipped update: $DOTPATH" >&2
+    echo "警告: ローカルに変更があるため、更新をスキップします: $DOTPATH" >&2
   fi
 else
   git clone "$GITHUB_URL" "$DOTPATH"
