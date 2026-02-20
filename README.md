@@ -50,6 +50,7 @@
     以下が自動実行されます
     - このリポジトリをCloneする（既にある場合はpull）
     - そのまま `make all` でシェルスクリプトを実行する
+    - **終わったらいちど再起動推奨**
 
 1. ルートに生成された`.env`の中身を以下のメモに変更
     - 🔒[Craft.do](https://docs.craft.do/editor/d/05090509-c69e-9719-2d99-81ea48b7173d/A304B6B8-A329-49D4-9F46-B4AC63B165E8?s=YvSeefcPbwjhAHj2nzyrjfYLxU2jPp3YbPi94hpsmLed)
