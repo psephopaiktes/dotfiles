@@ -1,3 +1,5 @@
+- [ ] Desktop Widget良さそう。色は変えてもいいかも
+
 # dotfiles
 
 [@psephopaiktes](https://github.com/psephopaiktes/) のMac初期設定用
@@ -58,6 +60,8 @@
         - [Adobe CC](https://creativecloud.adobe.com/apps) 
         - [Logicool Options](https://www.logicool.co.jp/ja-jp/product/options)
         - [Material Icon](https://github.com/google/material-design-icons)
+    - 今回失敗
+        - Skybox
     - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
     - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
 
