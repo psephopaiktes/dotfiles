@@ -66,6 +66,33 @@ brew cleanup
 
 
 # -----------------------------------------------------------------------------
+# SSH
+# -----------------------------------------------------------------------------
+
+echo "...setup SSH"
+
+SSH_KEY="$HOME/.ssh/id_ed25519"
+
+if [[ ! -f "$SSH_KEY" ]]; then
+	echo "GitHubに登録するメールアドレスを入力してください:"
+	read -r git_email
+	ssh-keygen -t ed25519 -C "$git_email" -f "$SSH_KEY" -N ""
+	eval "$(ssh-agent -s)"
+	ssh-add "$SSH_KEY"
+
+	echo "以下の公開鍵をGitHubに登録してください:"
+	echo "https://github.com/settings/ssh/new"
+	echo ""
+	cat "${SSH_KEY}.pub"
+	echo ""
+	echo "登録が完了したらEnterを押してください..."
+	read -r
+else
+	echo "SSHキーが既に存在します。スキップします。"
+fi
+
+
+# -----------------------------------------------------------------------------
 # Node, Python
 # -----------------------------------------------------------------------------
 
@@ -109,20 +136,4 @@ fi
 mkdir -p "$HOME/projects"
 
 # chrome-stylizeのクローン/更新
-sync_repo "https://github.com/psephopaiktes/chrome-stylize.git" "$HOME/projects/chrome-stylize"
-
-# hira.pageのクローン/更新
-sync_repo "https://github.com/psephopaiktes/hira.page.git" "$HOME/projects/hira.page"
-
-
-# -----------------------------------------------------------------------------
-# Generate .env
-# -----------------------------------------------------------------------------
-
-# .envファイルの生成（存在しない場合のみ）
-if [[ ! -f .env ]]; then
-	cp .env.example .env
-fi
-
-
-echo "DONE"
+sync_repo "https://github.com/psephopaiktes/chrome-styliz
