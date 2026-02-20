@@ -7,7 +7,7 @@
 Logi Options + | ログイン、デバイスのバックアップを復元
 Google IME | 入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般→スペースの入力 Width:Half<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書とキーマップをインポート
 Chrome | ログイン, 会社メールでログイン(プロファイルは`利用しない`), + td1q2w, ローカル拡張機能をビルドして反映
-[Figma](https://www.figma.com/settings) | 設定からFont Installerをセットアップ
+Figma| [Font Installer](https://www.figma.com/ja-jp/downloads/?fuid=636494703104775006)をセットアップ
 Visual Studio Code | GitHubでログイン
 Raycast | 設定ファイルをDropboxからImport
 Better Touch Tool |  Dropboxから設定同期、Launch BTT on startup､→これはもうNativeのやつを割り当てればいいかも<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
