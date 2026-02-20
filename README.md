@@ -1,5 +1,3 @@
-- [ ] Desktop Widget良さそう。色は変えてもいいかも
-
 # dotfiles
 
 [@psephopaiktes](https://github.com/psephopaiktes/) のMac初期設定用
