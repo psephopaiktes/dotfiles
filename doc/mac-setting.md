@@ -1,87 +1,99 @@
 # Mac Setting
-- `言語と地域` から英語を最優先言語にしておく
+- ~~`言語と地域` から英語を最優先言語にしておく~~
 - できるだけdefaults.shで設定
 - 都度書き換える
 
 ---
 
-## System Preferences
+## システム環境設定
 
 ### Apple ID
-- iCloud: Photos,Mail,Stocks: off
+- サインイン
+- `iCloud`: `写真` `メール` `株価`: オフ
 
-### General
-- Appearance: Auto
-- Accent color, Highright Color: Graphite
-- Default web browser: Google Chrome
+### キーボード
+- `ショートカット`
+    - `修飾キー` で `Caps Lock` を `Ctrl` に変更
+    - `キーボード` > `次のウィンドウを操作対象にする`: `⌥tab`
+    - `Spotlight` > 全て無効化
+    - `スクリーンショット` > `⌘⇧5` 以外無効化
+- `入力ソース`
+    1. 左下の`+`から日本語→`ひらがな(Google)`、英語→`英数(Google)`を追加
+    2. もともとあったMacの`日本語`を選択し、`入力モード`の`英字`にチェック
+    3. これでもとのMacの`US``日本語`を消せる
 
-### Desktop & Screen Saver
-- Change Desktop Picture
-- Start after: Never
+### 一般　> 言語と地域
+- システム言語を英語にした場合は、第2言語に日本語を追加しておく
+- `詳細設定` > `週の最初の曜日`: `月曜日`
 
-### Dock & Menu Bar
-- Bluetooth: show
-- Clock: Flash the time separators: on
-- Spotlight: off
-- Siri: off
-
-### Mission Control
-- Group windows by application: Check
-- Hot Corners > Quick Note: off
+### Apple IntelligenceとSiri
+- Apple Intelligence、Siriそれぞれオンにする
 
 ### Spotlight
-- Privacy > 必要なら追加
-- Macintosh HD ごと追加しちゃう & 検索対象をすべてOFF にしたら軽くなるかも？
+- 使わないからいろいろオフでOK
+- `検索のプライバシー` > 必要なら追加
+- [ ] `Macintosh HD` ごと追加 & 検索対象をすべてオフにしたら軽くなるかも？projectsだけにしたほうがいい？
 
-### Language & Region
-- システム言語を英語にした場合は、第2言語に日本語を追加しておく
-- Advanced > First day of week: Monday
+### アクセシビリティ
+- `ズーム` > `スクロールジェスチャと修飾キーを使って拡大縮小` オン
+- `ポインタコントロール`
+    - `スプリングローディング`を短くしておく
+    - `トラックパッドオプション` > `ドラッグにトラックパッドを使用`（ダブルタップでドラッグできるようになる）
+- `ディスプレイ` > `カーソル` > `カーソルサイズ`: 10%
 
-### Notifications & Focus
-- Calendar, Mail, Tips: None
-- Chrome etc: on
-- When the screen is locked: off
+### ディスプレイ
+- `Night Shift` > `スケジュール`: `日の入りから日の出まで` `色温度`: 最大
 
-### Internet Account
-- 会社のアドレス追加 > Calendars: on
+### デスクトップとDock
+- `最近使用したアプリをステージマネージャに表示` オフ
+- `デフォルトのWebブラウザ`: `Google Chrome`
 
-### Accessibility
-- Zoom > Use scroll gesture with modifier keys to zoom
-- Pointer Control > Mouse & Trackpad > Trackpad Options... > Enable dragging (ダブルタップでドラッグできるようになる)
-- Pointer Control > Spring Loading を短くしておく
-- Display > Cursor > Cursor size: 10%
+#### Mission Control
+- `ウィンドウをアプリケーションごとにグループ化`: オン
+- `ホットコーナー` > 右下を`スクリーンセーバー`、左下を`アプリ`
 
-### Extensions
-全て見てチェック
-- All > Google Drive などにチェック
+### メニューバー
+- `最近使った書類、アプリケーション、およびサーバの表示数`: なし
+- `時計` > `時刻内の":"を点滅`: オン
+- `Spotlight`: オフ
+- `Bluetooth`: 表示
 
-<!-- ### Security & Privacy
-- Firewall > Turn on Firewall -->
+### 外観
+- `外観モード`: `自動`
+- `Liquid Glass`: `色合い調整`
+- `スクロールバーをクリックして`: `クリックされた部分へジャンプ`
 
-### Sound
-- Play sound on startup: off
+### 壁紙
+- デスクトップ画像を変更
+- `スクリーンセーバーを開始`: `しない`
 
-### Touch ID
+### 通知
+- `カレンダー` `メール` `ヒント`: オフ
+- `Chrome` 等: オン（各アプリ起動時に設定すれば良い）
+- `画面がロックされているとき`: オフ
+
+### サウンド
+- `起動時にサウンドを再生`: オフ
+
+### 集中モード
+- `デバイス間で共有`:　オフ
+
+### ロック画面
+適宜設定
+
+<!-- ### プライバシーとセキュリティ
+- `ファイアウォール` > `ファイアウォールをオンにする` -->
+
+### Touch IDとパスワード
 - 登録
 
-### Keyboard
-- Keyboard
-    - Modifier Keys... > caps:control
-- ユーザー辞書
-- Shortcuts
-    - Keuboard > Move focus to next window: ⌥ Tab
-    - Spotlight > Check off all
-    - Screenshot > `⌘⇧5` 以外無効化
-- Input Sources: add Google IME
-    - [Macの入力ソースからUSを消す方法](https://nishi3.hatenablog.com/entry/2018/01/18/161745)
+### インターネットアカウント
+- Gmail*2を追加 > `カレンダー`と`連絡先`だけ?: オン
 
-### Trackpad
-- Click: Light
-- Tracking speed: 4
-- More Gestures > App Expose: Check
-
-### Displays
-- Night Shift > Schedule: Sunset to Sunrise, Color Temperature: Max
+### トラックパッド
+- `クリック`: `弱い`
+- `軌跡の速さ`: 4
+- `その他のジェスチャ` > `App Exposé`: `４本指で下にスワイプ`
 
 
 ---
@@ -89,49 +101,46 @@
 
 ## Finder
 
-### Preference
-- General
-- Sidebar: Check only followings
-  - AirDrop
-  - Applications
-  - Desktop
-  - Downloads
-  - a-hirata
-  - External disks
-  - CDs,
-  - Bonjour computers
-  - Connected Servers
-- Advanced
+### 環境設定
+- `サイドバー`: 以下のみチェック
+  - `アプリケーション`
+  - `デスクトップ`
+  - `ダウンロード`
+  - `a-hirata`
+  - `外部ディスク`
+  - `CD・DVD`
+  - `Bonjourコンピュータ`
+  - `AirDrop`
+  - `接続中のサーバ`
 
-
-### Desktop
-Right click on Desktop > Show View Options
-- Sort by: Snap to grid
-- Show item info: Check
+### デスクトップ
+デスクトップを右クリック > `表示オプションを表示`
+- `表示順序`: `グリッドに沿う`
+- `項目の情報を表示`: チェック
 
 
 ---
 
 
-## Appearance
-- 壁紙を変える→5個に増やす
-- Dockでアプリを右クリック→オプション→デスクトップを指定しておく
-    - Chrome: Desktop3
-    - Figma, Abstractなどデザインツール: Desktop2
-    - Slack, LINE, Discrodなどコミュニケーションツール: Desktop5
-    - Finder: すべてのデスクトップ
+## 外観設定
+- デスクトップを５個に増やす
+- Dockでアプリを右クリック → `オプション` → デスクトップを指定しておく
+    - Chrome: `デスクトップ3`
+    - Figma, Abstractなどデザインツール: `デスクトップ2`
+    - Slack, LINE, Discordなどコミュニケーションツール: `デスクトップ5`
+    - Finder: `すべてのデスクトップ`
 - Finderツールバーをカスタマイズ
-    – 不要なものを消す
-    - Chrome,Code,Ghostty,Ps,Aiを⌘ドラッグで追加
-    - Airdropを追加
+    - 不要なものを消す
+    - `Chrome` `Code` `Ghostty` `Ps` `Ai` を `⌘ドラッグ` で追加
+    - `AirDrop` を追加
 - サイドバーを調整
-    - デスクトップ
-    - ダウンロード
-    - AirDrop
-    - アプリケーション
-    - ホーム
-    - projects
+    - `デスクトップ`
+    - `ダウンロード`
+    - `AirDrop`
+    - `アプリケーション`
+    - `ホーム`
+    - `projects`
     - クラウドストレージ
-- 通知センターに Calendar、天気、Craft のウィジェットを設定。天気は右クリックで現在地にしておく
+- 通知センターに `カレンダー` `天気` `Craft` のウィジェットを設定。天気は右クリックで現在地にしておく
 - Dock整理
 ![image](https://user-images.githubusercontent.com/4294850/146400319-54712c16-1917-45d1-aedf-8c2c3c4ada4e.png)
