@@ -30,7 +30,7 @@
 - Apple Intelligence、Siriそれぞれオンにする
 
 ### Spotlight
-- 使わないからいろいろオフでOK
+- 使わないからいろいろオフでOK.　ただし`アプリ`だけはON
 - `検索のプライバシー` > 必要なら追加
 - [ ] `Macintosh HD` ごと追加 & 検索対象をすべてオフにしたら軽くなるかも？projectsだけにしたほうがいい？
 
@@ -125,22 +125,20 @@
 ## 外観設定
 - デスクトップを５個に増やす
 - Dockでアプリを右クリック → `オプション` → デスクトップを指定しておく
-    - Chrome: `デスクトップ3`
-    - Figma, Abstractなどデザインツール: `デスクトップ2`
-    - Slack, LINE, Discordなどコミュニケーションツール: `デスクトップ5`
     - Finder: `すべてのデスクトップ`
-- Finderツールバーをカスタマイズ
+    - Chrome: `デスクトップ3`
+    - Figmaなどデザインツール: `デスクトップ2`
+    - Slack, LINE, Discordなどコミュニケーションツール: `デスクトップ4`
+- Finderツールバーを右クリックしてカスタマイズ
+    <img width="738" height="50" alt="image" src="https://github.com/user-attachments/assets/8ad1c380-acb9-4b11-aab5-e699461fc8dd" />
     - 不要なものを消す
-    - `Chrome` `Code` `Ghostty` `Ps` `Ai` を `⌘ドラッグ` で追加
+    - アプリケーションフォルダから`Chrome` `Code` `Ghostty` `Ps` `Ai` を `⌘ドラッグ` で追加
     - `AirDrop` を追加
-- サイドバーを調整
-    - `デスクトップ`
-    - `ダウンロード`
-    - `AirDrop`
-    - `アプリケーション`
-    - `ホーム`
+
+- サイドバーに追加
     - `projects`
     - クラウドストレージ
-- 通知センターに `カレンダー` `天気` `Craft` のウィジェットを設定。天気は右クリックで現在地にしておく
+- デスクトップか通知センターに `カレンダー` `天気` `Craft` のウィジェットを設定。天気は右クリックで現在地にしておく
 - Dock整理
-![image](https://user-images.githubusercontent.com/4294850/146400319-54712c16-1917-45d1-aedf-8c2c3c4ada4e.png)
+    <img width="914" height="144" alt="image" src="https://github.com/user-attachments/assets/5b6ff714-b640-432c-b1bc-c2d44ab959fe" />
+
