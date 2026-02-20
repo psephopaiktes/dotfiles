@@ -44,7 +44,6 @@ cask "monitorcontrol"
 cask "raycast"
 cask "sf-symbols"
 cask "shottr"
-cask "skybox"
 cask "slack"
 cask "tunnelblick"
 cask "visual-studio-code"
@@ -55,7 +54,6 @@ mas "EdgeView 2", id: 1206246482
 mas "Goodnotes", id: 1444383602
 mas "Hand Mirror", id: 1502839586
 mas "Keynote", id: 409183694
-mas "LINE", id: 539883307
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "The Unarchiver", id: 425424353
