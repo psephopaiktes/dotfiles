@@ -5,12 +5,13 @@
 --|--
 クラウドストレージ | ログイン
 Google IME | 入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般→スペースの入力 Width:Half<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書とキーマップをインポート
-Chrome | ログイン + td1q2w, ローカル拡張機能を反映
+Chrome | ログイン, 会社メールでログイン(プロファイルは`利用しない`), + td1q2w, ローカル拡張機能を反映
 [Figma](https://www.figma.com/settings) | 設定からFont Installerをセットアップ
 Visual Studio Code | GitHubでログイン
 Raycast | 設定ファイルをDropboxからImport
 Better Touch Tool |  Dropboxから設定同期、Launch BTT on startup､<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
 Monitor Control | brightness up: `^⌥⇧⌘]`
+slack | ログイン
 
 ## Other
 アプリ | 設定項目
