@@ -62,12 +62,7 @@
 1. Homebrewで扱えないアプリをインストール
     - 前回失敗したやつ:
         - [Adobe CC](https://creativecloud.adobe.com/apps) 
-        - [Logicool Options](https://www.logicool.co.jp/ja-jp/product/options)
         - [Material Icon](https://github.com/google/material-design-icons)
-    - 今回失敗
-        - Skybox
-    - [サブセットフォントメーカー](https://opentype.jp/subsetfontmk.htm)
-    - [WOFFコンバータ](https://opentype.jp/woffconv.htm)
 
 1. 再起動して終了
 
