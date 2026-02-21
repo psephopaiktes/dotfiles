@@ -140,11 +140,10 @@
     - 不要なものを消す
     - アプリケーションフォルダから`Chrome` `Code` `Ghostty` `Ps` `Ai` を `⌘ドラッグ` で追加
     - `AirDrop` を追加
-
 - サイドバーに追加
     - `projects`
     - クラウドストレージ
-- デスクトップか通知センターに `カレンダー` `天気` `Craft` のウィジェットを設定。天気は右クリックで現在地にしておく
+- 外部接続時のデスクトップと通知センターに `カレンダー` `天気` `Craft` のウィジェットを設定。天気は右クリックで現在地にしておく
 - Dock整理
     <img width="914" height="144" alt="image" src="https://github.com/user-attachments/assets/5b6ff714-b640-432c-b1bc-c2d44ab959fe" />
 
