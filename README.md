@@ -58,9 +58,7 @@
 1. [アプリ設定](./doc/app-setting.md)  
 
 1. Homebrewで扱えないアプリをインストール
-    - 前回失敗したやつ:
-        - [Adobe CC](https://creativecloud.adobe.com/apps) 
-        - [Material Icon](https://github.com/google/material-design-icons)
+    - [Material Icon](https://github.com/google/material-design-icons)
 
 1. 再起動して終了
 
