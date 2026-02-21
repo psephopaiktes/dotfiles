@@ -58,7 +58,7 @@
 1. [アプリ設定](./doc/app-setting.md)  
 
 1. Homebrewで扱えないアプリをインストール
-    - [Material Icon](https://github.com/google/material-design-icons)
+    - [Material Icon]([https://github.com/google/material-design-icons](https://fonts.google.com/download?icon.set=Material+Icons)) ※Brewにもそれらしきものはあれどうまく入らず
 
 1. 再起動して終了
 
