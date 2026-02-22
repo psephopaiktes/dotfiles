@@ -49,7 +49,6 @@ cask "visual-studio-code"
 cask "zoom"
 mas "Craft", id: 1487937127
 mas "EdgeView", id: 1580323719
-mas "EdgeView 2", id: 1206246482
 mas "Goodnotes", id: 1444383602
 mas "Hand Mirror", id: 1502839586
 mas "Keynote", id: 409183694
