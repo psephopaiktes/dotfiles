@@ -6,10 +6,10 @@
 クラウドストレージ | ログイン
 Logi Options + | ログイン、デバイスのバックアップを復元
 Google IME | 入力補助 -「、。」「・「」」「？！」など意外は全部半角入力に<br>一般→スペースの入力 Width:Half<br>一般-候補選択ショートカット-A--L<br>一般-キ-設定の選択-MSIME<br>辞書とキーマップをインポート、履歴サジェストをオフ
-Chrome | ログイン, 会社メールでログイン(プロファイルは`利用しない`), + td1q2w, ローカル拡張機能をビルドして反映
+Chrome | ログイン, 会社メールでログイン(プロファイルは`利用しない`), + td1q2w, ローカル拡張機能をビルドして反映. chrome://password-manager/settings で `パスワードの入力時に画面ロックを使用する`をオフ
 Figma| [Font Installer](https://www.figma.com/ja-jp/downloads/?fuid=636494703104775006)をセットアップ
 Visual Studio Code | GitHubでログイン
-Raycast | 設定ファイルをDropboxからImport
+Raycast | 設定ファイルをDropboxからImport。カレンダーを呼び出してFull Accessを許可
 Better Touch Tool |  Dropboxから設定同期, Launch BTT on startup, ライセンスキーをアップロード<br>Appearance of the preview window:Bg #000 20%, Border 0%, Radius 12px
 slack | ログイン*2
 
@@ -28,6 +28,11 @@ Tunnelblick | DropboxからOPVNをインポート。🔒[会社VPN設定](https:
 amical | `F19`で音声入力. `F19+Space`でハンズフリー。英語が入力される場合は`言語を自動検出`の**下**の選択肢をJapaneseに。(スイッチはオンに戻してもOK)
 shottr | Full Screen: `⌘⇧3`, Area: `⌘⇧4`, Recognition: `⌘⇧2`, Primary OCR Language: `Japanese`
 Shortcut | 自宅のWiFiに接続したらミュート解除
+
+## CLI設定
+1. いちどターミナルでClaude実行して初期設定がいりそう
+1. Figma MCPとかも入れ直さなきゃダメかな
+https://developers.figma.com/docs/figma-mcp-server/remote-server-installation/#claude-code
 
 ## Craft.doの設定
 - 高度な設定 > `複数のブロックにまたがる、、、`: オン
@@ -48,3 +53,4 @@ Shortcut | 自宅のWiFiに接続したらミュート解除
 ## 全て終わってから
 - `システム設定` > `一般` > `ログイン項目と機能拡張` を整理
   - `機能拡張`からCore Sync を無効化
+- よく使うBluetoothデバイスは繋いどく
