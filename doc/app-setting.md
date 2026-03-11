@@ -28,6 +28,7 @@ Tunnelblick | DropboxからOPVNをインポート。🔒[会社VPN設定](https:
 amical | `F19`で音声入力. `F19+Space`でハンズフリー。英語が入力される場合は`言語を自動検出`の**下**の選択肢をJapaneseに。(スイッチはオンに戻してもOK)
 shottr | Full Screen: `⌘⇧3`, Area: `⌘⇧4`, Recognition: `⌘⇧2`, Primary OCR Language: `Japanese`
 Shortcut | 自宅のWiFiに接続したらミュート解除
+フォント | Dropbox/Appからフォントをインストール
 
 ## CLI設定
 1. いちどターミナルでClaude実行して初期設定がいりそう

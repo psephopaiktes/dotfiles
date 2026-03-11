@@ -6,3 +6,4 @@
 @openai/codex
 @google/gemini-cli
 @modelcontextprotocol/server-filesystem
+@github/copilot

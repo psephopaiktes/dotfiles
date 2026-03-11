@@ -1,4 +1,4 @@
-model = "gpt-5.3-codex"
+model = "gpt-5.4"
 model_reasoning_effort = "high"
 hide_agent_reasoning = true
 network_access = true
@@ -12,3 +12,9 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/Users/a-hirata/projec
 [mcp_servers.figma]
 command = "npx"
 args = ["-y", "mcp-remote", "https://mcp.figma.com/mcp"]
+
+[projects."/Users/a-hirata"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.3-codex" = "gpt-5.4"
