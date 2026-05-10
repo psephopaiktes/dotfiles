@@ -39,7 +39,7 @@ setopt auto_cd
 
 # short command
 alias server="python3 -m http.server"
-alias cl='claude'
+alias cl='claude --dangerously-skip-permissions'
 alias clp='claude -p'
 alias ls='ls -GAp'
 alias gho='gh repo view --web'

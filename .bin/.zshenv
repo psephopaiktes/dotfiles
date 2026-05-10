@@ -14,7 +14,7 @@ export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 # export HOMEBREW_FORBIDDEN_FORMULAE="node python python3 pip npm pnpm yarn claude"
 
 # Claude (env only)
-export ANTHROPIC_BASE_URL="${ANTHROPIC_BASE_URL:-https://litellm.unext.dev}"
+# export ANTHROPIC_BASE_URL="${ANTHROPIC_BASE_URL:-https://litellm.unext.dev}"
 export CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS="${CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS:-1}"
 export DISABLE_AUTOUPDATER="${DISABLE_AUTOUPDATER:-1}"
 
