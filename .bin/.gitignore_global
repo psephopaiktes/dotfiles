@@ -4,3 +4,5 @@ Thumbs.db
 .Trashes
 .svn
 .env
+
+**/.claude/settings.local.json

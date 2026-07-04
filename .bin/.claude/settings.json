@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "60"
+  },
   "permissions": {
     "allow": [
       "mcp__figma__*",
@@ -15,37 +18,57 @@
     "defaultMode": "default"
   },
   "model": "opus[1m]",
-  "enabledPlugins": {},
-  "skipDangerousModePermissionPrompt": true,
-  "env": {
-    "CLAUDE_AUTOCOMPACT_PCT_OVERRIDE": "60"
-  },
-  "statusLine": {
-    "type": "command",
-    "command": "~/.claude/statusline.sh"
-  },
   "hooks": {
     "PreToolUse": [
       {
         "matcher": "AskUserQuestion",
-        "hooks": [{"type": "command", "command": "terminal-notifier -message \"Claudeには $(basename $PWD) で質問があります\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""}]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -message \"Claudeには $(basename $PWD) で質問があります\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+          }
+        ]
       },
       {
         "matcher": "ExitPlanMode",
-        "hooks": [{"type": "command", "command": "terminal-notifier -message \"プランがレビューの準備ができました $(basename $PWD)\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""}]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -message \"プランがレビューの準備ができました $(basename $PWD)\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+          }
+        ]
       }
     ],
     "PermissionRequest": [
       {
         "matcher": "",
-        "hooks": [{"type": "command", "command": "terminal-notifier -message \"$(basename $PWD) で権限が必要です\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""}]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -message \"$(basename $PWD) で権限が必要です\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+          }
+        ]
       }
     ],
     "Stop": [
       {
         "matcher": "",
-        "hooks": [{"type": "command", "command": "terminal-notifier -message \"タスクが完了しました $(basename $PWD)\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""}]
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -message \"タスクが完了しました $(basename $PWD)\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+          }
+        ]
       }
     ]
-  }
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {},
+  "effortLevel": "xhigh",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "light",
+  "skipAutoPermissionPrompt": true
 }

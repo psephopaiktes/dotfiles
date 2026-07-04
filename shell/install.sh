@@ -69,6 +69,12 @@ else
     echo "Warning: $NPM_GLOBAL_FILE not found, skipping global npm packages" >&2
 fi
 
+# npxによるSKILLのインストール
+# GHに変えたほうがいいかも
+npx skills add flutter/skills --skill '*' --agent universal --yes
+npx skills add dart-lang/skills --skill '*' --agent universal --yes
+npx modern-web-guidance@latest install
+
 # uvによるPythonのインストール
 echo "...install PYTHONs"
 uv python install

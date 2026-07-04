@@ -25,3 +25,4 @@ if [[ -f "$DOTFILES_DIR/.env" ]]; then
 	source "$DOTFILES_DIR/.env"
 	set +a
 fi
+export PATH="/Users/a-hirata/projects/flutter/bin:$PATH"
