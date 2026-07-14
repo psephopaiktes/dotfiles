@@ -21,6 +21,14 @@ count=0
 while IFS= read -r -d '' source; do
   rel="${source#$DOTBIN/}"
   target="$HOME/$rel"
+
+  # targetがsource自身と同一実体を指す場合はスキップ
+  # （例: ~/.claude/skills/xxx がリポジトリの.binを指すディレクトリsymlinkだと、
+  #   targetがsourceに解決され、mvでリポジトリのファイルを.backupに退避する自己破壊が起きる）
+  if [[ "$target" -ef "$source" ]]; then
+    continue
+  fi
+
   mkdir -p "$(dirname "$target")"
 
   if [[ -e "$target" && ! -L "$target" ]]; then

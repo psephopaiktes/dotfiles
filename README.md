@@ -71,3 +71,19 @@
 ```zsh
 zsh ~/projects/dotfiles/shell/link.sh
 ```
+
+
+<br /><br />
+
+
+## `~/.config/` の設定を管理する
+
+`~/.config/<app>/` 配下の設定ファイルも `.bin/.config/` に置けば同様に管理できる。実ファイルを移動してから `link.sh` を実行する（ファイル単位でシンボリックリンクされる）。
+
+```zsh
+mkdir -p ~/projects/dotfiles/.bin/.config/<app>
+mv ~/.config/<app>/<file> ~/projects/dotfiles/.bin/.config/<app>/<file>
+zsh ~/projects/dotfiles/shell/link.sh
+```
+
+※ 認証トークンや秘密鍵などの機密ファイル（例: `gh/hosts.yml`）、ログ・キャッシュ・自動生成ファイル・`node_modules` は**管理対象に含めない**。`.bin/` 配下は Git にコミットされ公開される。
