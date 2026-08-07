@@ -104,3 +104,7 @@ fi
 if [[ -r "$HOME/.zshrc.local" ]]; then
   source "$HOME/.zshrc.local"
 fi
+
+
+# Added by Antigravity CLI installer
+export PATH="/Users/a-hirata/.local/bin:$PATH"
