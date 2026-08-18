@@ -72,6 +72,7 @@ https://forest.watch.impress.co.jp/docs/news/2086112.html
     - `汎用USBコントローラー` の項目 (もしくはモニターに接続しているUSBケーブルを抜き取り後に消えた項目)を見つけて開く
     - 「電源の管理」を選択して「電力の節約のために、コンピューターでこのデバイスの電源をオフにできるようにする」のチェックを外す
     - すべての`USBルートハブ`という項目についても同様に
+0. [HackGenフォント](https://github.com/yuru7/HackGen/releases/)のインストール
 
 
 
