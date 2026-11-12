@@ -1,14 +1,24 @@
 SHELL := /bin/zsh
 
-.PHONY: link install defaults all
+.PHONY: check link install defaults skills-check skills-update all
+
+check:
+	@zsh ./shell/check.sh
 
 link:
 	@zsh ./shell/link.sh
 
-install:
+install: link
 	@zsh ./shell/install.sh
 
 defaults:
 	@zsh ./shell/defaults.sh
 
-all: link install defaults
+skills-check:
+	@zsh ./shell/update-skills.sh --check
+
+skills-update:
+	@zsh ./shell/update-skills.sh --sync
+
+all: install
+	@$(MAKE) defaults

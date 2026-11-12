@@ -1,34 +1,28 @@
 {
-  "contextFileName": "AGENTS.md",
+  "context": {
+    "fileName": "AGENTS.md"
+  },
   "security": {
     "auth": {
       "selectedType": "oauth-personal"
     }
   },
   "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/Users/a-hirata/projects",
-        "/Users/a-hirata/Desktop"
-      ]
-    },
     "figma": {
-      "command": "npx",
+      "httpUrl": "https://mcp.figma.com/mcp"
+    },
+    "chrome-devtools": {
+      "command": "/opt/homebrew/bin/mise",
       "args": [
-        "-y",
-        "mcp-remote",
-        "https://mcp.figma.com/mcp"
+        "x",
+        "--",
+        "chrome-devtools-mcp",
+        "--categoryExtensions",
+        "--memoryDebugging"
       ]
     }
   },
   "ui": {
     "theme": "Default Light"
-  },
-  "statusLine": {
-    "type": "command",
-    "command": "~/.gemini/antigravity-cli/statusline.sh"
   }
 }

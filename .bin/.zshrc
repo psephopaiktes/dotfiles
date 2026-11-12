@@ -10,6 +10,9 @@ setopt ignore_eof
 setopt no_flow_control
 
 # コマンド履歴管理系
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=100000
+SAVEHIST=100000
 setopt share_history
 setopt hist_ignore_all_dups
 setopt hist_ignore_space
@@ -17,10 +20,11 @@ setopt hist_reduce_blanks
 setopt hist_save_no_dups
 
 # 自動補完を有効にする
-autoload -U compinit; compinit
-if command -v gh >/dev/null 2>&1; then
-  eval "$(gh completion -s zsh)"
+if [[ -d /opt/homebrew/share/zsh/site-functions ]]; then
+  fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
 fi
+autoload -Uz compinit
+compinit
 
 # Alt + Backspaceを有効にする
 autoload -U select-word-style
@@ -39,11 +43,10 @@ setopt auto_cd
 
 # short command
 alias server="python3 -m http.server"
-alias cl='claude --dangerously-skip-permissions'
+alias cl='claude'
 alias clp='claude -p'
 alias ls='ls -GAp'
 alias gho='gh repo view --web'
-alias fb='firebase'
 alias nr='npm run'
 alias nrs='npm start'
 alias nrb='npm run build'
@@ -55,10 +58,9 @@ alias -g C='| pbcopy'
 alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
-alias cat='bat'
-alias grep='rg'
-alias python="uv run python"
-alias py="uv run python"
+# alias cat='bat'
+# alias grep='rg'
+alias py='python'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -84,12 +86,12 @@ PROMPT='
 %F{178}%~%f ${vcs_info_msg_0_}
 %F{178}%B>%b%f  '
 
-# zoxide
-if command -v zoxide >/dev/null 2>&1; then
-  eval "$(zoxide init zsh)"
-  alias cd='z'
-  alias cdi='zi'
-fi
+# zoxide AI用に置き換えはやめた
+# if command -v zoxide >/dev/null 2>&1; then
+#   eval "$(zoxide init zsh)"
+#   alias cd='z'
+#   alias cdi='zi'
+# fi
 
 # zsh-autosuggestions
 if [[ -r /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]]; then
@@ -106,5 +108,5 @@ if [[ -r "$HOME/.zshrc.local" ]]; then
 fi
 
 
-# Added by Antigravity CLI installer
-export PATH="/Users/a-hirata/.local/bin:$PATH"
+# Added by Antigravity IDE
+export PATH="$HOME/.antigravity-ide/antigravity-ide/bin:$PATH"

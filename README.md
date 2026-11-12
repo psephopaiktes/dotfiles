@@ -9,7 +9,9 @@
 ## 既存の端末を初期化する場合 (任意)
 
 ### 事前準備
-1. `~/projects`配下のローカルリポジトリ群は変更をPushしておく。DesktopやDownloadフォルダのバックアップ。
+1. ローカル設定のバックアップ
+    - `~/projects`配下のローカルリポジトリ群は変更をPushしておく。DesktopやDownloadフォルダのバックアップ。
+    - RaycastでExportコマンドの実施
 1. Music.app からサインアウト
     - メニューの`Account`からサインアウト
 1. Message.app からサインアウト
@@ -35,31 +37,34 @@
 
 **適宜再起動推奨**
 
+
 1. Gitを使えるようにするために Command Line Tools をインストールして同意
     ```zsh
     xcode-select --install
     ```
-    ```zsh
-    sudo xcodebuild -license
-    ```
 
-1. 以下のワンライナーを実行。定期的にパスワード入力を求められる。かなり時間はかかるので、後述の手動設定を並行してやるのを推奨。Caskで必要になるので、AppleIDはサインインしとくと良いかも。
+1. Homebrew mas で必要になるので、App Storeはサインインしとく
+
+1. 以下のコマンドを実行。定期的にパスワード入力を求められる。かなり時間はかかるので、後述の手動設定を並行してやるのを推奨。
     ```zsh
-    sudo curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh | zsh
+    (
+      set -e
+      init_script="$(mktemp "${TMPDIR:-/tmp}/dotfiles-init.XXXXXX")"
+      trap 'rm -f "$init_script"' EXIT
+      curl -fsSL https://raw.githubusercontent.com/psephopaiktes/dotfiles/main/init.sh -o "$init_script"
+      zsh "$init_script"
+    )
     ```
     以下が自動実行されます
     - このリポジトリをCloneする（既にある場合はpull）
     - そのまま `make all` でシェルスクリプトを実行する
 
-1. ルートに生成された`.env`の中身を以下のメモに変更
-    - 🔒[Craft.do](https://docs.craft.do/editor/d/05090509-c69e-9719-2d99-81ea48b7173d/A304B6B8-A329-49D4-9F46-B4AC63B165E8?s=YvSeefcPbwjhAHj2nzyrjfYLxU2jPp3YbPi94hpsmLed)
+1. [Macのシステム環境設定](./doc/mac-setting.md)を行う
 
-1. [Macのシステム環境設定](./doc/mac-setting.md)
-
-1. [アプリ設定](./doc/app-setting.md)  
+1. [アプリ設定](./doc/app-setting.md)を行う
 
 1. Homebrewで扱えないアプリをインストール
-    - [Material Icon](https://fonts.google.com/download?icon.set=Material+Icons) ※Brewのだと足りない
+    - [Material Icon Font](https://fonts.google.com/download?icon.set=Material+Icons) ※Brewだけだとフォントが足りない
 
 
 <br /><br />
@@ -71,6 +76,8 @@
 ```zsh
 zsh ~/projects/dotfiles/shell/link.sh
 ```
+
+※ `.bin/.codex/config.toml` は初回配置用テンプレートです。ChatGPT/Codexが更新する既存の `~/.codex/config.toml` は上書きしないため、個人設定の既定値を変える場合は両方を更新します。
 
 
 <br /><br />

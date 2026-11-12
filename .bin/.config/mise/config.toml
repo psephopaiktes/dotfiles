@@ -1,2 +1,12 @@
 [tools]
 node = "lts"
+python = "3.15"
+"npm:@anthropic-ai/claude-code" = { version = "latest", allow_builds = ["@anthropic-ai/claude-code"] }
+"npm:@openai/codex" = "latest"
+"npm:@google/gemini-cli" = "latest"
+"npm:@github/copilot" = "latest"
+"npm:@playwright/cli" = "latest"
+"npm:chrome-devtools-mcp" = "latest"
+
+[env]
+UV_PYTHON = { value = "{{ tools.python.path }}", tools = true }

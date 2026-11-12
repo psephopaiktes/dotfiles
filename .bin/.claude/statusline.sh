@@ -45,8 +45,8 @@ if [ -n "$cwd" ] && [ -d "$cwd" ]; then
     # Dirty / staged counts via --porcelain (fast, single pass)
     git_indicators=""
     porcelain=$(git -C "$cwd" --no-optional-locks status --porcelain 2>/dev/null)
-    staged_count=$(echo "$porcelain" | grep -c "^[MADRC]" 2>/dev/null || echo 0)
-    dirty_count=$(echo "$porcelain"  | grep -c "^.[MD]"   2>/dev/null || echo 0)
+    staged_count=$(printf '%s\n' "$porcelain" | grep -c "^[MADRC]" 2>/dev/null || true)
+    dirty_count=$(printf '%s\n' "$porcelain" | grep -Ec '^(\?\?|.[MD])' 2>/dev/null || true)
     [ "$dirty_count"  -gt 0 ] && git_indicators="${git_indicators} *${dirty_count}"
     [ "$staged_count" -gt 0 ] && git_indicators="${git_indicators} +${staged_count}"
 

@@ -1,0 +1,21 @@
+# GitHub repository	selector	options
+# 常設するSKILLだけを個別指定する。リポジトリ全件指定は使用しない。
+GoogleChrome/modern-web-guidance	modern-web-guidance
+remotion-dev/skills	remotion-best-practices
+openai/skills	skills/.curated/security-best-practices	allow-hidden
+microsoft/playwright	playwright-cli
+android/skills	devtools/android-cli/SKILL.md
+cloudflare/skills	cloudflare
+ChromeDevTools/chrome-devtools-mcp	chrome-devtools
+figma/mcp-server-guide	figma-code-workflows
+figma/mcp-server-guide	figma-create-new-file
+figma/mcp-server-guide	figma-design-to-code
+figma/mcp-server-guide	figma-generate-design
+figma/mcp-server-guide	figma-generate-library
+figma/mcp-server-guide	figma-generative-plugins
+figma/mcp-server-guide	figma-implement-motion
+figma/mcp-server-guide	figma-shaders
+figma/mcp-server-guide	figma-spec
+figma/mcp-server-guide	figma-swiftui
+figma/mcp-server-guide	figma-use
+figma/mcp-server-guide	figma-use-motion

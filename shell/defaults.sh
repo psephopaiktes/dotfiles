@@ -45,7 +45,7 @@ write_defaults() {
 log "General（システム全体）を設定"
 
 # スクロールバーのクリック動作: "クリックした場所にジャンプ"
-write_defaults NSGlobalDomain AppleScrollerPagingBehavior int 0
+write_defaults NSGlobalDomain AppleScrollerPagingBehavior int 1
 
 # アプリ終了時に変更を保持するか確認: ON
 write_defaults NSGlobalDomain NSCloseAlwaysConfirmsChanges bool true

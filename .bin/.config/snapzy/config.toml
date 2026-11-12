@@ -1,14 +1,15 @@
 schema_version = 1
-snapzy_min_version = "1.29.1"
+snapzy_min_version = "2.0.0"
 
 [general]
 language = "ja"
 appearance = "system"
+use_liquid_glass = true
 play_sounds = true
 url_scheme_enabled = true
 show_menu_bar_icon = true
-start_at_login = false
-export_location = "~/Desktop/Snapzy"
+start_at_login = true
+export_location = "~/Snapzy"
 
 [updates]
 check_automatically = true
@@ -18,6 +19,11 @@ channel = "stable"
 [diagnostics]
 enabled = false
 retention_days = 3
+
+[menu_bar]
+icon_style = "default"
+item_order = ["captureArea", "captureAreaAnnotate", "captureApplication", "captureFullscreen", "captureActiveWindow", "scrollingCapture", "captureOCR", "captureSmartElement", "captureObjectCutout", "captureDelayed", "recordScreen", "recordApplication", "openAnnotate", "combineImages", "editVideo", "cloudUploads", "openHistory", "shortcutList"]
+hidden_items = []
 
 [capture]
 hide_desktop_icons = false
@@ -32,14 +38,19 @@ format = "png"
 include_snapzy = false
 show_cursor = false
 freeze_area = false
+delayed_capture_seconds = 3
 show_selection_area_overlay = true
 reverse_magnifier_zoom_direction = false
+show_magnifier_by_default = false
+show_magnifier_color_panel = true
 
 [capture.scrolling]
 show_hints = true
 
 [capture.ocr]
-success_notification = false
+success_notification = true
+selected_model = "builtin"
+custom_models = "[]"
 
 [capture.object_cutout]
 auto_crop = true
@@ -49,26 +60,26 @@ save = true
 quick_access = true
 copy_file = true
 open_annotate = false
-upload_to_cloud = false
 
 [capture.after.recording]
 save = true
 quick_access = true
 copy_file = true
 open_annotate = false
-upload_to_cloud = false
 
 [recording]
 format = "mov"
 quality = "high"
+max_resolution = "auto"
 fps = 30
-output_mode = "video"
+output_mode = "gif"
 capture_system_audio = true
 capture_microphone = false
 microphone_device_id = "system-default"
 remember_last_area = true
 include_snapzy = false
 show_cursor = true
+dim_non_selected_area = true
 highlight_clicks = false
 show_keystrokes = false
 video_editor_zoom_transition_duration = 0.4
@@ -91,6 +102,7 @@ hold_duration = 0.3
 
 [quick_access]
 enabled = true
+play_sounds = true
 position = "bottomRight"
 auto_dismiss = true
 auto_dismiss_delay = 10.0
@@ -117,7 +129,7 @@ bottom_trailing = "uploadToCloud"
 
 [history]
 enabled = true
-retention_days = 30
+retention_days = 14
 max_count = 500
 background_style = "hud"
 open_on_launch = false
@@ -141,9 +153,14 @@ uploads_window_position = "center"
 
 [annotate]
 clipboard_image_open_behavior = "ask"
+default_tool = "selection"
+remember_last_tool = false
 close_after_drag = true
 bring_forward_after_drag = false
 quick_properties_sync = true
+combine_save_as_edit = true
+crop_snap_to_edges = true
+highlighter_text_snapping = true
 
 [shortcuts]
 enabled = true
@@ -158,13 +175,18 @@ enabled = true
 key = "4"
 modifiers = ["command", "shift"]
 
-[shortcuts.global.area_annotate]
+[shortcuts.global.repeat_area]
 enabled = true
+key = "4"
+modifiers = ["command", "shift", "control"]
+
+[shortcuts.global.area_annotate]
+enabled = false
 key = "7"
 modifiers = ["command", "shift"]
 
 [shortcuts.global.active_window]
-enabled = true
+enabled = false
 key = "9"
 modifiers = ["command", "shift"]
 
@@ -198,23 +220,28 @@ enabled = true
 key = ""
 modifiers = []
 
-[shortcuts.global.annotate]
+[shortcuts.global.delayed_capture]
 enabled = true
+key = ""
+modifiers = []
+
+[shortcuts.global.annotate]
+enabled = false
 key = "A"
 modifiers = ["command", "shift"]
 
 [shortcuts.global.video_editor]
-enabled = true
+enabled = false
 key = "E"
 modifiers = ["command", "shift"]
 
 [shortcuts.global.cloud_uploads]
-enabled = true
+enabled = false
 key = "L"
 modifiers = ["command", "shift"]
 
 [shortcuts.global.shortcut_list]
-enabled = true
+enabled = false
 key = "K"
 modifiers = ["command", "shift"]
 
@@ -229,12 +256,12 @@ key = "4"
 modifiers = ["shift", "option"]
 
 [shortcuts.global.object_cutout]
-enabled = true
+enabled = false
 key = "1"
 modifiers = ["command", "shift"]
 
 [shortcuts.global.history]
-enabled = true
+enabled = false
 key = "H"
 modifiers = ["command", "shift"]
 
@@ -251,6 +278,44 @@ modifiers = []
 [shortcuts.quick_access.edit_latest_capture]
 enabled = false
 key = "↩"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions]
+enabled = true
+
+[shortcuts.quick_access.card_actions.copy]
+enabled = true
+key = "C"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions.save_or_open]
+enabled = true
+key = "S"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions.dismiss]
+enabled = true
+key = "W"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions.delete]
+enabled = true
+key = "⌫"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions.edit]
+enabled = true
+key = "E"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions.upload_to_cloud]
+enabled = true
+key = "U"
+modifiers = ["command"]
+
+[shortcuts.quick_access.card_actions.pin_to_screen]
+enabled = true
+key = "P"
 modifiers = ["command"]
 
 [shortcuts.annotate_tools]
@@ -271,29 +336,29 @@ watermark = "w"
 pencil = "p"
 
 [shortcuts.annotate_actions]
-disabled = []
+disabled = ["autoRedactSensitiveData", "cloudUpload", "copyAndClose", "togglePin", "toggleSidebar"]
 
 [shortcuts.annotate_actions.copy_and_close]
-enabled = true
+enabled = false
 key = "C"
 modifiers = ["command", "shift"]
 
 [shortcuts.annotate_actions.toggle_sidebar]
-enabled = true
+enabled = false
 key = "B"
 modifiers = ["command"]
 
 [shortcuts.annotate_actions.toggle_pin]
-enabled = true
+enabled = false
 key = "P"
 modifiers = ["command", "control"]
 
 [shortcuts.annotate_actions.cloud_upload]
-enabled = true
+enabled = false
 key = "U"
 modifiers = ["command"]
 
 [shortcuts.annotate_actions.auto_redact_sensitive_data]
-enabled = true
+enabled = false
 key = ""
 modifiers = []

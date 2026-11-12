@@ -5,7 +5,10 @@
   "permissions": {
     "allow": [
       "mcp__figma__*",
-      "mcp__atlassian__*"
+      "mcp__atlassian__*",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:wxt.dev)"
     ],
     "deny": [
       "Bash(git commit :*)",
@@ -25,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -message \"Claudeには $(basename $PWD) で質問があります\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+            "command": "terminal-notifier -message \"Claudeには $(basename $PWD) で質問があります\" -title \"Claude Code\" -activate com.microsoft.VSCode -contentImage \"/Applications/Visual Studio Code.app/Contents/Resources/Code.icns\""
           }
         ]
       },
@@ -34,7 +37,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -message \"プランがレビューの準備ができました $(basename $PWD)\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+            "command": "terminal-notifier -message \"プランがレビューの準備ができました $(basename $PWD)\" -title \"Claude Code\" -activate com.microsoft.VSCode -contentImage \"/Applications/Visual Studio Code.app/Contents/Resources/Code.icns\""
           }
         ]
       }
@@ -45,7 +48,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -message \"$(basename $PWD) で権限が必要です\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+            "command": "terminal-notifier -message \"$(basename $PWD) で権限が必要です\" -title \"Claude Code\" -activate com.microsoft.VSCode -contentImage \"/Applications/Visual Studio Code.app/Contents/Resources/Code.icns\""
           }
         ]
       }
@@ -56,7 +59,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "terminal-notifier -message \"タスクが完了しました $(basename $PWD)\" -title \"Claude Code\" -activate co.posit.positron -contentImage \"/Applications/Positron.app/Contents/Resources/Positron.icns\""
+            "command": "terminal-notifier -message \"タスクが完了しました $(basename $PWD)\" -title \"Claude Code\" -activate com.microsoft.VSCode -contentImage \"/Applications/Visual Studio Code.app/Contents/Resources/Code.icns\""
           }
         ]
       }

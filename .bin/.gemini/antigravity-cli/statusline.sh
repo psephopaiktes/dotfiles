@@ -4,9 +4,17 @@
 
 input=$(cat)
 
-# --- Extract fields from input JSON ---
-model=$(echo "$input" | jq -r '.model.display_name // .model // "Antigravity"')
-cwd=$(echo "$input" | jq -r '.workspace.current_dir // .cwd // ""')
+# --- Extract fields from input JSON (macOS built-in; no jq dependency) ---
+json_get() {
+  printf '%s' "$input" | plutil -extract "$1" raw -n -o - -- - 2>/dev/null
+}
+
+model=$(json_get "model.display_name")
+[ -z "$model" ] && model=$(json_get "model")
+[ -z "$model" ] && model="Antigravity"
+
+cwd=$(json_get "workspace.current_dir")
+[ -z "$cwd" ] && cwd=$(json_get "cwd")
 
 # --- ANSI colors ---
 RESET=$'\033[0m'
@@ -19,7 +27,8 @@ RED=$'\033[31m'
 GRAY=$'\033[38;5;247m'    # matches %F{247} from vcs_info
 
 # --- Context window usage ---
-ctx_pct=$(echo "$input" | jq -r '.context_window.used_percentage // .context_window_pct // empty')
+ctx_pct=$(json_get "context_window.used_percentage")
+[ -z "$ctx_pct" ] && ctx_pct=$(json_get "context_window_pct")
 
 if [ -n "$ctx_pct" ]; then
   ctx_pct_int=$(printf "%.0f" "$ctx_pct")
@@ -42,8 +51,8 @@ if [ -n "$cwd" ] && [ -d "$cwd" ]; then
   if [ -n "$branch" ]; then
     git_indicators=""
     porcelain=$(git -C "$cwd" --no-optional-locks status --porcelain 2>/dev/null)
-    staged_count=$(echo "$porcelain" | grep -c "^[MADRC]" 2>/dev/null || echo 0)
-    dirty_count=$(echo "$porcelain"  | grep -c "^.[MD]"   2>/dev/null || echo 0)
+    staged_count=$(printf '%s\n' "$porcelain" | grep -c "^[MADRC]" 2>/dev/null || true)
+    dirty_count=$(printf '%s\n' "$porcelain" | grep -Ec '^(\?\?|.[MD])' 2>/dev/null || true)
     [ "$dirty_count"  -gt 0 ] && git_indicators="${git_indicators} *${dirty_count}"
     [ "$staged_count" -gt 0 ] && git_indicators="${git_indicators} +${staged_count}"
 

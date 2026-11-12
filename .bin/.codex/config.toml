@@ -1,20 +1,31 @@
-model = "gpt-5.4"
-model_reasoning_effort = "high"
-hide_agent_reasoning = true
-network_access = true
+# Initial setup template for ~/.codex/config.toml.
+# ChatGPT and Codex own the active file, so link.sh never overwrites it.
+# Update this template and the active file together when changing personal defaults.
 
+model = "gpt-5.6-sol"
+model_reasoning_effort = "ultra"
+hide_agent_reasoning = true
 notify = ["bash", "-lc", "afplay /System/Library/Sounds/Ping.aiff"]
 
-[mcp_servers.filesystem]
-command = "npx"
-args = ["-y", "@modelcontextprotocol/server-filesystem", "/Users/a-hirata/projects", "/Users/a-hirata/Desktop"]
+[tui]
+status_line = ["current-dir", "git-branch", "model-with-reasoning", "context-used"]
+status_line_use_colors = true
 
 [mcp_servers.figma]
-command = "npx"
-args = ["-y", "mcp-remote", "https://mcp.figma.com/mcp"]
+url = "https://mcp.figma.com/mcp"
 
-[projects."/Users/a-hirata"]
-trust_level = "trusted"
+[mcp_servers.chrome-devtools]
+command = "/opt/homebrew/bin/mise"
+args = ["x", "--", "chrome-devtools-mcp", "--categoryExtensions", "--memoryDebugging"]
 
-[notice.model_migrations]
-"gpt-5.3-codex" = "gpt-5.4"
+[desktop]
+followUpQueueMode = "steer"
+conversationDetailMode = "STEPS_PROSE"
+sansFontSize = 14
+codeFontSize = 13
+ambient-suggestions-enabled = false
+selected-avatar-id = "null-signal"
+avatar-overlay-pet-visible = false
+open-link-in-target-preference = "external-browser"
+open-local-url-in-target-preference = "external-browser"
+confirm-before-close = "never"

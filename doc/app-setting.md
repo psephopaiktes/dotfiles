@@ -26,7 +26,7 @@ IINA | Utility > Set IINA as the Default Application...<br>import keyconfig
 Forklift | 一般>ターミナルを変更、外観>テーマをDefault, Hide Mini、https://binarynights.com/manual#fileviewer 高いしCyberduckでいいかも,,,
 Tunnelblick | DropboxからOPVNをインポート。🔒[会社VPN設定](https://cloud.wiki.unext-info.jp/wiki/spaces/DEVOPS/pages/37160015/VPN#macOS)
 amical | `F19`で音声入力. `F19+Space`でハンズフリー。英語が入力される場合は`言語を自動検出`の**下**の選択肢をJapaneseに。(スイッチはオンに戻してもOK)
-shottr | Full Screen: `⌘⇧3`, Area: `⌘⇧4`, Recognition: `⌘⇧2`, Primary OCR Language: `Japanese`
+Snapzy | Full Screen: `⌘⇧3`, Area: `⌘⇧4`, Scrolling Capture: `⌘⇧6`, Recording: `⌘⇧5`, OCR: `⌘⇧2`
 Shortcut | 自宅のWiFiに接続したらミュート解除
 フォント | Dropbox/Appからフォントをインストール
 

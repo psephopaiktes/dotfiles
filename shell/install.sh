@@ -39,6 +39,10 @@ fi
 echo "...brew bundle ($BREWFILE)"
 brew bundle --file="$BREWFILE"
 
+if command -v git-lfs >/dev/null 2>&1; then
+    git lfs install
+fi
+
 # Cleanup
 brew cleanup
 
@@ -47,37 +51,13 @@ brew cleanup
 # Node, Python
 # -----------------------------------------------------------------------------
 
-# miseによるNode.jsのインストール
-echo "...install NODEs"
-mise use -g node@lts
-
-# npmグローバルパッケージのインストール
-echo "...install npm global packages"
+# miseによるNode.js、Python、npm CLIのインストール
+echo "...install mise tools"
+mise install
 
 # mise環境設定
 eval "$(mise activate zsh --shims)"
 eval "$(mise hook-env)"
-
-# npmグローバルパッケージリストの読み込み
-NPM_GLOBAL_FILE="$REPO_ROOT/.bin/.npm-global"
-if [[ -f "$NPM_GLOBAL_FILE" ]]; then
-    while IFS= read -r package; do
-        [[ -z "$package" || "$package" =~ ^# ]] && continue
-        npm install -g "$package"
-    done < "$NPM_GLOBAL_FILE"
-else
-    echo "Warning: $NPM_GLOBAL_FILE not found, skipping global npm packages" >&2
-fi
-
-# npxによるSKILLのインストール
-# GHに変えたほうがいいかも
-npx skills add flutter/skills --skill '*' --agent universal --yes
-npx skills add dart-lang/skills --skill '*' --agent universal --yes
-npx modern-web-guidance@latest install
-
-# uvによるPythonのインストール
-echo "...install PYTHONs"
-uv python install
 
 
 # -----------------------------------------------------------------------------
@@ -86,6 +66,23 @@ uv python install
 
 if ! gh auth status -h github.com >/dev/null 2>&1; then
 	gh auth login
+fi
+
+# Agent Skillsを公式配布元から取得し、Codex・Claude Code・Gemini CLIへリンク
+zsh "$REPO_ROOT/shell/update-skills.sh" --sync
+
+# Claude CodeのユーザースコープMCPは~/.claude.jsonに保存されるためCLIで登録
+if command -v claude >/dev/null 2>&1; then
+    # 既存設定も正しいコマンドへ収束させる
+    claude mcp remove figma --scope user >/dev/null 2>&1 || true
+    claude mcp add --scope user --transport http figma https://mcp.figma.com/mcp
+
+    claude mcp remove chrome-devtools --scope user >/dev/null 2>&1 || true
+    claude mcp add --scope user chrome-devtools -- \
+        /opt/homebrew/bin/mise x -- chrome-devtools-mcp --categoryExtensions --memoryDebugging
+
+    # 旧dotfilesで登録したFirebase MCPを除去
+    claude mcp remove firebase --scope user >/dev/null 2>&1 || true
 fi
 
 mkdir -p "$HOME/projects"
@@ -103,16 +100,4 @@ sync_repo() {
 
 sync_repo psephopaiktes/chrome-stylize "$HOME/projects/chrome-stylize"
 sync_repo psephopaiktes/hira.page "$HOME/projects/hira.page"
-
-
-# -----------------------------------------------------------------------------
-# Generate .env
-# -----------------------------------------------------------------------------
-
-# .envファイルの生成（存在しない場合のみ）
-if [[ ! -f .env ]]; then
-    cp .env.example .env
-fi
-
-
 echo "DONE"
