@@ -1,0 +1,64 @@
+[bootstrap.brew]
+adopt = true
+
+[bootstrap.packages]
+"brew:curl" = "latest"
+"brew:fd" = "latest"
+"brew:ffmpeg" = "latest"
+"brew:fzf" = "latest"
+"brew:gh" = "latest"
+"brew:git-lfs" = "latest"
+"brew:mas" = "latest"
+"brew:ripgrep" = "latest"
+"brew:rust" = "latest"
+"brew:terminal-notifier" = "latest"
+"brew:tree" = "latest"
+"brew:uv" = "latest"
+"brew:webp" = "latest"
+"brew:woff2" = "latest"
+"brew:zoxide" = "latest"
+"brew:zsh-autosuggestions" = "latest"
+"brew-cask:amical" = { os = "macos" }
+"brew-cask:appcleaner" = { os = "macos" }
+"brew-cask:artcraft-launcher" = { os = "macos" }
+"brew-cask:android-platform-tools" = { os = "macos" }
+"brew-cask:android-studio" = { os = "macos" }
+"brew-cask:bettertouchtool" = { os = "macos" }
+"brew-cask:chatgpt" = { os = "macos" }
+"brew-cask:discord" = { os = "macos" }
+"brew-cask:dropbox" = { os = "macos" }
+"brew-cask:figma" = { os = "macos" }
+"brew-cask:firefox" = { os = "macos" }
+"brew-cask:font-hackgen" = { os = "macos" }
+"brew-cask:font-hackgen-nerd" = { os = "macos" }
+"brew-cask:font-noto-sans-jp" = { os = "macos" }
+"brew-cask:font-roboto" = { os = "macos" }
+"brew-cask:font-sf-compact" = { os = "macos" }
+"brew-cask:font-sf-mono" = { os = "macos" }
+"brew-cask:font-sf-pro" = { os = "macos" }
+"brew-cask:forklift" = { os = "macos" }
+"brew-cask:ghostty" = { os = "macos" }
+"brew-cask:github" = { os = "macos" }
+"brew-cask:google-chrome" = { os = "macos" }
+"brew-cask:google-japanese-ime" = { os = "macos" }
+"brew-cask:iina" = { os = "macos" }
+"brew-cask:imageoptim" = { os = "macos" }
+"brew-cask:keycastr" = { os = "macos" }
+"brew-cask:logi-options+" = { os = "macos" }
+"brew-cask:monitorcontrol" = { os = "macos" }
+"brew-cask:obsidian" = { os = "macos" }
+"brew-cask:raycast" = { os = "macos" }
+"brew-cask:sf-symbols" = { os = "macos" }
+"brew-cask:slack" = { os = "macos" }
+"brew-cask:snapzy" = { os = "macos" }
+"brew-cask:visual-studio-code" = { os = "macos" }
+"brew-cask:zoom" = { os = "macos" }
+"mas:1487937127" = "latest"                           # Craft
+"mas:1580323719" = "latest"                           # EdgeView
+"mas:1502839586" = "latest"                           # Hand Mirror
+"mas:409183694" = "latest"                            # Keynote
+"mas:409203825" = "latest"                            # Numbers
+"mas:409201541" = "latest"                            # Pages
+"mas:425424353" = "latest"                            # The Unarchiver
+"mas:497799835" = "latest"                            # Xcode
+"mas:1127676902" = "latest"                           # アニメ画像に変換する君

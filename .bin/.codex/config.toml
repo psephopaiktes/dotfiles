@@ -15,8 +15,8 @@ status_line_use_colors = true
 url = "https://mcp.figma.com/mcp"
 
 [mcp_servers.chrome-devtools]
-command = "/opt/homebrew/bin/mise"
-args = ["x", "--", "chrome-devtools-mcp", "--categoryExtensions", "--memoryDebugging"]
+command = "/bin/zsh"
+args = ["-c", "exec mise x -- chrome-devtools-mcp --categoryExtensions --memoryDebugging"]
 
 [desktop]
 followUpQueueMode = "steer"

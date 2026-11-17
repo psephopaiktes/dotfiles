@@ -1,0 +1,14 @@
+[tools]
+node = "lts"
+python = "latest"
+"npm:@anthropic-ai/claude-code" = { version = "latest", allow_builds = [
+  "@anthropic-ai/claude-code",
+] }
+"npm:@openai/codex" = "latest"
+"npm:@github/copilot" = "latest"
+"npm:@playwright/cli" = "latest"
+"npm:chrome-devtools-mcp" = "latest"
+
+[env]
+UV_PYTHON_PREFERENCE = "only-system"
+UV_PYTHON_SEARCH_PATH = { value = "{{ tools.python.path }}/bin", tools = true }

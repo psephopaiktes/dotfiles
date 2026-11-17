@@ -1,0 +1,122 @@
+[bootstrap.settings.macos.dock]
+autohide = true
+tilesize = 48
+magnification = true
+largesize = 64
+show_recents = false
+mru_spaces = false
+
+[bootstrap.settings.macos.finder]
+show_all_files = true
+show_pathbar = true
+show_status_bar = true
+show_extensions_warning = false
+
+[bootstrap.settings.macos.keyboard]
+key_repeat = 2
+initial_key_repeat = 15
+automatic_capitalization = false
+automatic_spelling_correction = false
+
+[bootstrap.settings.macos.defaults.NSGlobalDomain]
+AppleAccentColor = -1
+AppleAquaColorVariant = 6
+AppleInterfaceStyleSwitchesAutomatically = true
+AppleKeyboardUIMode = 3
+AppleScrollerPagingBehavior = true
+AppleShowAllExtensions = true
+AppleWindowTabbingMode = "always"
+NSAutomaticDashSubstitutionEnabled = false
+NSAutomaticPeriodSubstitutionEnabled = false
+NSAutomaticQuoteSubstitutionEnabled = false
+NSCloseAlwaysConfirmsChanges = true
+NSRecentApplicationsLimit = 10
+NSRecentDocumentsLimit = 10
+NSRecentServersLimit = 10
+
+[bootstrap.settings.macos.defaults."com.apple.dock"]
+"expose-group-apps" = true
+mineffect = "scale"
+"minimize-to-application" = true
+"wvous-bl-corner" = 3
+"wvous-bl-modifier" = 0
+"wvous-br-corner" = 5
+"wvous-br-modifier" = 0
+
+[bootstrap.settings.macos.defaults."com.apple.finder"]
+FXDefaultSearchScope = "SCsp"
+FXRemoveOldTrashItems = true
+FXSortFoldersFirst = true
+FXSortFoldersFirstOnDesktop = true
+NewWindowTarget = "PfDe"
+QLEnableTextSelection = true
+WarnOnEmptyTrash = false
+_FXShowPosixPathInTitle = true
+
+[bootstrap.settings.macos.defaults."com.apple.menuextra.clock"]
+FlashDateSeparators = true
+
+[bootstrap.settings.macos.defaults."com.apple.screensaver"]
+askForPassword = 1
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.screensaver"
+key = "idleTime"
+host = "current"
+value = 0
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["27", "enabled"]
+value = true
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["27", "value", "parameters"]
+value = [65535, 48, 524288]
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["28", "enabled"]
+value = false
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["29", "enabled"]
+value = false
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["30", "enabled"]
+value = false
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["31", "enabled"]
+value = false
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["64", "enabled"]
+value = false
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
+path = ["65", "enabled"]
+value = false
+
+[bootstrap.hooks]
+pre-defaults = """osascript -e 'tell application "System Settings" to quit' >/dev/null 2>&1 || true"""
+post-defaults = """
+defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME/Desktop/"
+killall Finder Dock SystemUIServer >/dev/null 2>&1 || true
+qlmanage -r >/dev/null 2>&1 || true
+"""

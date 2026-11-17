@@ -1,0 +1,16 @@
+[tasks.bootstrap]
+description = "miseで宣言できない初期設定を行う"
+run = "zsh ~/projects/dotfiles/shell/bootstrap.sh"
+interactive = true
+
+[tasks.check]
+description = "dotfilesの構文と設定を検査する"
+run = "zsh ~/projects/dotfiles/shell/check.sh"
+
+[tasks."skills:check"]
+description = "Agent Skillsの更新を確認する"
+run = "zsh ~/projects/dotfiles/shell/update-skills.sh --check"
+
+[tasks."skills:update"]
+description = "Agent Skillsを更新する"
+run = "zsh ~/projects/dotfiles/shell/update-skills.sh --sync"

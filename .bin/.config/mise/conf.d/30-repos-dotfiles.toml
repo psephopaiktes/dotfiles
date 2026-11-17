@@ -1,0 +1,21 @@
+[bootstrap.repos]
+"~/projects/chrome-stylize" = { url = "https://github.com/psephopaiktes/chrome-stylize.git" }
+"~/projects/hira.page" = { url = "https://github.com/psephopaiktes/hira.page.git" }
+
+[dotfiles]
+"~/.Brewfile" = { mode = "absent" }
+"~/.claude/settings.json" = { mode = "symlink" }
+"~/.claude/statusline.sh" = { mode = "symlink" }
+"~/.codex/config.toml" = { mode = "copy", create_if_missing = true }
+"~/.config/gh/config.yml" = { mode = "symlink" }
+"~/.config/ghostty/config" = { mode = "symlink" }
+"~/.config/snapzy/config.toml" = { mode = "symlink" }
+"~/.gitconfig" = { mode = "symlink" }
+"~/.gitignore_global" = { mode = "symlink" }
+"~/.npmrc" = { mode = "symlink" }
+"~/.zshenv" = { mode = "symlink" }
+"~/.zshrc" = { mode = "symlink" }
+"~/AGENTS.md" = { mode = "symlink" }
+"~/.codex/AGENTS.md" = { source = "~/projects/dotfiles/.bin/AGENTS.md", mode = "symlink" }
+"~/.claude/CLAUDE.md" = { source = "~/projects/dotfiles/.bin/AGENTS.md", mode = "symlink" }
+"~/.copilot/copilot-instructions.md" = { source = "~/projects/dotfiles/.bin/AGENTS.md", mode = "symlink" }

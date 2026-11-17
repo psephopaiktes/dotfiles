@@ -6,6 +6,16 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd -P)"
 
+install_mas_apps() {
+  if ! command -v mas >/dev/null 2>&1; then
+    echo "mas command not found after package installation" >&2
+    return 1
+  fi
+
+  # packagesフェーズ開始時にmasがPATH上にない新規Mac向けに、導入後に再適用する
+  mise -C "$HOME" bootstrap packages apply --manager mas --yes
+}
+
 install_switchbot_screen_saver() {
   local version="1.0.1"
   local checksum="72124a7b432b1f373256b9dcf0f8302f4971584236050598c0cfb9f1204c87a5"
@@ -41,6 +51,7 @@ if command -v git-lfs >/dev/null 2>&1; then
   git lfs install
 fi
 
+install_mas_apps
 install_switchbot_screen_saver
 
 if ! gh auth status -h github.com >/dev/null 2>&1; then
@@ -56,6 +67,9 @@ if command -v claude >/dev/null 2>&1; then
 
   claude mcp remove figma --scope user >/dev/null 2>&1 || true
   claude mcp add --scope user --transport http figma https://mcp.figma.com/mcp
+
+  claude mcp remove atlassian --scope user >/dev/null 2>&1 || true
+  claude mcp add --scope user --transport http atlassian https://mcp.atlassian.com/v2/mcp
 
   claude mcp remove chrome-devtools --scope user >/dev/null 2>&1 || true
   claude mcp add --scope user chrome-devtools -- \

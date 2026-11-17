@@ -1,7 +1,7 @@
 export LANG=ja_JP.UTF-8
 
-export EDITOR='code'
-export VISUAL='code'
+export EDITOR='code --wait'
+export VISUAL='code --wait'
 
 # PATH
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
@@ -17,5 +17,3 @@ export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 # export ANTHROPIC_BASE_URL="${ANTHROPIC_BASE_URL:-https://litellm.unext.dev}"
 export CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS="${CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS:-1}"
 export DISABLE_AUTOUPDATER="${DISABLE_AUTOUPDATER:-1}"
-
-export PATH="$HOME/projects/flutter/bin:$PATH"

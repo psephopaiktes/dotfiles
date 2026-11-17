@@ -30,7 +30,6 @@ fi
 # rsync --deleteの対象を物理パスで検証し、HOMEや設定ディレクトリを
 # 別表現（末尾の/.、..、親ディレクトリなど）で指定できないようにする。
 SKILLS_HOME="${SKILLS_HOME:A}"
-default_skills_path="${DEFAULT_SKILLS_HOME:A}"
 home_path="${HOME:A}"
 agent_config_path="${AGENT_CONFIG_HOME:A}"
 repo_path="${REPO_ROOT:A}"
@@ -56,13 +55,9 @@ skills_marker="$SKILLS_HOME/$SKILLS_MARKER_NAME"
 if [[ "$mode" == "--sync" && -d "$SKILLS_HOME" && ! -e "$skills_marker" ]]; then
   existing_entry="$(find "$SKILLS_HOME" -mindepth 1 -maxdepth 1 -print -quit)"
   if [[ -n "$existing_entry" ]]; then
-    if [[ "$SKILLS_HOME" == "$default_skills_path" ]]; then
-      echo "Adopting legacy Agent Skills directory: $SKILLS_HOME"
-    else
-      echo "Refusing to replace unmanaged Agent Skills directory: $SKILLS_HOME" >&2
-      echo "Move or back up its contents before running the sync again." >&2
-      exit 1
-    fi
+    echo "Refusing to replace unmanaged Agent Skills directory: $SKILLS_HOME" >&2
+    echo "Move or back up its contents before running the sync again." >&2
+    exit 1
   fi
 fi
 
@@ -155,20 +150,27 @@ if [[ "$mode" == "--check" ]]; then
   exit 0
 fi
 
-mkdir -p "$SKILLS_HOME"
-touch "$skills_marker"
-rsync -a --delete --exclude="/$SKILLS_MARKER_NAME" "$staging_dir/" "$SKILLS_HOME/"
+target_dirs=(
+  "$AGENT_CONFIG_HOME/.agents/skills"
+  "$AGENT_CONFIG_HOME/.claude/skills"
+)
 
-for target_dir in \
-  "$AGENT_CONFIG_HOME/.agents/skills" \
-  "$AGENT_CONFIG_HOME/.claude/skills" \
-  "$AGENT_CONFIG_HOME/.gemini/skills"; do
+# 未管理のディレクトリリンクを解除する前に停止する
+for target_dir in "${target_dirs[@]}"; do
   if [[ -L "$target_dir" ]]; then
-    rm "$target_dir"
+    echo "Refusing to replace unmanaged Agent Skills link: $target_dir" >&2
+    exit 1
   elif [[ -e "$target_dir" && ! -d "$target_dir" ]]; then
     echo "Agent Skills path is not a directory: $target_dir" >&2
     exit 1
   fi
+done
+
+mkdir -p "$SKILLS_HOME"
+touch "$skills_marker"
+rsync -a --delete --exclude="/$SKILLS_MARKER_NAME" "$staging_dir/" "$SKILLS_HOME/"
+
+for target_dir in "${target_dirs[@]}"; do
   mkdir -p "$target_dir"
 
   # このスクリプトが作成した、配布終了済みSKILLへのリンクを除去する
