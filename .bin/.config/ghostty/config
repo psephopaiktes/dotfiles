@@ -1,6 +1,6 @@
 theme = light:GitHub, dark:GitHub Dark Dimmed
 
-font-family = "HackGen Console NFJ"
+font-family = "HackGen Console NF"
 font-size = 16
 adjust-cell-height = 10%
 

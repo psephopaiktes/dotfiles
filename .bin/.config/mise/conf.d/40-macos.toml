@@ -104,6 +104,12 @@ value = false
 [[bootstrap.settings.macos.defaults_entries]]
 domain = "com.apple.symbolichotkeys"
 key = "AppleSymbolicHotKeys"
+path = ["184", "enabled"]
+value = false
+
+[[bootstrap.settings.macos.defaults_entries]]
+domain = "com.apple.symbolichotkeys"
+key = "AppleSymbolicHotKeys"
 path = ["64", "enabled"]
 value = false
 

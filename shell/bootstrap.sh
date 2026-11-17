@@ -6,6 +6,27 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd -P)"
 
+authenticate_github() {
+  local gh_bin="/opt/homebrew/bin/gh"
+
+  if [[ ! -x "$gh_bin" ]]; then
+    echo "gh command not found after package installation" >&2
+    return 1
+  fi
+
+  if ! "$gh_bin" auth status -h github.com >/dev/null 2>&1; then
+    "$gh_bin" auth login --hostname github.com --git-protocol https --web
+  fi
+}
+
+if [[ "${1:-}" == "--github-auth" ]]; then
+  authenticate_github
+  exit
+elif (( $# > 0 )); then
+  echo "Usage: $0 [--github-auth]" >&2
+  exit 2
+fi
+
 install_mas_apps() {
   if ! command -v mas >/dev/null 2>&1; then
     echo "mas command not found after package installation" >&2
@@ -47,16 +68,9 @@ install_switchbot_screen_saver() {
   rm -rf -- "$temp_dir"
 }
 
-if command -v git-lfs >/dev/null 2>&1; then
-  git lfs install
-fi
-
 install_mas_apps
 install_switchbot_screen_saver
-
-if ! gh auth status -h github.com >/dev/null 2>&1; then
-  gh auth login
-fi
+authenticate_github
 
 # Agent Skillsを公式配布元から取得し、各Agentへリンク
 zsh "$REPO_ROOT/shell/update-skills.sh" --sync
@@ -74,7 +88,4 @@ if command -v claude >/dev/null 2>&1; then
   claude mcp remove chrome-devtools --scope user >/dev/null 2>&1 || true
   claude mcp add --scope user chrome-devtools -- \
     "$MISE_BIN" x -- chrome-devtools-mcp --categoryExtensions --memoryDebugging
-
-  # 旧dotfilesで登録したFirebase MCPを除去
-  claude mcp remove firebase --scope user >/dev/null 2>&1 || true
 fi

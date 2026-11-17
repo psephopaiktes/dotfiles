@@ -53,6 +53,7 @@ if ! mise_is_compatible "$MISE_BIN"; then
   echo "エラー: mise ${MISE_MIN_VERSION}以上のインストールに失敗しました" >&2
   exit 1
 fi
+export PATH="${MISE_BIN:h}:$PATH"
 
 echo "...Bootstrap Mac"
 REPO_MISE_CONFIG_DIR="$DOTPATH/.bin/.config/mise"

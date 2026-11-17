@@ -29,6 +29,14 @@ while IFS= read -r -d '' file; do
   plutil -convert json -o /dev/null "$file"
 done < <(find .bin doc -type f -name '*.json' -print0)
 
+echo "...check TOML syntax"
+while IFS= read -r -d '' file; do
+  if ! python -c 'import sys, tomllib; tomllib.load(open(sys.argv[1], "rb"))' "$file"; then
+    echo "Invalid TOML: $file" >&2
+    exit 1
+  fi
+done < <(find .bin -type f -name '*.toml' -print0)
+
 echo "...check whitespace errors"
 git diff --check
 git diff --cached --check

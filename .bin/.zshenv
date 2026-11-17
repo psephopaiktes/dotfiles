@@ -12,6 +12,8 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 
 # Formulaが必要とするHomebrew管理のPython/Nodeは依存関係として許可する
+export UV_PYTHON_PREFERENCE="${UV_PYTHON_PREFERENCE:-only-system}"
+export UV_PYTHON_SEARCH_PATH="${UV_PYTHON_SEARCH_PATH:-$HOME/.local/share/mise/shims}"
 
 # Claude (env only)
 # export ANTHROPIC_BASE_URL="${ANTHROPIC_BASE_URL:-https://litellm.unext.dev}"

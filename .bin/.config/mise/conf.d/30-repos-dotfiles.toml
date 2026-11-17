@@ -1,3 +1,9 @@
+[bootstrap.hooks]
+pre-repos = """
+mise dot apply --yes "$HOME/.config/gh/config.yml" "$HOME/.gitconfig"
+/bin/zsh "$HOME/projects/dotfiles/shell/bootstrap.sh" --github-auth
+"""
+
 [bootstrap.repos]
 "~/projects/chrome-stylize" = { url = "https://github.com/psephopaiktes/chrome-stylize.git" }
 "~/projects/hira.page" = { url = "https://github.com/psephopaiktes/hira.page.git" }
