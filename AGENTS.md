@@ -7,11 +7,18 @@
 
 - 個人用の軽量なdotfilesとして、実際の利用に必要な最小限の実装を優先し、特殊なエッジケースのために複雑化しません。
 
+## Mac初期設定の管理
+
+- `.bin/.config/mise/config.toml` を、パッケージ・ツール・リポジトリ・dotfiles・macOS defaults・タスクの主要なセットアップ定義とします。
+- 初期化と再適用には `mise bootstrap` を使用します。Homebrew Brewfileや独自のlink/install/defaultsスクリプトは作成しません。
+- miseで宣言できない対話処理だけを `shell/bootstrap.sh` に記載します。
+- 構文検査には `mise run check` を使用します。
+
 ## LLM共通指示の管理
 
 - このルートの `AGENTS.md` はdotfilesリポジトリ内だけの作業ルールです。Mac全体で使うLLM共通指示とは分けて管理します。
 - Mac全体のLLM共通指示は `.bin/AGENTS.md` を唯一の正本とします。内容を変更するときはこのファイルだけを編集してください。
-- `shell/link.sh` が初期化時に `.bin/AGENTS.md` へのシンボリックリンクを次の場所へ作成します。
+- miseの`[dotfiles]`設定が初期化時に `.bin/AGENTS.md` へのシンボリックリンクを次の場所へ作成します。
   - `~/AGENTS.md`
   - `~/.codex/AGENTS.md`
   - `~/.claude/CLAUDE.md`
@@ -25,13 +32,13 @@
 - 配布元はルートの `agent-skills.tsv` を正本とし、SKILL実体はリポジトリへ保存しません。
 - `shell/sync-skills.sh` が公式配布元の最新版を `~/.local/agent-skills` へ取得します。
 - Codex・Claude Code・Gemini CLIにはルートごとではなく、各SKILLへのシンボリックリンクを作成します。
-- 更新確認には `make skills-check`、更新には `make skills-update` を使用します。
-- SkillsまたはAI設定を扱う作業では、`~/.cache/dotfiles/skills-last-check`が7日以上前なら、作業開始時に一度だけ`make skills-check`を実行してください。確認だけ行い、ユーザーの依頼なしに更新はしません。
+- 更新確認には `mise run skills:check`、更新には `mise run skills:update` を使用します。
+- SkillsまたはAI設定を扱う作業では、`~/.cache/dotfiles/skills-last-check`が7日以上前なら、作業開始時に一度だけ`mise run skills:check`を実行してください。確認だけ行い、ユーザーの依頼なしに更新はしません。
 - 常設対象は `agent-skills.tsv` に個別指定した19件です。リポジトリ単位の全件導入はしません。
 - 基本7件は Modern Web Guidance、Remotion、OpenAI Security、Playwright、Android CLI、Cloudflare、Chrome DevToolsです。
 - Figmaは公式16件のうち `figma-code-connect`、`figma-generate-diagram`、`figma-use-figjam`、`figma-use-slides` を除く12件を常設します。
 - `playwright-cli` SKILLが使用するCLI本体は `.bin/.config/mise/config.toml` の `npm:@playwright/cli` で管理します。
-- Chrome DevToolsのCLI本体はmise、MCP設定は各Agentの設定ファイルと `shell/install.sh` で管理します。
+- Chrome DevToolsのCLI本体はmise、MCP設定は各Agentの設定ファイルと `shell/bootstrap.sh` で管理します。
 - Remotion本体はグローバルインストールせず、SKILLが `npx create-video@latest` でプロジェクトを作成する際にプロジェクト依存としてインストールします。
 
 ## Figmaの管理
@@ -39,7 +46,7 @@
 - Figma公式SKILLも共通のSKILL保存先から共有し、Claude Code・Gemini CLIから利用できるようにします。
 - Codexの `.bin/.codex/config.toml` は初回配置用テンプレートです。ChatGPT/Codexが更新する実ファイル `~/.codex/config.toml` は上書きしません。個人設定の既定値を変えるときは両方を更新します。
 - Gemini CLIは `.bin/.gemini/settings.json` で管理します。
-- Claude CodeのユーザースコープMCPは `~/.claude.json` に保存されるため、`shell/install.sh` が `claude mcp add` で初回登録します。
+- Claude CodeのユーザースコープMCPは `~/.claude.json` に保存されるため、`shell/bootstrap.sh` が `claude mcp add` で登録します。
 
 ## Pythonの管理
 

@@ -13,7 +13,7 @@ if [[ $(uname -m) != "arm64" ]]; then
 fi
 
 # Command Line Toolsの確認
-if ! git --version &> /dev/null || ! make --version &> /dev/null; then
+if ! git --version &> /dev/null; then
   echo "エラー: Command Line Toolsが見つかりません。" >&2
   echo "先に以下を実行してインストールを完了させてください:" >&2
   echo "  xcode-select --install" >&2
@@ -21,27 +21,29 @@ if ! git --version &> /dev/null || ! make --version &> /dev/null; then
 fi
 
 GITHUB_URL="https://github.com/psephopaiktes/dotfiles.git"
-DOTPATH="${DOTPATH:-$HOME/projects/dotfiles}"
+DOTPATH="$HOME/projects/dotfiles"
 
 mkdir -p "$HOME/projects"
 
-# dotfilesリポジトリのクローン/更新
-echo "...Clone dotfiles"
-if [[ -d "$DOTPATH/.git" ]]; then
-  if git -C "$DOTPATH" diff --quiet && git -C "$DOTPATH" diff --cached --quiet; then
-    if ! git -C "$DOTPATH" pull --ff-only; then
-      echo "警告: pullに失敗しました。更新をスキップします: $DOTPATH" >&2
-    fi
-  else
-    echo "警告: ローカルに変更があるため、更新をスキップします: $DOTPATH" >&2
-  fi
-else
-  git clone "$GITHUB_URL" "$DOTPATH"
+# miseがなければ公式インストーラーで導入
+MISE_BIN="$(command -v mise || true)"
+if [[ -z "$MISE_BIN" ]]; then
+  echo "...Install mise"
+  curl -fsSL https://mise.run | sh
+  MISE_BIN="$HOME/.local/bin/mise"
 fi
 
-# セットアップ実行（link, install, defaults）
-echo "...Run make all"
-cd "$DOTPATH"
-make all
+if [[ ! -x "$MISE_BIN" ]]; then
+  echo "エラー: miseのインストールに失敗しました" >&2
+  exit 1
+fi
+
+echo "...Bootstrap Mac"
+"$MISE_BIN" bootstrap \
+  --from "$GITHUB_URL" \
+  --from-dir "$DOTPATH" \
+  --config-dir .bin/.config/mise \
+  --update \
+  --yes
 
 echo "DONE"

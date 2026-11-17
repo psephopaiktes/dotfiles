@@ -1,12 +1,15 @@
+## あとで検討
 - [ ] [【保存版】Windows 11の「あの設定はどこ？」問題を解決。一瞬で設定画面を開く「ms-settings」活用バイブル：Tech TIPS - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/2512/24/news016.html)
 - [ ] [SageThumbs download | SourceForge.net](https://sourceforge.net/projects/sagethumbs/)
 - [ ] OneDriveの配下にDesktopやDownloadが置かれかねない。いちどそうなるとけっこうめんどい。最初からいっさい使わないで速攻アンインストールがいいかなあ。
 - [ ] フォルダ名がかなり厄介なので、絶対に英語で初期化!!!!
 https://forest.watch.impress.co.jp/docs/news/2086112.html
+- [ ] LM Studio とか Comfy UI 系は別HDDに置いたほうがいいかもなあ、移行めんどい
+
 
 ## ※低スペックPCの場合
 以下だけ意識しとく
-- 設定→ゲーム から以下を開いてOFFICE
+- 設定→ゲーム から以下を開いてOFF
     - →Xbox Game Bar
     - →ゲームモード
 - 「透明効果」をオフ
@@ -19,7 +22,7 @@ https://forest.watch.impress.co.jp/docs/news/2086112.html
 0. 日本語でスタート、MSサインイン、「以前のPCから設定を引き継ぐ」
     0. 設定同期のためOne Driveに最初だけサインインしとく
     0. ひたすらOSアップデート
-0. ナイトシフトを設定
+0. ナイトシフトを設定 日の入りから日の出まで
 0. 設定→システム→開発者向け を各種設定
 0. 設定→システム→通知→最下部の`追加の設定`→`Windowsを最大限に活用し・・・`をオフ
 0. Cleartypeで検索して設定

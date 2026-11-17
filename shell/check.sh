@@ -7,6 +7,10 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd -P)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd -P)"
 cd "$REPO_ROOT"
 
+echo "...check mise config"
+mise fmt --check --all
+mise tasks validate --errors-only
+
 echo "...check zsh syntax"
 zsh -n init.sh shell/*.sh .bin/.zshrc .bin/.zshenv
 

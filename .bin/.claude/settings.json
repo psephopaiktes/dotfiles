@@ -8,7 +8,8 @@
       "mcp__atlassian__*",
       "WebSearch",
       "WebFetch(domain:github.com)",
-      "WebFetch(domain:wxt.dev)"
+      "WebFetch(domain:wxt.dev)",
+      "mcp__pencil"
     ],
     "deny": [
       "Bash(git commit :*)",

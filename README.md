@@ -43,9 +43,9 @@
     xcode-select --install
     ```
 
-1. Homebrew mas で必要になるので、App Storeはサインインしとく
+1. `mas`で必要になるため、App Storeへサインインしておく
 
-1. 以下のコマンドを実行。定期的にパスワード入力を求められる。かなり時間はかかるので、後述の手動設定を並行してやるのを推奨。
+1. 以下のコマンドを実行。途中でGitHub認証やパスワード入力を求められる。
     ```zsh
     (
       set -e
@@ -55,16 +55,32 @@
       zsh "$init_script"
     )
     ```
-    以下が自動実行されます
-    - このリポジトリをCloneする（既にある場合はpull）
-    - そのまま `make all` でシェルスクリプトを実行する
+    `mise bootstrap` により以下が自動実行されます。
+    - miseのインストール
+    - このリポジトリのCloneとmiseグローバル設定への接続
+    - CLI・アプリ・Mac App Storeアプリのインストール
+    - dotfilesのシンボリックリンク作成
+    - Node.js・Python・各種Agent CLIのインストール
+    - Gitリポジトリ、macOS defaults、Agent Skills、MCPの設定
 
 1. [Macのシステム環境設定](./doc/mac-setting.md)を行う
 
 1. [アプリ設定](./doc/app-setting.md)を行う
 
-1. Homebrewで扱えないアプリをインストール
-    - [Material Icon Font](https://fonts.google.com/download?icon.set=Material+Icons) ※Brewだけだとフォントが足りない
+1. miseで管理していないものをインストール
+    - [Material Icon Font](https://fonts.google.com/download?icon.set=Material+Icons) ※自動導入分だけではフォントが足りない
+
+
+<br /><br />
+
+
+## セットアップを更新・再実行する
+
+```zsh
+mise bootstrap --update
+```
+
+変更内容だけ確認する場合は `mise bootstrap --dry-run` を使用します。
 
 
 <br /><br />
@@ -72,12 +88,14 @@
 
 ## `.bin/` を更新した時
 
-新規ファイル追加や更新したら、次を実行してシンボリックリンクを更新
+既存ファイルの変更はシンボリックリンクへ即時反映されます。新規ファイルは `.bin/.config/mise/config.toml` の `[dotfiles]` に対象を追加してから反映します。
+
 ```zsh
-zsh ~/projects/dotfiles/shell/link.sh
+git add .bin/<path>
+mise dot apply
 ```
 
-※ `.bin/.codex/config.toml` は初回配置用テンプレートです。ChatGPT/Codexが更新する既存の `~/.codex/config.toml` は上書きしないため、個人設定の既定値を変える場合は両方を更新します。
+`.bin/.codex/config.toml` は初回配置用テンプレートです。既存の `~/.codex/config.toml` は上書きしないため、個人設定の既定値を変える場合は両方を更新します。
 
 
 <br /><br />
@@ -85,12 +103,27 @@ zsh ~/projects/dotfiles/shell/link.sh
 
 ## `~/.config/` の設定を管理する
 
-`~/.config/<app>/` 配下の設定ファイルも `.bin/.config/` に置けば同様に管理できる。実ファイルを移動してから `link.sh` を実行する（ファイル単位でシンボリックリンクされる）。
+`~/.config/<app>/` 配下の設定ファイルも `.bin/.config/` に置けば同様に管理できます。実ファイルを移動し、`.bin/.config/mise/config.toml` の `[dotfiles]` に次のような設定を追加してからmiseで反映します。
+
+```toml
+"~/.config/<app>/<file>" = { mode = "symlink" }
+```
 
 ```zsh
 mkdir -p ~/projects/dotfiles/.bin/.config/<app>
 mv ~/.config/<app>/<file> ~/projects/dotfiles/.bin/.config/<app>/<file>
-zsh ~/projects/dotfiles/shell/link.sh
+git -C ~/projects/dotfiles add .bin/.config/<app>/<file>
+mise dot apply
 ```
 
 ※ 認証トークンや秘密鍵などの機密ファイル（例: `gh/hosts.yml`）、ログ・キャッシュ・自動生成ファイル・`node_modules` は**管理対象に含めない**。`.bin/` 配下は Git にコミットされ公開される。
+
+
+<br /><br />
+
+
+## 検査
+
+```zsh
+mise run check
+```

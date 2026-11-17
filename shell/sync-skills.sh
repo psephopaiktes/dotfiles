@@ -144,7 +144,7 @@ mkdir -p "$CACHE_DIR"
 
 if [[ "$mode" == "--check" ]]; then
   if [[ ! -d "$SKILLS_HOME" ]]; then
-    echo "Agent Skills are not installed. Run: make skills-update"
+    echo "Agent Skills are not installed. Run: mise run skills:update"
   elif diff -qr -x "$SKILLS_MARKER_NAME" "$SKILLS_HOME" "$staging_dir" >/dev/null; then
     echo "Agent Skills are up to date ($skill_count skills)"
   else
